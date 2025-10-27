@@ -1,0 +1,44 @@
+           erDiagram
+    CLIENTE {
+        INTEGER cliente_id PK
+        TEXT nombre
+        TEXT telefono
+        TEXT email
+    }
+
+    PROVEEDOR {
+        INTEGER proveedor_id PK
+        TEXT nombre
+        TEXT telefono
+        TEXT email
+    }
+
+    PRODUCTO {
+        INTEGER producto_id PK
+        TEXT nombre
+        REAL precio_unitario
+        INTEGER proveedor_id FK
+    }
+
+    VENTA {
+        INTEGER venta_id PK
+        TEXT fecha_venta
+        INTEGER cliente_id FK
+        REAL total_venta
+    }
+
+    VENTA_DETALLE {
+        INTEGER venta_detalle_id PK
+        INTEGER venta_id FK
+        INTEGER producto_id FK
+        INTEGER cantidad
+        REAL precio_unitario
+        REAL subtotal
+    }
+
+    %% Relaciones
+    CLIENTE ||--o{ VENTA : "realiza"
+    VENTA ||--o{ VENTA_DETALLE : "incluye"
+    PRODUCTO ||--o{ VENTA_DETALLE : "vendido_en"
+    PROVEEDOR ||--o{ PRODUCTO : "suministra"
+        
