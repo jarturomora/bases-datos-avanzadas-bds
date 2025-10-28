@@ -1,3 +1,7 @@
+-- ============================
+-- Consultas SQL de ejemplo
+-- ============================
+
 -- Listar todos los clientes
 SELECT * FROM cliente;
 
@@ -37,3 +41,21 @@ JOIN VentaDetalle vd ON v.venta_id = vd.venta_id
 JOIN Producto p ON vd.producto_id = p.producto_id
 WHERE c.cliente_id = 1
 ORDER BY v.fecha_venta;
+
+-- ============================
+-- Propiedades ACID
+-- ============================ 
+
+-- Rompiendo la Atomicidad --
+
+-- Paso 1: inserto una venta
+INSERT INTO Venta (venta_id, fecha_venta, cliente_id, total_venta)
+VALUES (11, '2025-10-10', 2, 18.00);
+
+-- Paso 2: intento insertar detalles
+-- (pero esta sentencia falla, por ejemplo, por una FK inexistente)
+INSERT INTO VentaDetalle (venta_detalle_id, venta_id, producto_id, cantidad, precio_unitario, subtotal)
+VALUES (11, 11, 99, 2, 9.00, 18.00);  -- producto_id=99 NO existe
+
+
+
