@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  mysql:
+    image: mysql:9.0
+    container_name: mysql_lab
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tienda
+      MYSQL_USER: alumno
+      MYSQL_PASSWORD: alumno
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -halocalhost -uroot -proot || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: pma_lab
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: alumno
+      PMA_PASSWORD: alumno
+    ports:
+      - "8080:80"
+    depends_on:
+      - mysql
