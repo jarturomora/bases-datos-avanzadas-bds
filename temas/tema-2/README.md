@@ -22,9 +22,6 @@ SELECT
   (SELECT COUNT(*) FROM VENTA)         AS ventas,
   (SELECT COUNT(*) FROM VENTA_DETALLE) AS detalles;
 
--- Asegurarnos de empezar SIN índice en PRODUCTO(nombre)
-DROP INDEX IF EXISTS idx_producto_nombre ON PRODUCTO;
-
 -- Preparación del caché (acceso a páginas de datos)
 SELECT producto_id FROM PRODUCTO WHERE producto_id IN (1,100,250,500,600);
 ```
@@ -99,7 +96,7 @@ WHERE nombre LIKE '%250%';
 ### 4.1 Inserción SIN índice
 
 ```sql
-DROP INDEX IF EXISTS idx_producto_nombre ON PRODUCTO;
+DROP INDEX idx_producto_nombre ON PRODUCTO;
 ANALYZE TABLE PRODUCTO;
 
 SET @t0 := NOW(6);
@@ -143,8 +140,6 @@ SELECT 'Inserción CON índice (1000 filas 3601..4600) μs' AS metrica,
 ### 5.1 UPDATE en columna **indexada** (más costoso)
 
 ```sql
--- Asegurar que el índice exista
-CREATE INDEX IF NOT EXISTS idx_producto_nombre ON PRODUCTO(nombre);
 ANALYZE TABLE PRODUCTO;
 
 SET @t4 := NOW(6);
@@ -160,7 +155,7 @@ SELECT 'UPDATE CON índice (columna indexada, 1..2000) μs' AS metrica,
 ### 5.2 UPDATE en columna **indexada** pero SIN índice (más barato)
 
 ```sql
-DROP INDEX IF EXISTS idx_producto_nombre ON PRODUCTO;
+DROP INDEX idx_producto_nombre ON PRODUCTO;
 ANALYZE TABLE PRODUCTO;
 
 SET @t6 := NOW(6);
@@ -201,7 +196,6 @@ SELECT 'UPDATE en columna NO indexada (1..4000) μs' AS metrica,
 
 ```sql
 -- Asegurar índice
-CREATE INDEX IF NOT EXISTS idx_producto_nombre ON PRODUCTO(nombre);
 ANALYZE TABLE PRODUCTO;
 
 EXPLAIN ANALYZE
