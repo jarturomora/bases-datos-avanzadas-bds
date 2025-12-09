@@ -25,7 +25,7 @@ SELECT
 -- Asegurarnos de empezar SIN índice en PRODUCTO(nombre)
 DROP INDEX IF EXISTS idx_producto_nombre ON PRODUCTO;
 
--- Calentamiento de caché (acceso a páginas de datos)
+-- Preparación del caché (acceso a páginas de datos)
 SELECT producto_id FROM PRODUCTO WHERE producto_id IN (1,100,250,500,600);
 ```
 
