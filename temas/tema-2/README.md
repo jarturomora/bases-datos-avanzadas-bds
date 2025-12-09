@@ -33,6 +33,8 @@ SELECT producto_id FROM PRODUCTO WHERE producto_id IN (1,100,250,500,600);
 **Objetivo:** medir el coste de búsqueda sin apoyo del índice.
 
 ```sql
+USE tienda;
+
 -- Igualdad exacta
 EXPLAIN ANALYZE
 SELECT producto_id, nombre, precio_unitario
@@ -62,6 +64,8 @@ WHERE nombre LIKE 'Producto 25%';
 **Objetivo:** evidenciar la mejora en igualdad y prefijo.
 
 ```sql
+USE tienda;
+
 CREATE INDEX idx_producto_nombre ON PRODUCTO(nombre);
 ANALYZE TABLE PRODUCTO;
 
@@ -96,6 +100,8 @@ WHERE nombre LIKE '%250%';
 ### 4.1 Inserción SIN índice
 
 ```sql
+USE tienda;
+
 DROP INDEX idx_producto_nombre ON PRODUCTO;
 ANALYZE TABLE PRODUCTO;
 
@@ -115,6 +121,8 @@ SELECT 'Inserción SIN índice (1000 filas 2601..3600) μs' AS metrica,
 ### 4.2 Inserción CON índice
 
 ```sql
+USE tienda;
+
 CREATE INDEX idx_producto_nombre ON PRODUCTO(nombre);
 ANALYZE TABLE PRODUCTO;
 
@@ -140,6 +148,8 @@ SELECT 'Inserción CON índice (1000 filas 3601..4600) μs' AS metrica,
 ### 5.1 UPDATE en columna **indexada** (más costoso)
 
 ```sql
+USE tienda;
+
 ANALYZE TABLE PRODUCTO;
 
 SET @t4 := NOW(6);
@@ -155,6 +165,8 @@ SELECT 'UPDATE CON índice (columna indexada, 1..2000) μs' AS metrica,
 ### 5.2 UPDATE en columna **indexada** pero SIN índice (más barato)
 
 ```sql
+USE tienda;
+
 DROP INDEX idx_producto_nombre ON PRODUCTO;
 ANALYZE TABLE PRODUCTO;
 
@@ -171,6 +183,8 @@ SELECT 'UPDATE SIN índice (columna antes indexada, 2001..4000) μs' AS metrica,
 ### 5.3 UPDATE en columna **no indexada** (control)
 
 ```sql
+USE tienda;
+
 -- Recrear índice para resaltar que actualizar otra columna no lo toca
 CREATE INDEX idx_producto_nombre ON PRODUCTO(nombre);
 ANALYZE TABLE PRODUCTO;
@@ -195,6 +209,8 @@ SELECT 'UPDATE en columna NO indexada (1..4000) μs' AS metrica,
 **Objetivo:** validar que, pese al coste en escrituras, los SELECT se benefician.
 
 ```sql
+USE tienda;
+
 -- Asegurar índice
 ANALYZE TABLE PRODUCTO;
 
