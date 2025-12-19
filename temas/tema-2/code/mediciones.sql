@@ -20,13 +20,13 @@ SELECT
 -- --------------------------------------------------------------
 -- 1) Preparación: preparar caché y asegurar estado sin índice
 -- --------------------------------------------------------------
-SELECT 'Preparación: drop índice si existe y calentamiento de caché' AS info;
+SELECT 'Preparación: drop índice si existe y preparación de caché' AS info;
 
 -- El índice se crea/elimina a lo largo del script.
 -- Si existiera de una sesión previa, lo eliminamos.
 DROP INDEX IF EXISTS idx_producto_nombre ON PRODUCTO;
 
--- Consultas de calentamiento de caché (acceden a páginas de datos)
+-- Consultas de preparación de caché (acceden a páginas de datos)
 SELECT producto_id FROM PRODUCTO WHERE producto_id IN (1, 100, 250, 500, 600);
 SELECT * FROM PRODUCTO WHERE nombre = 'Producto 250'; -- sin índice, será table scan
 
