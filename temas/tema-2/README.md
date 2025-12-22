@@ -244,19 +244,6 @@ use demo;
 
 DROP TABLE IF EXISTS users_noidx;
 CREATE TABLE users_noidx LIKE users;
--- Eliminar índices secundarios (deja PK)
-ALTER TABLE users_noidx DROP INDEX uq_users_email;
-ALTER TABLE users_noidx DROP INDEX idx_users_created_at;
-ALTER TABLE users_noidx DROP INDEX idx_users_country_status_created;
-
-ALTER TABLE users_noidx
-ADD UNIQUE KEY uq_users_noidx_email (email);
-
-CREATE INDEX idx_users_noidx_created_at
-ON users_noidx(created_at);
-
-CREATE INDEX idx_users_noidx_country_status_created
-ON users_noidx(country, status, created_at);
 
 INSERT INTO users_noidx (email, created_at, country, status, plan, last_login, bio)
 SELECT CONCAT(email, '.copy'), created_at, country, status, plan, last_login, bio

@@ -1,33 +1,124 @@
-# Docker — Tema 2.1
+# Descripción del entorno Docker para el Tema 2 - Clase 1: Laboratorio MySQL (Tienda)
 
-Este directorio contiene una composición Docker para las prácticas del Tema 2.1.
+## Objetivo del entorno
 
-Contenido principal:
+Este entorno Docker se ha preparado como **laboratorio básico de MySQL** para trabajar con:
 
-- `docker-compose.yml`: Define dos servicios: `mysql` (imagen oficial MySQL) y `phpmyadmin`.
-- `initdb/001_schema_and_seed.sql`: Script que se monta en `/docker-entrypoint-initdb.d` para inicializar la base de datos al crear el contenedor.
+* Creación de esquemas y carga inicial de datos.
+* Ejecución de consultas SQL desde **phpMyAdmin**.
+* Prácticas sobre tablas de un dominio sencillo (una tienda).
+* Aprendizaje sin necesidad de instalar MySQL localmente.
 
-## Guión de instrucciones
+El entorno está pensado para que puedas **arrancar, detener y reiniciar** la base de datos de forma controlada durante las prácticas.
 
-1. Requisitos previos
-   - Tener Docker (o Docker Desktop) corriendo en la máquina.
-   - Tener instalada la extensión "Container Tools" en VS Code.
+## Servicios incluidos
 
-2. Localizar el archivo `docker-compose.yml` e iniciar todos los servicios.
-  
-3. Comprobar inicialización de datos
-   - El fichero `initdb/001_schema_and_seed.sql` se monta en `/docker-entrypoint-initdb.d` dentro del contenedor MySQL y se ejecuta automáticamente la primera vez que la base de datos se crea.
+El entorno está compuesto por **dos servicios Docker** definidos mediante *Docker Compose*.
 
-4. Acceder a phpMyAdmin (interfaz web)
-   - Una vez levantada la composición, el servicio `phpmyadmin` expone el puerto `8080`. Abre `http://localhost:8080` en el navegador para acceder a la interfaz.
 
-5. Ver logs y estado
-   - Desde Container Tools puedes ver los logs de cada contenedor, reiniciarlos o detenerlos con las acciones disponibles (View Logs, Restart, Stop, Compose Down).
+### 1) Servicio MySQL
 
-6. Parar la composición
-   - Usa la acción "Compose Down" o "Stop" en la interfaz de Container Tools para detener y, si procede, eliminar los contenedores creados.
+* Imagen: `mysql:9.0`
+* Contenedor: `mysql_lab`
+* Base de datos inicial: `tienda`
+* Usuarios configurados:
 
-Notas
+  * `root / root`
+  * `alumno / alumno`
 
-- El script en `initdb/` sólo se ejecuta cuando la base de datos se inicializa por primera vez (si la base de datos ya existe en un volumen persistente, no se ejecutará).
-- Si necesitas volver a ejecutar el script de inicialización, elimina el volumen/contendor asociado o crea una nueva base de datos temporal.
+Este contenedor:
+
+* Arranca MySQL automáticamente.
+* Crea la base de datos `tienda`.
+* Ejecuta los scripts SQL de inicialización al arrancar por primera vez.
+
+Los scripts SQL se cargan desde un volumen local.
+
+### 2) Servicio phpMyAdmin
+
+* Imagen: `phpmyadmin:latest`
+* Contenedor: `pma_lab`
+* Puerto expuesto: **8080**
+
+phpMyAdmin se conecta automáticamente al servicio MySQL y permite:
+
+* Explorar tablas.
+* Ejecutar consultas SQL.
+* Visualizar resultados sin usar consola.
+
+## Estructura de directorios del proyecto
+
+```text
+docker-tema-2-1/
+├── docker-compose.yml
+└── initdb/
+    └── 001_schema_and_seed.sql
+```
+
+### Descripción de los ficheros
+
+* **docker-compose.yml**
+  Define los contenedores de MySQL y phpMyAdmin, así como usuarios, contraseñas y dependencias.
+
+* **initdb/001_schema_and_seed.sql**
+  Script que:
+
+  * Crea las tablas del modelo de datos de la tienda.
+  * Inserta los datos iniciales necesarios para la práctica.
+
+> Todos los scripts ubicados en la carpeta `initdb/` se ejecutan automáticamente la **primera vez** que se levanta el entorno.
+
+## Requisitos previos
+
+Antes de iniciar el laboratorio, asegúrate de tener:
+
+* **Docker Desktop** instalado y en ejecución.
+* **Visual Studio Code**.
+* La extensión de VS Code **Container Tools** instalada.
+
+## Cómo iniciar el entorno desde Visual Studio Code
+
+### Paso 1: Abrir el proyecto
+
+1. Abre **Visual Studio Code**.
+2. Selecciona **File → Open Folder**.
+3. Abre la carpeta del laboratorio (por ejemplo, `docker-tema-2-1`).
+
+### Paso 2: Arrancar los contenedores con Container Tools
+
+1. Abre la vista **Container Tools** en la barra lateral de VS Code.
+2. Localiza el archivo `docker-compose.yml`.
+3. Haz clic derecho sobre él.
+4. Selecciona **Compose Up**.
+
+Durante el arranque:
+
+* Docker descargará las imágenes necesarias (si no existen).
+* Se iniciará MySQL.
+* Se ejecutará automáticamente el script `001_schema_and_seed.sql`.
+
+### Paso 3: Acceder a phpMyAdmin
+
+Una vez los contenedores estén en ejecución:
+
+* Abre el navegador y accede a:
+  **[http://localhost:8080](http://localhost:8080)**
+
+Credenciales recomendadas para la práctica:
+
+* **Usuario**: `alumno`
+* **Contraseña**: `alumno`
+* **Base de datos**: `tienda`
+
+Desde phpMyAdmin podrás ejecutar las consultas que se indiquen en la práctica o en clase.
+
+## Cómo detener el entorno
+
+Desde Visual Studio Code:
+
+1. Abre **Container Tools**.
+2. Haz clic derecho sobre `docker-compose.yml`.
+3. Selecciona **Compose Down**.
+
+Esto detiene los contenedores.
+Si vuelves a ejecutar **Compose Up**, la base de datos se inicializará de nuevo si no existe volumen persistente.
