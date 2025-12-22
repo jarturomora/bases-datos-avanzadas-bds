@@ -1,6 +1,6 @@
-# Docker — Tema 2
+# Docker — Tema 2.1
 
-Este directorio contiene una pequeña composición Docker para las prácticas del Tema 2.
+Este directorio contiene una composición Docker para las prácticas del Tema 2.1.
 
 Contenido principal:
 
