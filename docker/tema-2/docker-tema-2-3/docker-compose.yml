@@ -1,0 +1,43 @@
+services:
+  mysql:
+    image: mysql:9.0
+    container_name: mysql9_pedidos_lab
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ecommerce
+      MYSQL_USER: alumno
+      MYSQL_PASSWORD: alumno
+      TZ: Europe/Madrid
+    command: >
+      --sql_mode=STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION
+      --innodb_buffer_pool_size=512M
+      --max_connections=200
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d:ro
+      - mysql9_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-proot"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: pma_mysql9_pedidos
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      PMA_USER: alumno
+      PMA_PASSWORD: alumno
+      TZ: Europe/Madrid
+      UPLOAD_LIMIT: 64M
+    ports:
+      - "8080:80"
+    depends_on:
+      mysql:
+        condition: service_healthy
+
+volumes:
+  mysql9_data:
