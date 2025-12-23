@@ -1,4 +1,4 @@
-# Guion de mediciones del Tema 2 - Clase 1: índices, lookups e impacto en escrituras (MySQL 8/9)
+# Guion de la demostración del Tema 2 - Clase 1: índices, lookups e impacto en escrituras (MySQL 8/9)
 
 ## Prerrequisitos
 
