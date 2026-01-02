@@ -187,7 +187,7 @@ sh.status()
 
 Esta consulta es administrativa, así que se ejecuta en **Open MongoDB Shell** de Compass.
 
-> Si tu configuración tiene 1 nodo por shard (modo “aula”), verás un único miembro.  
+> 💡**Nota:** Si tu configuración tiene 1 nodo por shard (modo “aula”), verás un único miembro.  
 > Si tiene 3 nodos por shard (modo “realista”), verás PRIMARY/SECONDARY.
 
 En **Compass conectado al shard EU** (`mongodb://localhost:27018`), abre **Open MongoDB Shell** y ejecuta:
@@ -210,11 +210,11 @@ Repite lo mismo en el shard AM (`mongodb://localhost:27020`).
 
 **Idea clave**
 
-> La replicación permite sobrevivir a fallos: si cae un nodo, otro puede asumir el rol de PRIMARY (cuando hay ≥3 nodos).
+> 💡**Nota:** La replicación permite sobrevivir a fallos: si cae un nodo, otro puede asumir el rol de PRIMARY (cuando hay ≥3 nodos).
 
 ## 4. Transacciones distribuidas (2PC conceptual) — todo o nada
 
-> Compass no ofrece un “botón” para transacciones multi-operación en la UI.  
+> 💡**Nota:** Compass no ofrece un “botón” para transacciones multi-operación en la UI.  
 > La forma correcta (y replicable por alumnos) es ejecutar el script en **Open MongoDB Shell** de Compass conectado a `mongos`.
 
 ### 4.1 Seleccionar cuentas EU y AM (desde Compass → mongosh)
