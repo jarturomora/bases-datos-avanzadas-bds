@@ -11,7 +11,7 @@ En esta demostración aprenderás a **identificar y comprobar**, usando **MongoD
    * o no se aplica ningún cambio.
 
 > 💡**Nota:** Compass permite ejecutar consultas `find` y `aggregate` con interfaz gráfica.  
-> Para comandos administrativos (por ejemplo `sh.status()` o `replSetGetStatus`) y para scripts (transacciones), usaremos el **mongosh integrado** de Compass (“Open Mongosh”).
+> Para comandos administrativos (por ejemplo `sh.status()` o `replSetGetStatus`) y para scripts (transacciones), usaremos el **mongosh integrado** de Compass (“Open MongoDB Shell”).
 
 ## Escenario de negocio
 
@@ -63,7 +63,7 @@ Espera a que termine la inicialización automática.
 
 Compass no muestra el estado de sharding en un panel dedicado; lo verificaremos con el **mongosh integrado**.
 
-1. En Compass, con la conexión abierta, pulsa **Open Mongosh** (o “Mongosh” en la barra superior).
+1. En Compass, con la conexión abierta, pulsa **Open MongoDB Shell** (o “Mongosh” en la barra superior).
 2. Ejecuta el siguiente comando:
 
     ```javascript
@@ -174,7 +174,7 @@ En el cuadro **Filter**, pega el los siguientes comandos:
 
 ### 3.1 Comprobar que cada shard es un replica set (desde Compass → mongosh)
 
-En Compass (conectado a `mongos`), abre **Open Mongosh** y ejecuta:
+En Compass (conectado a `mongos`), abre **Open MongoDB Shell** y ejecuta:
 
 ```javascript
 sh.status()
@@ -187,12 +187,12 @@ sh.status()
 
 ### 3.2 Estado del replica set (replSetGetStatus) usando mongosh integrado
 
-Esta consulta es administrativa, así que se ejecuta en **Open Mongosh** de Compass.
+Esta consulta es administrativa, así que se ejecuta en **Open MongoDB Shell** de Compass.
 
 > Si tu configuración tiene 1 nodo por shard (modo “aula”), verás un único miembro.  
 > Si tiene 3 nodos por shard (modo “realista”), verás PRIMARY/SECONDARY.
 
-En **Compass conectado al shard EU** (`mongodb://localhost:27018`), abre **Open Mongosh** y ejecuta:
+En **Compass conectado al shard EU** (`mongodb://localhost:27018`), abre **Open MongoDB Shell** y ejecuta:
 
 ```javascript
 db.adminCommand({ replSetGetStatus: 1 })
@@ -217,11 +217,11 @@ Repite lo mismo en el shard AM (`mongodb://localhost:27020`).
 ## 4. Transacciones distribuidas (2PC conceptual) — todo o nada
 
 > Compass no ofrece un “botón” para transacciones multi-operación en la UI.  
-> La forma correcta (y replicable por alumnos) es ejecutar el script en **Open Mongosh** de Compass conectado a `mongos`.
+> La forma correcta (y replicable por alumnos) es ejecutar el script en **Open MongoDB Shell** de Compass conectado a `mongos`.
 
 ### 4.1 Seleccionar cuentas EU y AM (desde Compass → mongosh)
 
-En Compass conectado a `mongodb://localhost:27017` (mongos), abre **Open Mongosh** y ejecuta:
+En Compass conectado a `mongodb://localhost:27017` (mongos), abre **Open MongoDB Shell** y ejecuta:
 
 ```javascript
 use bank
@@ -237,7 +237,7 @@ toAM
 * Son regiones distintas (`EU` y `AM`)
 * Es una transferencia **cross-shard**
 
-### 4.2 Ejecutar una transferencia distribuida (COMMIT) desde Open Mongosh
+### 4.2 Ejecutar una transferencia distribuida (COMMIT) desde Open MongoDB Shell
 
 En el mismo mongosh integrado (conectado a `mongos`):
 
@@ -326,7 +326,7 @@ Ordena por `ts` descendente (si lo deseas).
 
 ### 4.4 Forzar un ABORT (fallo controlado) y comprobar que no hay cambios
 
-En **Open Mongosh** (mongos - mongodb://localhost:27017), ejecuta el siguiente bloque:
+En **Open MongoDB Shell** (mongos - mongodb://localhost:27017), ejecuta el siguiente bloque:
 
 ```javascript
 use bank
@@ -413,4 +413,4 @@ Filter:
 * **Transacciones distribuidas (2PC conceptual)**: atomicidad entre shards: **todo o nada**.
 * En la práctica:
   * Compass UI se utiliza para `find` y `aggregate`
-  * **Open Mongosh** de Compass se emplea para comandos admin y transacciones
+  * **Open MongoDB Shell** de Compass se emplea para comandos admin y transacciones
