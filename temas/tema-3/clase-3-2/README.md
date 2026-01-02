@@ -24,8 +24,6 @@ Trabajamos con un **sistema bancario distribuido**:
 * Cada shard está respaldado por un **replica set**.
 * Las **transferencias entre regiones** implican **más de un shard**.
 
----
-
 ## 1. Arranque y conexión
 
 ### 1.1 Levantar el entorno Docker
@@ -120,7 +118,7 @@ En el cuadro **Filter**, pega el los siguientes comandos:
 
 ### 2.3 Ver “dónde viven” físicamente los datos (conexiones directas en Compass)
 
-> Esta parte es clave: un cluster con shards se consulta “normalmente” utilizando `mongos`.  
+> 💡**Nota:** Esta parte es clave: un cluster con shards se consulta “normalmente” utilizando `mongos`.  
 > Para **ver la distribución física**, conectaremos Compass directamente a cada shard.
 
 #### 2.3.1 Conectar Compass al shard EU
@@ -129,7 +127,7 @@ En el cuadro **Filter**, pega el los siguientes comandos:
 2. Connection string:
 
     ```text
-    mongodb://localhost:27018
+    mongodb://localhost:27018/?directConnection=true
     ```
 
 3. Connect
@@ -155,7 +153,7 @@ En el cuadro **Filter**, pega el los siguientes comandos:
 2. Connection string:
 
     ```text
-    mongodb://localhost:27020
+    mongodb://localhost:27020?directConnection=true
     ```
 
 3. Connect
@@ -221,15 +219,28 @@ Repite lo mismo en el shard AM (`mongodb://localhost:27020`).
 
 ### 4.1 Seleccionar cuentas EU y AM (desde Compass → mongosh)
 
-En Compass conectado a `mongodb://localhost:27017` (mongos), abre **Open MongoDB Shell** y ejecuta:
+En Compass conectado a `mongodb://localhost:27017` (mongos), abre **Open MongoDB Shell** desde la base de datos `bank` y ejecuta:
 
 ```javascript
-use bank
-const fromEU = db.accounts.findOne({ region: "EU" }, { _id: 0, accountId: 1, balance: 1, region: 1 })
-const toAM   = db.accounts.findOne({ region: "AM" }, { _id: 0, accountId: 1, balance: 1, region: 1 })
+{
+  const bank = db.getSiblingDB("bank");
 
-fromEU
-toAM
+  const fromEU = bank.accounts.findOne(
+    { region: "EU" },
+    { _id: 0, accountId: 1, balance: 1, region: 1 }
+  );
+
+  const toAM = bank.accounts.findOne(
+    { region: "AM" },
+    { _id: 0, accountId: 1, balance: 1, region: 1 }
+  );
+
+  print("Cuenta origen (EU):");
+  printjson(fromEU);
+
+  print("Cuenta destino (AM):");
+  printjson(toAM);
+}
 ```
 
 **Aspectos relevantes a observar**
@@ -239,46 +250,50 @@ toAM
 
 ### 4.2 Ejecutar una transferencia distribuida (COMMIT) desde Open MongoDB Shell
 
-En el mismo mongosh integrado (conectado a `mongos`):
+En el mismo mongosh integrado (conectado a la base de datos `bank` de `mongos`):
 
 ```javascript
-use bank
+{
+  const amount = 50;
+  const bank = db.getSiblingDB("bank");
 
-const amount = 50;
+  const fromEU = bank.accounts.findOne({ region: "EU" });
+  const toAM   = bank.accounts.findOne({ region: "AM" });
 
-const session = db.getMongo().startSession();
-const sdb = session.getDatabase("bank");
+  const session = db.getMongo().startSession();
+  const sdb = session.getDatabase("bank");
 
-try {
-  session.startTransaction();
+  try {
+    session.startTransaction();
 
-  const debit = sdb.accounts.updateOne(
-    { accountId: fromEU.accountId, balance: { $gte: amount } },
-    { $inc: { balance: -amount } }
-  );
-  if (debit.matchedCount !== 1) throw new Error("Saldo insuficiente (origen).");
+    const debit = sdb.accounts.updateOne(
+      { accountId: fromEU.accountId, balance: { $gte: amount } },
+      { $inc: { balance: -amount } }
+    );
+    if (debit.matchedCount !== 1) throw new Error("Saldo insuficiente (origen).");
 
-  const credit = sdb.accounts.updateOne(
-    { accountId: toAM.accountId },
-    { $inc: { balance: amount } }
-  );
-  if (credit.matchedCount !== 1) throw new Error("Destino no existe.");
+    const credit = sdb.accounts.updateOne(
+      { accountId: toAM.accountId },
+      { $inc: { balance: amount } }
+    );
+    if (credit.matchedCount !== 1) throw new Error("Destino no existe.");
 
-  sdb.transfers.insertOne({
-    ts: new Date(),
-    from: fromEU.accountId,
-    to: toAM.accountId,
-    amount,
-    status: "COMMITTED_DEMO"
-  });
+    sdb.transfers.insertOne({
+      ts: new Date(),
+      from: fromEU.accountId,
+      to: toAM.accountId,
+      amount,
+      status: "COMMITTED_DEMO"
+    });
 
-  session.commitTransaction();
-  print("TRANSFERENCIA CONFIRMADA");
-} catch (e) {
-  session.abortTransaction();
-  print("TRANSFERENCIA ABORTADA: " + e.message);
-} finally {
-  session.endSession();
+    session.commitTransaction();
+    print("TRANSFERENCIA CONFIRMADA");
+  } catch (e) {
+    session.abortTransaction();
+    print("TRANSFERENCIA ABORTADA: " + e.message);
+  } finally {
+    session.endSession();
+  }
 }
 ```
 
@@ -299,10 +314,22 @@ try {
 
 #### 4.3.1 Ver balances (Documents → accounts)
 
-En Compass (conectado a `mongos`) ve a `bank → accounts` y en **Filter** pega:
+En Compass conectado a `mongodb://localhost:27017` (mongos), abre **Open MongoDB Shell** desde la base de datos `bank` y ejecuta:
 
 ```javascript
-{ accountId: { $in: [fromEU.accountId, toAM.accountId] } }
+{
+  const bank = db.getSiblingDB("bank");
+
+  const fromEU = bank.accounts.findOne({ region: "EU" }, { _id: 0, accountId: 1 });
+  const toAM   = bank.accounts.findOne({ region: "AM" }, { _id: 0, accountId: 1 });
+
+  const docs = bank.accounts.find(
+    { accountId: { $in: [fromEU.accountId, toAM.accountId] } },
+    { _id: 0, accountId: 1, region: 1, balance: 1 }
+  ).toArray();
+
+  printjson(docs);
+}
 ```
 
 **Aspectos relevantes a observar**
@@ -318,45 +345,49 @@ En `bank → transfers`, filtra:
 { status: "COMMITTED_DEMO" }
 ```
 
-Ordena por `ts` descendente (si lo deseas).
-
 **Aspectos relevantes a observar**
 
 * Existe un documento con `status: "COMMITTED_DEMO"`
+* Una transferencia cross-shard se registra igual que cualquier otra
+* El estado `COMMITTED_DEMO` facilita rastreo didáctico
 
 ### 4.4 Forzar un ABORT (fallo controlado) y comprobar que no hay cambios
 
 En **Open MongoDB Shell** (mongos - mongodb://localhost:27017), ejecuta el siguiente bloque:
 
 ```javascript
-use bank
+{
+  const amountFail = 999999;
+  const bank = db.getSiblingDB("bank");
 
-const amountFail = 999999;
+  const fromEU = bank.accounts.findOne({ region: "EU" });
+  const toAM   = bank.accounts.findOne({ region: "AM" });
 
-const session2 = db.getMongo().startSession();
-const sdb2 = session2.getDatabase("bank");
+  const session2 = db.getMongo().startSession();
+  const sdb2 = session2.getDatabase("bank");
 
-try {
-  session2.startTransaction();
+  try {
+    session2.startTransaction();
 
-  const debit = sdb2.accounts.updateOne(
-    { accountId: fromEU.accountId, balance: { $gte: amountFail } },
-    { $inc: { balance: -amountFail } }
-  );
-  if (debit.matchedCount !== 1) throw new Error("Saldo insuficiente (origen).");
+    const debit = sdb2.accounts.updateOne(
+      { accountId: fromEU.accountId, balance: { $gte: amountFail } },
+      { $inc: { balance: -amountFail } }
+    );
+    if (debit.matchedCount !== 1) throw new Error("Saldo insuficiente (origen).");
 
-  sdb2.accounts.updateOne(
-    { accountId: toAM.accountId },
-    { $inc: { balance: amountFail } }
-  );
+    sdb2.accounts.updateOne(
+      { accountId: toAM.accountId },
+      { $inc: { balance: amountFail } }
+    );
 
-  session2.commitTransaction();
-  print("COMMIT (no debería ocurrir)");
-} catch (e) {
-  session2.abortTransaction();
-  print("ABORT OK: " + e.message);
-} finally {
-  session2.endSession();
+    session2.commitTransaction();
+    print("COMMIT (no debería ocurrir)");
+  } catch (e) {
+    session2.abortTransaction();
+    print("ABORT OK: " + e.message);
+  } finally {
+    session2.endSession();
+  }
 }
 ```
 
@@ -381,7 +412,7 @@ Pipeline:
 ]
 ```
 
-**Qué hace**
+**Qué hace esta consulta**
 
 * Agrupa cuentas por región y calcula:
   * número de cuentas
@@ -390,21 +421,6 @@ Pipeline:
 **Aspectos relevantes a observar**
 
 * Cada región puede crecer de forma independiente (escala horizontal)
-
-### 5.2 Ver transferencias confirmadas de la demo (Documents)
-
-En Compass: `bank → transfers → Documents`  
-
-Filter:
-
-```javascript
-{ status: "COMMITTED_DEMO" }
-```
-
-**Aspectos relevantes a observar**
-
-* Una transferencia cross-shard se registra igual que cualquier otra
-* El estado `COMMITTED_DEMO` facilita rastreo didáctico
 
 ## 6. Ideas clave de esta demostración
 
