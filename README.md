@@ -8,6 +8,8 @@ Este material está disponible libremente, bajo la responsabilidad exclusiva de 
 
 ## Temas
 
-* [Tema 1: Introducción a las bases de datos](temas/tema-1/README.md)
+* [Tema 1 - Introducción a las bases de datos](temas/tema-1/README.md)
 
-* [Tema 2: Conceptos avanzados de BBDD relacionales (MySQL)](temas/tema-2/README.md)
+* [Tema 2 - Conceptos avanzados de BBDD relacionales (MySQL)](temas/tema-2/README.md)
+
+* [Tema 3 - NoSQL: bases de datos distribuidas](temas/tema-3/README.md)
