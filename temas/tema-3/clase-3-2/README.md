@@ -1,4 +1,4 @@
-# Guión práctico para el Tema 3 * Clase 2: Fragmentación, replicación y transacciones distribuidas en MongoDB
+# Guión práctico para el Tema 3 - Clase 2: Fragmentación, replicación y transacciones distribuidas en MongoDB
 
 ## Objetivo
 
