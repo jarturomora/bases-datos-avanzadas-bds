@@ -1,4 +1,4 @@
-# Guión práctico para el Tema 3 * Clase 3: Consultas Distribuidas en MongoDB
+# Guión práctico para el Tema 3 - Clase 3: Consultas Distribuidas en MongoDB
 
 ## Objetivo de la práctica
 
