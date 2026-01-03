@@ -1,0 +1,102 @@
+services:
+  # ---------- Config Server Replica Set (3 nodos) ----------
+  cfg1:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: dq-cfg1
+    hostname: cfg1
+    command: >
+      mongod --configsvr --replSet cfgRS --port 27019 --bind_ip_all
+    ports:
+      - "27119:27019"
+    volumes:
+      - dq_cfg1_data:/data/db
+    networks: [dq-mongo-net]
+
+  cfg2:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: dq-cfg2
+    hostname: cfg2
+    command: >
+      mongod --configsvr --replSet cfgRS --port 27019 --bind_ip_all
+    volumes:
+      - dq_cfg2_data:/data/db
+    networks: [dq-mongo-net]
+
+  cfg3:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: dq-cfg3
+    hostname: cfg3
+    command: >
+      mongod --configsvr --replSet cfgRS --port 27019 --bind_ip_all
+    volumes:
+      - dq_cfg3_data:/data/db
+    networks: [dq-mongo-net]
+
+  # ---------- Shards (Replica Set, 1 nodo por shard para aula) ----------
+  shard-eu-1:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: dq-shard-eu-1
+    hostname: shard-eu-1
+    command: >
+      mongod --shardsvr --replSet shardEU --port 27018 --bind_ip_all
+    ports:
+      - "27118:27018"
+    volumes:
+      - dq_shard_eu_1_data:/data/db
+    networks: [dq-mongo-net]
+
+  shard-am-1:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: dq-shard-am-1
+    hostname: shard-am-1
+    command: >
+      mongod --shardsvr --replSet shardAM --port 27020 --bind_ip_all
+    ports:
+      - "27120:27020"
+    volumes:
+      - dq_shard_am_1_data:/data/db
+    networks: [dq-mongo-net]
+
+  # ---------- Router ----------
+  mongos:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: dq-mongos
+    hostname: mongos
+    depends_on:
+      - cfg1
+      - cfg2
+      - cfg3
+    command: >
+      mongos --configdb cfgRS/cfg1:27019,cfg2:27019,cfg3:27019 --port 27017 --bind_ip_all
+    ports:
+      - "27117:27017"
+    restart: unless-stopped
+    networks: [dq-mongo-net]
+
+  # ---------- Init (orquestador) ----------
+  init:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: dq-mongo-init
+    depends_on:
+      - cfg1
+      - cfg2
+      - cfg3
+      - shard-eu-1
+      - shard-am-1
+      - mongos
+    volumes:
+      - ./init:/init:ro
+    command: ["/bin/bash", "/init/init.sh"]
+    restart: "no"
+    networks: [dq-mongo-net]
+
+volumes:
+  dq_cfg1_data:
+  dq_cfg2_data:
+  dq_cfg3_data:
+  dq_shard_eu_1_data:
+  dq_shard_am_1_data:
+
+networks:
+  dq-mongo-net:
+    driver: bridge
