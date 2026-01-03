@@ -54,7 +54,7 @@ Colecciones relevantes en la base de datos: `bank`:
 
 Demostrar que una agregación sobre datos distribuidos se ejecuta **en paralelo en los shards** y luego se **fusiona en mongos**.
 
-### Pipeline (Compass → Aggregations)
+### Pipeline (Compass → Aggregations → Transfers)
 
 ```javascript
 [
