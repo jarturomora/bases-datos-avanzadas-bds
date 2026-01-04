@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-En esta demostración aprenderás a **identificar y comprobar**, usando **MongoDB Compass**, cómo MongoDB:
+En esta demostración se empleará la herramienta MongoDB Compass para **identificar y comprobar** la manera en la que cómo MongoDB:
 
 1. **Fragmenta horizontalmente (sharding)** los datos para escalar, dividiéndolos por región/sucursal.  
 2. **Replica los datos** mediante *replica sets* para tolerar fallos.  
@@ -93,7 +93,7 @@ Compass no muestra el estado de sharding en un panel dedicado; lo verificaremos 
 
 #### 2.2.2 Contar EU y AM (con filtro)
 
-En el cuadro **Filter**, pega el los siguientes comandos:
+En el cuadro **Filter**, pega los siguientes comandos, uno a la vez:
 
 **EU**
 
