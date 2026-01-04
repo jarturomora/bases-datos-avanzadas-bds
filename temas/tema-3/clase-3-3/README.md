@@ -41,7 +41,7 @@ Espera a que termine la inicialización automática.
 Colecciones relevantes en la base de datos: `bank`:
 
 * `accounts` (shards por `region, accountId`)
-* `events` (grande, shards por `region, accountId`)
+* `events` (dimensión grande, shards por `region, accountId`)
 * `branches` (dimensión pequeña)
 * `fees` (dimensión pequeña)
 * `transfers`
