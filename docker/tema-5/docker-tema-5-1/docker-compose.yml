@@ -1,0 +1,20 @@
+services:
+  # ----------------- MONGODB -----------------
+  mongodb:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: demo-mongodb
+    environment:
+      MONGO_INITDB_DATABASE: catalogo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./mongo/init.js:/docker-entrypoint-initdb.d/init.js:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --eval 'db.adminCommand({ ping: 1 }).ok' || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+ 
+volumes:
+  mongo_data:
