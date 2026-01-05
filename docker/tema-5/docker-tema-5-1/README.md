@@ -1,125 +1,124 @@
 # Entorno Docker para el Tema 5 - Clase 1: Comparación práctica SQL vs NoSQL
 
-## Objetivo del entorno
+## Objetivo del ejercicio
 
-Este proyecto utiliza **Docker Compose** para levantar un entorno completo que permite comparar, de forma controlada, una base de datos **relacional (PostgreSQL)** y una base de datos **NoSQL (MongoDB)** ejecutando el mismo escenario y el mismo conjunto de operaciones.
+Este ejercicio despliega un **entorno MongoDB completamente funcional** mediante Docker para trabajar con un **catálogo de productos**, clientes y compras.
 
-El entorno está diseñado para:
+El objetivo es que el alumno:
 
-* ser reproducible,
-* funcionar en cualquier equipo,
-* y evitar instalaciones manuales complejas.
+* explore un **modelo de datos NoSQL basado en documentos**,
+* realice consultas y agregaciones con **MongoDB Compass**,
+* y entienda cómo se inicializa un entorno realista con datos de prueba.
+
+Todo el entorno está preparado para funcionar **sin instalaciones manuales**.
 
 ## Estructura de directorios del proyecto
 
-El proyecto está organizado en carpetas para separar claramente responsabilidades: configuración, datos, y ejecución de la práctica.
-
 ```text
-docker-tema-4-3/
+docker-tema-5-1/
 │
 ├── docker-compose.yml
 │
-├── postgres/
-│   ├── 01_schema.sql
-│   └── 02_seed.sql
-│
-├── mongo/
-│   └── init.js
-│
-└── bench/
-    ├── Dockerfile
-    ├── requirements.txt
-    └── SQL_vs_NoSQL_Benchmark.ipynb
+└── mongo/
+    └── init.js
 ```
 
-## Servicios incluidos en el `docker-compose`
+### Descripción
 
-El archivo `docker-compose.yml` define varios **servicios independientes**, cada uno con un propósito concreto dentro de la práctica.
+* **`docker-compose.yml`**
+  Define los servicios Docker y la red del entorno.
 
----
+* **`init.js`**
+  Script de inicialización de MongoDB:
 
-### 1. Servicio `postgres`
+  * crea datos,
+  * define índices,
+  * deja el sistema listo para usar.
 
-**Rol:** Base de datos relacional (SQL)
+## Servicios definidos en el `docker-compose`
 
-* Utiliza la imagen oficial de PostgreSQL.
-* Contiene las tablas:
+El archivo `docker-compose.yml` define los contenedores necesarios para el ejercicio.
 
-  * `categorias`
-  * `productos`
-  * `clientes`
-  * `compras`
-* Al iniciarse, ejecuta automáticamente los scripts SQL:
+### Servicio `mongodb`
 
-  * `01_schema.sql`: creación del esquema,
-  * `02_seed.sql`: carga de datos de prueba.
-
-**Por qué es importante**
-
-* Representa el enfoque clásico **relacional**:
-  * esquema fijo,
-  * claves foráneas,
-  * integridad gestionada por el motor.
-
-### 2. Servicio `pgadmin`
-
-**Rol:** Interfaz gráfica para PostgreSQL
-
-* Permite explorar la base de datos PostgreSQL desde el navegador.
-* Facilita:
-
-  * ver tablas,
-  * ejecutar consultas SQL,
-  * inspeccionar datos sin usar la línea de comandos.
-
-**Uso en la práctica**
-
-* Comparar cómo se consulta el mismo modelo de datos en SQL.
-* Visualizar el esquema relacional.
-
-### 3. Servicio `mongodb`
-
-**Rol:** Base de datos NoSQL orientada a documentos
+**Rol:** Base de datos NoSQL (MongoDB)
 
 * Utiliza la imagen oficial de MongoDB.
-* Al iniciarse, ejecuta un script de inicialización que crea:
+* Expone el puerto estándar para permitir la conexión desde MongoDB Compass.
+* Ejecuta automáticamente un script de inicialización (`init.js`) al arrancar.
 
-  * colecciones equivalentes a las tablas SQL,
-  * datos de prueba en formato JSON.
+Este contenedor es el **núcleo del ejercicio**, ya que contiene:
 
-**Por qué es importante**
+* la base de datos `catalogo`,
+* las colecciones,
+* los datos de prueba,
+* y los índices.
 
-* Representa el enfoque **NoSQL**:
+## Script de inicialización (`init.js`)
 
-  * documentos flexibles,
-  * ausencia de joins obligatorios,
-  * modelo más cercano a la aplicación.
+Al arrancar el contenedor de MongoDB, se ejecuta automáticamente el script `init.js`, que realiza las siguientes tareas :
 
-### 4. Servicio `jupyter`
+### 1. Creación de la base de datos
 
-**Rol:** Ejecución del benchmark paso a paso
+```text
+Base de datos: catalogo
+```
 
-* Ejecuta un **Jupyter Notebook** en el navegador.
-* Desde el notebook se realizan:
+### 2. Creación de colecciones
 
-  * pruebas de rendimiento,
-  * mediciones de latencia y throughput,
-  * microbenchmarks por tipo de operación.
+Se crean las siguientes colecciones:
 
-**Por qué es clave**
+* `categorias`
+* `productos`
+* `clientes`
+* `compras`
 
-* Permite ejecutar la práctica de forma guiada.
-* El código se ejecuta **paso a paso**, no como una “caja negra”.
-* Incluye explicaciones didácticas y preguntas de reflexión.
+Cada colección representa una entidad típica de un sistema de comercio.
 
-## Cómo se comunican los servicios
+### 3. Inserción de datos de prueba
 
-* Todos los servicios están en la **misma red Docker**.
-* Se comunican usando el **nombre del servicio** como hostname:
+El script genera un volumen de datos realista:
 
-  * `postgres` para PostgreSQL,
-  * `mongodb` para MongoDB.
-* El alumno **no necesita configurar conexiones manuales**.
+* **20 categorías**
+* **2.000 clientes**
+* **10.000 productos**
+* **50.000 compras**
 
-> 📌 **Nota importante**
-> El funcionamiento detallado del benchmark y la interpretación de resultados se explican en el notebook `SQL_vs_NoSQL_Benchmark.ipynb`.
+Estos datos permiten:
+
+* probar búsquedas,
+* realizar agregaciones,
+* y analizar rendimiento de consultas.
+
+### 4. Modelo de documentos (visión general)
+
+* `productos`
+  Contiene información del producto, categoría, precio y stock.
+
+* `clientes`
+  Representa usuarios del sistema con email y fecha de alta.
+
+* `compras`
+  Cada documento representa una **línea de compra**, con:
+
+  * cliente,
+  * producto,
+  * cantidad,
+  * precio,
+  * fecha.
+
+📌 Observa que en MongoDB **no hay joins automáticos** como en SQL; las relaciones se representan mediante identificadores.
+
+### 5. Creación de índices
+
+El script define índices equivalentes a los que se usarían en un sistema real:
+
+* Búsquedas por categoría
+* Búsquedas por texto en nombre de producto
+* Unicidad de SKU y email
+* Acceso rápido por cliente y producto en compras
+
+Esto permite comparar:
+
+* consultas sin índice,
+* consultas optimizadas.
