@@ -1,0 +1,95 @@
+services:
+  # ----------------- POSTGRES -----------------
+  postgres:
+    image: postgres:16
+    container_name: demo-postgres
+    environment:
+      POSTGRES_USER: demo
+      POSTGRES_PASSWORD: demo
+      POSTGRES_DB: catalogo
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      - ./postgres:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U demo -d catalogo"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: demo-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_CONFIG_CHECK_EMAIL_DELIVERABILITY: "False"
+    ports:
+      - "8080:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+
+  # ----------------- MONGODB -----------------
+  mongodb:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: demo-mongodb
+    environment:
+      MONGO_INITDB_DATABASE: catalogo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./mongo/init.js:/docker-entrypoint-initdb.d/init.js:ro
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --quiet --eval 'db.adminCommand({ ping: 1 }).ok' || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+
+  # ----------------- BENCHMARK RUNNER -----------------
+  jupyter:
+    build:
+      context: ./bench
+    container_name: demo-jupyter
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+    environment:
+      PG_HOST: postgres
+      PG_PORT: "5432"
+      PG_DB: catalogo
+      PG_USER: demo
+      PG_PASS: demo
+
+      MONGO_URI: mongodb://mongodb:27017
+      MONGO_DB: catalogo
+
+      # Ajusta el workload desde aquí si lo deseas
+      OPS: "3000"
+      CONCURRENCY: "20"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./bench:/app
+    command:
+      [
+        "jupyter",
+        "lab",
+        "--ip=0.0.0.0",
+        "--port=8888",
+        "--no-browser",
+        "--allow-root",
+        "--ServerApp.token=",
+        "--ServerApp.password="
+      ]
+
+volumes:
+  pg_data:
+  pgadmin_data:
+  mongo_data:
