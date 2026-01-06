@@ -159,6 +159,12 @@ Colección `compras` → **Filter**:
 { productoId: 302 }
 ```
 
+Otra alternativa desde MongoDB Shell es:
+
+```javascript
+db.compras.countDocuments({ productoId: 20001 })
+```
+
 Si **no devuelve resultados**, el producto no tiene compras.
 
 ### 4.2 Eliminar un producto sin compras
