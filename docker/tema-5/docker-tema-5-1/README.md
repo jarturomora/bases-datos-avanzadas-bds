@@ -1,4 +1,4 @@
-# Entorno Docker para el Tema 5 - Clase 1: Comparación práctica SQL vs NoSQL
+# Entorno Docker para el Tema 5 - Clase 1: Primeros pasos con MongoDB
 
 ## Objetivo del ejercicio
 

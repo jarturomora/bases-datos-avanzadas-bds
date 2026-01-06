@@ -1,4 +1,4 @@
-# Entorno Docker para el Tema 5 - Clase 1: Comparación práctica SQL vs NoSQL
+# Entorno Docker para el Tema 5 - Clase 2: Primer CRUD con MongoDB
 
 ## Objetivo del ejercicio
 
@@ -7,15 +7,14 @@ Este ejercicio despliega un **entorno MongoDB completamente funcional** mediante
 El objetivo es que el alumno:
 
 * explore un **modelo de datos NoSQL basado en documentos**,
-* realice consultas y agregaciones con **MongoDB Compass**,
-* y entienda cómo se inicializa un entorno realista con datos de prueba.
+* realice consultas, inserciones, actualizaciones y borrados **MongoDB Compass**.
 
 Todo el entorno está preparado para funcionar **sin instalaciones manuales**.
 
 ## Estructura de directorios del proyecto
 
 ```text
-docker-tema-5-1/
+docker-tema-5-2/
 │
 ├── docker-compose.yml
 │
