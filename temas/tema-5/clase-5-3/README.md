@@ -1,4 +1,4 @@
-# Guía didáctica Tema 5 - Clase 2: Operaciones CRUD en MongoDB
+# Guía didáctica Tema 5 - Clase 3: Operaciones CRUD en MongoDB
 
 ## Objetivo
 

@@ -1,4 +1,4 @@
-# Entorno Docker para el Tema 5 - Clase 2: Primer CRUD con MongoDB
+# Entorno Docker para el Tema 5 - Clase 3: Primer CRUD con MongoDB
 
 ## Objetivo del ejercicio
 
