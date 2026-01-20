@@ -1,0 +1,29 @@
+services:
+  mongodb:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: amazon-mongodb
+    command: ["mongod", "--replSet", "rs0", "--bind_ip_all", "--port", "27017"]
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./init:/init:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  init:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: amazon-init
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./init:/init:ro
+    command: ["bash", "/init/init.sh"]
+    restart: "no"
+
+volumes:
+  mongo_data:
