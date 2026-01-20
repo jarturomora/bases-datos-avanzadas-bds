@@ -45,5 +45,3 @@ Script de JavaScript que se ejecuta dentro de MongoDB al arrancar.
 * Define las colecciones necesarias.
 * Inserta datos de prueba (usuarios, órdenes, trades, etc.).
 * Deja la base de datos lista para usar desde MongoDB Compass.
-
-> 📌 Gracias a este script, todos los alumnos trabajan con **los mismos datos**.
