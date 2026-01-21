@@ -13,7 +13,7 @@ El objetivo es que el alumno:
 ## Estructura de directorios
 
 ```text
-mongo-ecommerce-demo/
+docker-tema-6-2/
 │
 ├── docker-compose.yml
 └── init/
