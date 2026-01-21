@@ -1,0 +1,24 @@
+services:
+  mongo:
+    image: mongodb/mongodb-community-server:8.0-ubi8
+    container_name: mongo_sec_demo
+    restart: unless-stopped
+
+    # Expuesto SOLO en localhost para la demo
+    ports:
+      - "127.0.0.1:27017:27017"
+
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: StrongPass123!
+      MONGO_INITDB_DATABASE: admin
+
+    volumes:
+      - mongo_data:/data/db
+      - ./mongod.conf:/etc/mongo/mongod.conf:ro
+      - ./init:/docker-entrypoint-initdb.d:ro
+
+    command: ["mongod", "--config", "/etc/mongo/mongod.conf"]
+
+volumes:
+  mongo_data:
