@@ -140,7 +140,7 @@ Base de datos: `shop`
 }
 ```
 
-## 4️⃣ `$pull` — Eliminar elementos de arrays
+## `$pull` — Eliminar elementos de arrays
 
 ### Ejemplo 1: Quitar una etiqueta
 
@@ -174,7 +174,7 @@ Base de datos: `shop`
 }
 ```
 
-## 5️⃣ `updateOne` vs `updateMany`
+## `updateOne` vs `updateMany`
 
 ### Ejemplo 1: `updateOne`
 
@@ -264,7 +264,7 @@ deleteMany
 
 > ⚠️ En sistemas reales, se usa con cautela.
 
-## 8️⃣ Transacción multi-documento (pedido + stock)
+## Transacción multi-documento (pedido + stock)
 
 **MongoDB Shell** (en Compass)
 
