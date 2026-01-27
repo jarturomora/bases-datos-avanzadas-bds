@@ -82,7 +82,7 @@ Cada shard es un Replica Set con 3 nodos (sin árbitros).
 ## Estructura de ficheros
 
 ```text
-.
+docker-tema-7-2/
 ├─ docker-compose.yml
 └─ setup/
    ├─ mongos-entrypoint.sh      # Arranque seguro de mongos (espera cfgRS PRIMARY)
