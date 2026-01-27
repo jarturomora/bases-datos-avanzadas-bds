@@ -1,4 +1,4 @@
-# # Guía didáctica Tema 7 - Clase 3: Monitoreo y Observabilidad con Grafana (_performance tunning)
+# Guía didáctica Tema 7 - Clase 3: Monitoreo y Observabilidad con Grafana (_performance tunning_)
 
 ## Objetivo de la clase
 
