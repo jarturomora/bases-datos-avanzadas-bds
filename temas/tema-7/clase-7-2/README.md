@@ -81,48 +81,6 @@ En Compass:
 * Documentos con `_id` similares a: `rsShard1`, `rsShard2`, `rsShard3`.
 * Un campo tipo `host` con el connection string del RS.
 
-### Ver shard key de las colecciones (visual)
-
-En Compass:
-
-1. DB: **config**
-2. Colección: **collections**
-3. Pestaña **Documents**
-
-En la parte superior:
-
-* **Filter**
-
-```json
-{ "_id": { "$regex": "^teleco_es\\." } }
-```
-
-**Qué deben observar**
-
-* Para `teleco_es.usuarios`, `teleco_es.lineas`, `teleco_es.llamadas`, existe un campo `key`.
-* Debe ser parecido a:
-
-  * `{ "provincia": 1, "_id": 1 }`
-
-### Ver chunks por colección y shard (visual)
-
-En Compass:
-
-1. DB: **config**
-2. Colección: **chunks**
-3. Pestaña **Documents**
-
-* **Filter** (ejemplo para usuarios)
-
-```json
-{ "ns": "teleco_es.usuarios" }
-```
-
-**Qué deben observar**
-
-* En cada documento, el campo `shard` indica en qué shard está ese chunk.
-* Campos `min` y `max` representan rangos de la shard key.
-
 ## Consultas “Find” 100% visuales (Documents)
 
 Objetivo: comparar consultas con shard key vs sin shard key.
