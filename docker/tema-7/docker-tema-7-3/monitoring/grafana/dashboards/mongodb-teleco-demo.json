@@ -1,0 +1,76 @@
+{
+  "title": "MongoDB Teleco ES - Demo Clase 3 (Teleco DBStats)",
+  "timezone": "browser",
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "5s",
+  "tags": ["mongodb", "teleco", "unipro", "dbstats"],
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Teleco ES: documentos (objects)",
+      "gridPos": { "x": 0, "y": 0, "w": 12, "h": 7 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "mongodb_dbstats_objects{database=\"teleco_es\", job=\"mongodb_exporter\"}"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Teleco ES: tamaño datos (dataSize)",
+      "gridPos": { "x": 12, "y": 0, "w": 12, "h": 7 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "mongodb_dbstats_dataSize{database=\"teleco_es\", job=\"mongodb_exporter\"}"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Teleco ES: tamaño índices (indexSize)",
+      "gridPos": { "x": 0, "y": 7, "w": 12, "h": 7 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "mongodb_dbstats_indexSize{database=\"teleco_es\", job=\"mongodb_exporter\"}"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Teleco ES: tamaño total (totalSize)",
+      "gridPos": { "x": 12, "y": 7, "w": 12, "h": 7 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "mongodb_dbstats_totalSize{database=\"teleco_es\", job=\"mongodb_exporter\"}"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Teleco ES: colecciones (collections)",
+      "gridPos": { "x": 0, "y": 14, "w": 12, "h": 7 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "mongodb_dbstats_collections{database=\"teleco_es\", job=\"mongodb_exporter\"}"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Teleco ES: estado DBStats OK",
+      "gridPos": { "x": 12, "y": 14, "w": 12, "h": 7 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "mongodb_dbstats_ok{database=\"teleco_es\", job=\"mongodb_exporter\"}"
+        }
+      ]
+    }
+  ]
+}

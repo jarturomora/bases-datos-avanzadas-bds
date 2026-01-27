@@ -1,0 +1,8 @@
+global:
+  scrape_interval: 5s
+
+scrape_configs:
+  - job_name: "mongodb_exporter"
+    metrics_path: /metrics
+    static_configs:
+      - targets: ["mongodb_exporter:9216"]
