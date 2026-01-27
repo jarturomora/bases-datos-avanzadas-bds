@@ -1,0 +1,22 @@
+services:
+  neo4j:
+    image: neo4j:5
+    container_name: neo4j_unipro
+    restart: unless-stopped
+    ports:
+      - "7474:7474"   # Neo4j Browser (HTTP)
+      - "7687:7687"   # Bolt (drivers)
+    environment:
+      # Usuario/contraseña inicial (cámbiala para clase/producción)
+      NEO4J_AUTH: "neo4j/neo4j12345"
+      # Ajustes útiles para entorno docente (evita OOM en equipos modestos)
+      NEO4J_server_memory_heap_initial__size: "512m"
+      NEO4J_server_memory_heap_max__size: "512m"
+      NEO4J_server_memory_pagecache_size: "256m"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
