@@ -1,4 +1,4 @@
-# Entorno Docker para el Tema 8 * Clase 2: Conceptos básicos de Neo4j y Cypher
+# Entorno Docker para el Tema 8 - Clase 2: Conceptos básicos de Neo4j y Cypher
 
 Este repositorio incluye un `docker-compose.yml` para levantar **Neo4j** (motor de base de datos orientada a grafos) junto con **Neo4j Browser** (interfaz web) en un solo contenedor.
 
