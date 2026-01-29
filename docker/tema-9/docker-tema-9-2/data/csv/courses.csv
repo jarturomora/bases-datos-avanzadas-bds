@@ -1,0 +1,1001 @@
+courseId,title,provider,level,hours,tag
+1,Intensivo de Cybersecurity 1,Neo4j University,Advanced,20,cybersecurity
+2,Especialización de Cybersecurity 2,edX,Intermediate,8,cybersecurity
+3,Ruta de Cypher 3,Coursera,Advanced,20,cypher
+4,Especialización de Cloud 4,Coursera,Beginner,10,cloud
+5,Fundamentos de Graph Data Modeling 5,Udemy,Advanced,6,graph_data_modeling
+6,Intensivo de Neo4j 6,Coursera,Advanced,12,neo4j
+7,Práctico de Kubernetes 7,Neo4j University,Intermediate,24,kubernetes
+8,Ruta de Kubernetes 8,Neo4j University,Beginner,24,kubernetes
+9,Ruta de APIs 9,Google,Beginner,20,apis
+10,Ruta de Python 10,AWS Training,Advanced,12,python
+11,Workshop de Python 11,Neo4j University,Advanced,8,python
+12,Práctico de Kubernetes 12,Neo4j University,Advanced,30,kubernetes
+13,Fundamentos de Neo4j 13,edX,Intermediate,20,neo4j
+14,Fundamentos de Power BI 14,Coursera,Advanced,4,power_bi
+15,Fundamentos de Neo4j 15,Pluralsight,Beginner,8,neo4j
+16,Hands-on de Kubernetes 16,edX,Advanced,20,kubernetes
+17,Bootcamp de Graph Algorithms 17,UNIPRO Academy,Intermediate,4,graph_algorithms
+18,Especialización de SQL 18,Udemy,Beginner,30,sql
+19,Práctico de Data Warehousing 19,Microsoft,Advanced,4,data_warehousing
+20,Hands-on de Data Warehousing 20,Microsoft,Advanced,8,data_warehousing
+21,Masterclass de Data Warehousing 21,AWS Training,Beginner,40,data_warehousing
+22,Ruta de Cloud 22,UNIPRO Academy,Beginner,24,cloud
+23,Workshop de Power BI 23,LinkedIn Learning,Beginner,24,power_bi
+24,Masterclass de Cloud 24,edX,Beginner,8,cloud
+25,Workshop de APIs 25,edX,Advanced,40,apis
+26,Masterclass de Data Warehousing 26,edX,Beginner,24,data_warehousing
+27,Bootcamp de Power BI 27,Microsoft,Intermediate,6,power_bi
+28,Workshop de Data Warehousing 28,LinkedIn Learning,Beginner,20,data_warehousing
+29,Bootcamp de Docker 29,edX,Intermediate,30,docker
+30,Bootcamp de ETL 30,UNIPRO Academy,Beginner,10,etl
+31,Workshop de Graph Data Modeling 31,Coursera,Beginner,10,graph_data_modeling
+32,Ruta de Cybersecurity 32,Coursera,Beginner,30,cybersecurity
+33,Workshop de APIs 33,edX,Intermediate,8,apis
+34,Ruta de Docker 34,Neo4j University,Advanced,24,docker
+35,Fundamentos de SQL 35,LinkedIn Learning,Intermediate,24,sql
+36,Bootcamp de Power BI 36,UNIPRO Academy,Intermediate,16,power_bi
+37,Ruta de APIs 37,Coursera,Beginner,30,apis
+38,Bootcamp de Kubernetes 38,Udemy,Beginner,6,kubernetes
+39,Especialización de Python 39,Google,Advanced,24,python
+40,Bootcamp de Power BI 40,Google,Advanced,6,power_bi
+41,Ruta de SQL 41,LinkedIn Learning,Advanced,30,sql
+42,Práctico de Machine Learning 42,Microsoft,Advanced,12,machine_learning
+43,Lab de SQL 43,Coursera,Advanced,4,sql
+44,Especialización de Cybersecurity 44,LinkedIn Learning,Intermediate,16,cybersecurity
+45,Masterclass de Cybersecurity 45,Microsoft,Intermediate,8,cybersecurity
+46,Hands-on de Python 46,AWS Training,Beginner,8,python
+47,Lab de SQL 47,edX,Intermediate,40,sql
+48,Ruta de Kubernetes 48,AWS Training,Beginner,16,kubernetes
+49,Práctico de SQL 49,AWS Training,Intermediate,20,sql
+50,Fundamentos de Machine Learning 50,Google,Advanced,12,machine_learning
+51,Especialización de Data Warehousing 51,AWS Training,Advanced,4,data_warehousing
+52,Intensivo de Docker 52,Google,Beginner,40,docker
+53,Masterclass de Power BI 53,AWS Training,Intermediate,6,power_bi
+54,Lab de Cloud 54,AWS Training,Advanced,20,cloud
+55,Fundamentos de Docker 55,Microsoft,Beginner,30,docker
+56,Ruta de Cloud 56,Google,Intermediate,24,cloud
+57,Workshop de ETL 57,Pluralsight,Advanced,40,etl
+58,Ruta de APIs 58,Udemy,Intermediate,12,apis
+59,Workshop de Cypher 59,edX,Advanced,30,cypher
+60,Intensivo de APIs 60,Neo4j University,Intermediate,24,apis
+61,Intensivo de Graph Algorithms 61,Google,Advanced,16,graph_algorithms
+62,Masterclass de Graph Algorithms 62,AWS Training,Advanced,30,graph_algorithms
+63,Masterclass de Cypher 63,Udemy,Advanced,30,cypher
+64,Intensivo de Neo4j 64,Udemy,Intermediate,4,neo4j
+65,Ruta de Cloud 65,Coursera,Advanced,30,cloud
+66,Masterclass de Cloud 66,UNIPRO Academy,Intermediate,8,cloud
+67,Fundamentos de Cypher 67,Coursera,Intermediate,8,cypher
+68,Fundamentos de Docker 68,LinkedIn Learning,Intermediate,12,docker
+69,Ruta de Kubernetes 69,UNIPRO Academy,Beginner,30,kubernetes
+70,Intensivo de Graph Data Modeling 70,Microsoft,Intermediate,16,graph_data_modeling
+71,Bootcamp de Kubernetes 71,edX,Beginner,30,kubernetes
+72,Workshop de Data Warehousing 72,AWS Training,Advanced,10,data_warehousing
+73,Fundamentos de APIs 73,Pluralsight,Intermediate,12,apis
+74,Workshop de Machine Learning 74,Microsoft,Beginner,40,machine_learning
+75,Lab de Python 75,Udemy,Advanced,6,python
+76,Hands-on de Kubernetes 76,LinkedIn Learning,Beginner,4,kubernetes
+77,Lab de Graph Data Modeling 77,Pluralsight,Beginner,4,graph_data_modeling
+78,Práctico de Neo4j 78,UNIPRO Academy,Advanced,16,neo4j
+79,Masterclass de Cybersecurity 79,LinkedIn Learning,Beginner,40,cybersecurity
+80,Ruta de Data Warehousing 80,Pluralsight,Advanced,10,data_warehousing
+81,Hands-on de Neo4j 81,LinkedIn Learning,Intermediate,6,neo4j
+82,Intensivo de Kubernetes 82,AWS Training,Beginner,24,kubernetes
+83,Intensivo de Kubernetes 83,LinkedIn Learning,Intermediate,40,kubernetes
+84,Workshop de Neo4j 84,Google,Advanced,4,neo4j
+85,Bootcamp de Machine Learning 85,Microsoft,Intermediate,8,machine_learning
+86,Fundamentos de Power BI 86,UNIPRO Academy,Beginner,10,power_bi
+87,Hands-on de Power BI 87,Neo4j University,Beginner,10,power_bi
+88,Intensivo de ETL 88,Udemy,Intermediate,8,etl
+89,Ruta de Python 89,UNIPRO Academy,Intermediate,24,python
+90,Hands-on de ETL 90,LinkedIn Learning,Advanced,20,etl
+91,Hands-on de APIs 91,Coursera,Intermediate,4,apis
+92,Especialización de Power BI 92,Coursera,Beginner,16,power_bi
+93,Hands-on de Data Warehousing 93,AWS Training,Advanced,20,data_warehousing
+94,Lab de APIs 94,Coursera,Intermediate,20,apis
+95,Especialización de Cloud 95,Coursera,Beginner,6,cloud
+96,Fundamentos de Python 96,Pluralsight,Beginner,10,python
+97,Intensivo de Data Warehousing 97,Google,Beginner,12,data_warehousing
+98,Intensivo de Docker 98,Google,Intermediate,12,docker
+99,Intensivo de Kubernetes 99,Pluralsight,Intermediate,40,kubernetes
+100,Ruta de Graph Algorithms 100,LinkedIn Learning,Intermediate,8,graph_algorithms
+101,Práctico de Cypher 101,Microsoft,Beginner,16,cypher
+102,Lab de Neo4j 102,Neo4j University,Beginner,12,neo4j
+103,Hands-on de SQL 103,edX,Beginner,8,sql
+104,Ruta de Cybersecurity 104,UNIPRO Academy,Beginner,10,cybersecurity
+105,Especialización de Power BI 105,Coursera,Beginner,6,power_bi
+106,Lab de Data Warehousing 106,edX,Advanced,8,data_warehousing
+107,Lab de Machine Learning 107,Google,Beginner,20,machine_learning
+108,Intensivo de Cloud 108,Microsoft,Advanced,30,cloud
+109,Práctico de Cybersecurity 109,AWS Training,Intermediate,30,cybersecurity
+110,Hands-on de SQL 110,Microsoft,Intermediate,8,sql
+111,Ruta de Graph Data Modeling 111,Udemy,Beginner,16,graph_data_modeling
+112,Hands-on de Graph Data Modeling 112,Neo4j University,Intermediate,6,graph_data_modeling
+113,Hands-on de Kubernetes 113,Google,Intermediate,40,kubernetes
+114,Lab de Cypher 114,Neo4j University,Beginner,16,cypher
+115,Fundamentos de Data Warehousing 115,Microsoft,Advanced,4,data_warehousing
+116,Intensivo de SQL 116,AWS Training,Beginner,12,sql
+117,Lab de Docker 117,Udemy,Intermediate,24,docker
+118,Hands-on de Graph Algorithms 118,edX,Intermediate,8,graph_algorithms
+119,Lab de ETL 119,Microsoft,Advanced,12,etl
+120,Lab de Cypher 120,Neo4j University,Intermediate,40,cypher
+121,Ruta de ETL 121,Google,Beginner,12,etl
+122,Ruta de ETL 122,edX,Beginner,16,etl
+123,Lab de Graph Algorithms 123,Microsoft,Advanced,4,graph_algorithms
+124,Práctico de Graph Algorithms 124,Neo4j University,Advanced,10,graph_algorithms
+125,Bootcamp de Power BI 125,Neo4j University,Advanced,10,power_bi
+126,Workshop de Graph Algorithms 126,AWS Training,Beginner,20,graph_algorithms
+127,Fundamentos de Data Warehousing 127,Microsoft,Intermediate,30,data_warehousing
+128,Especialización de Kubernetes 128,Microsoft,Beginner,16,kubernetes
+129,Especialización de Cloud 129,Google,Advanced,24,cloud
+130,Fundamentos de Graph Algorithms 130,Udemy,Advanced,20,graph_algorithms
+131,Hands-on de Graph Data Modeling 131,Neo4j University,Intermediate,8,graph_data_modeling
+132,Lab de Cypher 132,Udemy,Intermediate,16,cypher
+133,Práctico de APIs 133,Pluralsight,Advanced,10,apis
+134,Workshop de Docker 134,UNIPRO Academy,Beginner,30,docker
+135,Bootcamp de Python 135,Pluralsight,Intermediate,24,python
+136,Intensivo de Graph Algorithms 136,Udemy,Intermediate,24,graph_algorithms
+137,Lab de Cypher 137,Google,Advanced,20,cypher
+138,Especialización de Data Warehousing 138,AWS Training,Intermediate,40,data_warehousing
+139,Bootcamp de Data Warehousing 139,Udemy,Beginner,10,data_warehousing
+140,Masterclass de APIs 140,Coursera,Advanced,40,apis
+141,Intensivo de Python 141,LinkedIn Learning,Advanced,20,python
+142,Hands-on de ETL 142,UNIPRO Academy,Advanced,40,etl
+143,Ruta de Python 143,UNIPRO Academy,Advanced,4,python
+144,Fundamentos de Cypher 144,Microsoft,Advanced,30,cypher
+145,Lab de SQL 145,edX,Advanced,4,sql
+146,Práctico de Kubernetes 146,Pluralsight,Beginner,6,kubernetes
+147,Bootcamp de Cybersecurity 147,Microsoft,Advanced,20,cybersecurity
+148,Workshop de Machine Learning 148,Udemy,Intermediate,8,machine_learning
+149,Intensivo de Machine Learning 149,LinkedIn Learning,Intermediate,30,machine_learning
+150,Workshop de Cloud 150,Udemy,Advanced,40,cloud
+151,Lab de Cybersecurity 151,AWS Training,Intermediate,24,cybersecurity
+152,Workshop de Graph Data Modeling 152,Pluralsight,Intermediate,16,graph_data_modeling
+153,Ruta de Machine Learning 153,Pluralsight,Advanced,8,machine_learning
+154,Bootcamp de Kubernetes 154,AWS Training,Beginner,8,kubernetes
+155,Bootcamp de Graph Data Modeling 155,Google,Advanced,40,graph_data_modeling
+156,Workshop de Docker 156,AWS Training,Advanced,6,docker
+157,Especialización de APIs 157,Udemy,Advanced,30,apis
+158,Ruta de Graph Algorithms 158,Google,Beginner,24,graph_algorithms
+159,Hands-on de Neo4j 159,AWS Training,Advanced,12,neo4j
+160,Intensivo de Data Warehousing 160,Pluralsight,Beginner,12,data_warehousing
+161,Práctico de Cloud 161,LinkedIn Learning,Intermediate,8,cloud
+162,Masterclass de Kubernetes 162,Microsoft,Beginner,6,kubernetes
+163,Práctico de Graph Data Modeling 163,UNIPRO Academy,Beginner,30,graph_data_modeling
+164,Hands-on de Kubernetes 164,LinkedIn Learning,Advanced,6,kubernetes
+165,Bootcamp de Cloud 165,AWS Training,Beginner,40,cloud
+166,Workshop de Docker 166,Neo4j University,Intermediate,16,docker
+167,Fundamentos de Python 167,UNIPRO Academy,Advanced,40,python
+168,Ruta de Machine Learning 168,Coursera,Beginner,24,machine_learning
+169,Ruta de Docker 169,UNIPRO Academy,Intermediate,16,docker
+170,Workshop de Graph Data Modeling 170,LinkedIn Learning,Intermediate,40,graph_data_modeling
+171,Práctico de Graph Algorithms 171,Pluralsight,Beginner,16,graph_algorithms
+172,Workshop de Cybersecurity 172,Microsoft,Beginner,24,cybersecurity
+173,Fundamentos de Cybersecurity 173,Pluralsight,Beginner,8,cybersecurity
+174,Masterclass de Machine Learning 174,UNIPRO Academy,Advanced,6,machine_learning
+175,Ruta de Cypher 175,edX,Advanced,6,cypher
+176,Práctico de Neo4j 176,Microsoft,Beginner,40,neo4j
+177,Intensivo de Docker 177,Coursera,Advanced,16,docker
+178,Bootcamp de SQL 178,edX,Advanced,20,sql
+179,Ruta de Neo4j 179,UNIPRO Academy,Advanced,30,neo4j
+180,Workshop de SQL 180,Neo4j University,Advanced,6,sql
+181,Intensivo de Neo4j 181,Pluralsight,Beginner,8,neo4j
+182,Práctico de ETL 182,Google,Beginner,20,etl
+183,Hands-on de Cypher 183,Microsoft,Intermediate,10,cypher
+184,Masterclass de Power BI 184,Coursera,Intermediate,6,power_bi
+185,Hands-on de Graph Algorithms 185,Microsoft,Advanced,40,graph_algorithms
+186,Ruta de Power BI 186,edX,Beginner,16,power_bi
+187,Ruta de Graph Algorithms 187,UNIPRO Academy,Advanced,4,graph_algorithms
+188,Hands-on de Machine Learning 188,Microsoft,Intermediate,20,machine_learning
+189,Hands-on de Cypher 189,Udemy,Intermediate,10,cypher
+190,Hands-on de Cypher 190,LinkedIn Learning,Intermediate,10,cypher
+191,Lab de Python 191,AWS Training,Beginner,16,python
+192,Bootcamp de SQL 192,Neo4j University,Intermediate,12,sql
+193,Masterclass de Graph Algorithms 193,AWS Training,Beginner,8,graph_algorithms
+194,Workshop de APIs 194,edX,Intermediate,24,apis
+195,Lab de Graph Data Modeling 195,UNIPRO Academy,Beginner,30,graph_data_modeling
+196,Masterclass de Python 196,LinkedIn Learning,Intermediate,4,python
+197,Práctico de SQL 197,Udemy,Beginner,30,sql
+198,Masterclass de Cypher 198,Udemy,Intermediate,6,cypher
+199,Masterclass de APIs 199,Neo4j University,Beginner,6,apis
+200,Lab de Python 200,Pluralsight,Advanced,10,python
+201,Workshop de SQL 201,Udemy,Intermediate,12,sql
+202,Hands-on de Neo4j 202,Neo4j University,Beginner,10,neo4j
+203,Workshop de Machine Learning 203,Microsoft,Beginner,8,machine_learning
+204,Práctico de Docker 204,UNIPRO Academy,Intermediate,8,docker
+205,Masterclass de Docker 205,edX,Intermediate,8,docker
+206,Workshop de Data Warehousing 206,Neo4j University,Intermediate,12,data_warehousing
+207,Intensivo de Machine Learning 207,Google,Beginner,30,machine_learning
+208,Ruta de Cloud 208,edX,Advanced,16,cloud
+209,Práctico de Cloud 209,UNIPRO Academy,Advanced,20,cloud
+210,Fundamentos de Python 210,LinkedIn Learning,Intermediate,20,python
+211,Ruta de ETL 211,UNIPRO Academy,Advanced,8,etl
+212,Workshop de Graph Data Modeling 212,Microsoft,Intermediate,40,graph_data_modeling
+213,Lab de Kubernetes 213,Udemy,Intermediate,16,kubernetes
+214,Práctico de Cypher 214,Pluralsight,Advanced,24,cypher
+215,Lab de Graph Data Modeling 215,Neo4j University,Intermediate,12,graph_data_modeling
+216,Práctico de Data Warehousing 216,UNIPRO Academy,Advanced,20,data_warehousing
+217,Workshop de Cloud 217,Microsoft,Beginner,6,cloud
+218,Masterclass de Cloud 218,Udemy,Advanced,4,cloud
+219,Intensivo de Graph Algorithms 219,edX,Advanced,30,graph_algorithms
+220,Workshop de Cloud 220,Neo4j University,Advanced,24,cloud
+221,Workshop de Graph Algorithms 221,Google,Intermediate,16,graph_algorithms
+222,Práctico de Kubernetes 222,edX,Beginner,20,kubernetes
+223,Lab de ETL 223,Google,Beginner,12,etl
+224,Práctico de Cypher 224,UNIPRO Academy,Advanced,4,cypher
+225,Bootcamp de Python 225,Pluralsight,Beginner,30,python
+226,Masterclass de APIs 226,UNIPRO Academy,Beginner,30,apis
+227,Masterclass de Graph Data Modeling 227,Coursera,Intermediate,12,graph_data_modeling
+228,Especialización de Cloud 228,UNIPRO Academy,Intermediate,6,cloud
+229,Especialización de Machine Learning 229,edX,Beginner,40,machine_learning
+230,Hands-on de Neo4j 230,Google,Intermediate,8,neo4j
+231,Intensivo de Neo4j 231,Udemy,Beginner,4,neo4j
+232,Lab de Neo4j 232,AWS Training,Advanced,12,neo4j
+233,Ruta de Cypher 233,edX,Beginner,12,cypher
+234,Práctico de SQL 234,Microsoft,Advanced,6,sql
+235,Ruta de Neo4j 235,Google,Advanced,40,neo4j
+236,Bootcamp de ETL 236,Coursera,Beginner,12,etl
+237,Lab de Kubernetes 237,UNIPRO Academy,Advanced,30,kubernetes
+238,Especialización de Docker 238,LinkedIn Learning,Intermediate,40,docker
+239,Práctico de Power BI 239,Coursera,Beginner,16,power_bi
+240,Lab de Cypher 240,Udemy,Beginner,8,cypher
+241,Fundamentos de ETL 241,Udemy,Advanced,10,etl
+242,Masterclass de Graph Data Modeling 242,Neo4j University,Beginner,30,graph_data_modeling
+243,Ruta de APIs 243,UNIPRO Academy,Beginner,10,apis
+244,Masterclass de ETL 244,Microsoft,Intermediate,6,etl
+245,Masterclass de Cybersecurity 245,edX,Beginner,24,cybersecurity
+246,Especialización de Neo4j 246,Microsoft,Intermediate,24,neo4j
+247,Especialización de Cybersecurity 247,UNIPRO Academy,Beginner,4,cybersecurity
+248,Ruta de Neo4j 248,Pluralsight,Beginner,20,neo4j
+249,Masterclass de Data Warehousing 249,Coursera,Beginner,40,data_warehousing
+250,Práctico de SQL 250,LinkedIn Learning,Advanced,40,sql
+251,Fundamentos de Neo4j 251,Pluralsight,Intermediate,24,neo4j
+252,Hands-on de Python 252,UNIPRO Academy,Beginner,6,python
+253,Práctico de Docker 253,Coursera,Intermediate,40,docker
+254,Fundamentos de Neo4j 254,Google,Beginner,40,neo4j
+255,Bootcamp de Docker 255,edX,Beginner,24,docker
+256,Especialización de Graph Data Modeling 256,Neo4j University,Beginner,10,graph_data_modeling
+257,Masterclass de Kubernetes 257,AWS Training,Beginner,30,kubernetes
+258,Bootcamp de Docker 258,LinkedIn Learning,Intermediate,8,docker
+259,Bootcamp de Graph Data Modeling 259,UNIPRO Academy,Intermediate,16,graph_data_modeling
+260,Intensivo de APIs 260,LinkedIn Learning,Beginner,24,apis
+261,Ruta de Cypher 261,Coursera,Advanced,6,cypher
+262,Fundamentos de Docker 262,Google,Intermediate,12,docker
+263,Masterclass de Graph Algorithms 263,UNIPRO Academy,Beginner,10,graph_algorithms
+264,Intensivo de Cloud 264,Udemy,Beginner,8,cloud
+265,Especialización de SQL 265,Neo4j University,Advanced,20,sql
+266,Especialización de Neo4j 266,Pluralsight,Beginner,10,neo4j
+267,Ruta de Data Warehousing 267,Udemy,Beginner,8,data_warehousing
+268,Fundamentos de Cybersecurity 268,AWS Training,Intermediate,12,cybersecurity
+269,Lab de Cybersecurity 269,Google,Beginner,20,cybersecurity
+270,Fundamentos de Python 270,edX,Advanced,8,python
+271,Hands-on de Power BI 271,Pluralsight,Beginner,10,power_bi
+272,Especialización de Data Warehousing 272,Google,Intermediate,6,data_warehousing
+273,Lab de Machine Learning 273,AWS Training,Intermediate,30,machine_learning
+274,Especialización de Neo4j 274,Udemy,Intermediate,16,neo4j
+275,Workshop de Python 275,Pluralsight,Beginner,20,python
+276,Especialización de Neo4j 276,Neo4j University,Beginner,40,neo4j
+277,Bootcamp de Machine Learning 277,Pluralsight,Advanced,40,machine_learning
+278,Bootcamp de Data Warehousing 278,Coursera,Intermediate,30,data_warehousing
+279,Masterclass de Data Warehousing 279,Udemy,Advanced,40,data_warehousing
+280,Workshop de Cloud 280,LinkedIn Learning,Intermediate,24,cloud
+281,Masterclass de Kubernetes 281,Microsoft,Advanced,20,kubernetes
+282,Práctico de Graph Data Modeling 282,Google,Intermediate,4,graph_data_modeling
+283,Fundamentos de Data Warehousing 283,Microsoft,Advanced,12,data_warehousing
+284,Lab de ETL 284,Udemy,Beginner,30,etl
+285,Práctico de Cybersecurity 285,Google,Advanced,30,cybersecurity
+286,Ruta de Cypher 286,Neo4j University,Advanced,4,cypher
+287,Intensivo de Docker 287,AWS Training,Advanced,8,docker
+288,Masterclass de Cypher 288,Udemy,Beginner,4,cypher
+289,Ruta de Power BI 289,Microsoft,Beginner,20,power_bi
+290,Especialización de Python 290,edX,Intermediate,10,python
+291,Workshop de ETL 291,Udemy,Advanced,20,etl
+292,Lab de ETL 292,UNIPRO Academy,Advanced,8,etl
+293,Práctico de Cypher 293,AWS Training,Advanced,20,cypher
+294,Intensivo de SQL 294,LinkedIn Learning,Beginner,8,sql
+295,Fundamentos de Cybersecurity 295,Coursera,Beginner,8,cybersecurity
+296,Lab de Graph Algorithms 296,Coursera,Beginner,16,graph_algorithms
+297,Hands-on de Data Warehousing 297,UNIPRO Academy,Beginner,10,data_warehousing
+298,Fundamentos de Neo4j 298,UNIPRO Academy,Beginner,30,neo4j
+299,Masterclass de Kubernetes 299,edX,Intermediate,20,kubernetes
+300,Práctico de Docker 300,AWS Training,Beginner,40,docker
+301,Fundamentos de Neo4j 301,Microsoft,Advanced,40,neo4j
+302,Ruta de Cloud 302,Neo4j University,Beginner,12,cloud
+303,Masterclass de Cypher 303,UNIPRO Academy,Beginner,40,cypher
+304,Bootcamp de APIs 304,LinkedIn Learning,Advanced,8,apis
+305,Práctico de APIs 305,Coursera,Advanced,24,apis
+306,Lab de Graph Algorithms 306,AWS Training,Advanced,30,graph_algorithms
+307,Ruta de Cloud 307,Google,Advanced,40,cloud
+308,Masterclass de Neo4j 308,UNIPRO Academy,Advanced,16,neo4j
+309,Workshop de ETL 309,Neo4j University,Advanced,20,etl
+310,Intensivo de Docker 310,LinkedIn Learning,Beginner,4,docker
+311,Fundamentos de Neo4j 311,AWS Training,Advanced,30,neo4j
+312,Práctico de ETL 312,edX,Intermediate,6,etl
+313,Bootcamp de Data Warehousing 313,edX,Intermediate,6,data_warehousing
+314,Bootcamp de Data Warehousing 314,Microsoft,Beginner,16,data_warehousing
+315,Ruta de Cypher 315,Microsoft,Advanced,16,cypher
+316,Intensivo de Cybersecurity 316,Pluralsight,Advanced,8,cybersecurity
+317,Ruta de Cloud 317,Udemy,Beginner,4,cloud
+318,Intensivo de Graph Algorithms 318,UNIPRO Academy,Beginner,16,graph_algorithms
+319,Hands-on de Graph Algorithms 319,edX,Intermediate,20,graph_algorithms
+320,Fundamentos de Power BI 320,Google,Intermediate,20,power_bi
+321,Ruta de Python 321,AWS Training,Intermediate,12,python
+322,Intensivo de Python 322,LinkedIn Learning,Intermediate,24,python
+323,Fundamentos de Graph Data Modeling 323,Neo4j University,Beginner,30,graph_data_modeling
+324,Intensivo de Graph Data Modeling 324,UNIPRO Academy,Beginner,30,graph_data_modeling
+325,Bootcamp de Data Warehousing 325,Microsoft,Beginner,8,data_warehousing
+326,Práctico de Machine Learning 326,Microsoft,Intermediate,40,machine_learning
+327,Intensivo de Data Warehousing 327,UNIPRO Academy,Beginner,20,data_warehousing
+328,Fundamentos de Graph Data Modeling 328,Microsoft,Intermediate,30,graph_data_modeling
+329,Bootcamp de Data Warehousing 329,Google,Intermediate,16,data_warehousing
+330,Especialización de Data Warehousing 330,Google,Beginner,16,data_warehousing
+331,Práctico de Machine Learning 331,LinkedIn Learning,Intermediate,8,machine_learning
+332,Práctico de Data Warehousing 332,Pluralsight,Intermediate,4,data_warehousing
+333,Intensivo de Neo4j 333,Neo4j University,Beginner,40,neo4j
+334,Workshop de Cypher 334,Coursera,Advanced,16,cypher
+335,Workshop de Cypher 335,Neo4j University,Advanced,20,cypher
+336,Especialización de Cypher 336,Pluralsight,Intermediate,40,cypher
+337,Intensivo de Neo4j 337,LinkedIn Learning,Beginner,4,neo4j
+338,Lab de Neo4j 338,AWS Training,Beginner,10,neo4j
+339,Intensivo de Neo4j 339,LinkedIn Learning,Intermediate,4,neo4j
+340,Bootcamp de Neo4j 340,Coursera,Advanced,10,neo4j
+341,Especialización de Kubernetes 341,Google,Beginner,4,kubernetes
+342,Especialización de Cypher 342,edX,Beginner,40,cypher
+343,Masterclass de Cybersecurity 343,Neo4j University,Intermediate,6,cybersecurity
+344,Fundamentos de Graph Data Modeling 344,Udemy,Advanced,16,graph_data_modeling
+345,Lab de Neo4j 345,LinkedIn Learning,Intermediate,16,neo4j
+346,Intensivo de Graph Algorithms 346,Udemy,Intermediate,4,graph_algorithms
+347,Intensivo de Data Warehousing 347,Coursera,Beginner,24,data_warehousing
+348,Práctico de Power BI 348,Udemy,Intermediate,4,power_bi
+349,Ruta de Cypher 349,Neo4j University,Intermediate,10,cypher
+350,Hands-on de Neo4j 350,Google,Advanced,10,neo4j
+351,Intensivo de Cybersecurity 351,Google,Beginner,12,cybersecurity
+352,Hands-on de Graph Algorithms 352,Microsoft,Intermediate,6,graph_algorithms
+353,Masterclass de Docker 353,Microsoft,Beginner,8,docker
+354,Bootcamp de SQL 354,Coursera,Intermediate,8,sql
+355,Lab de Power BI 355,UNIPRO Academy,Advanced,20,power_bi
+356,Masterclass de APIs 356,LinkedIn Learning,Intermediate,20,apis
+357,Especialización de Graph Data Modeling 357,Udemy,Beginner,40,graph_data_modeling
+358,Lab de Data Warehousing 358,LinkedIn Learning,Advanced,24,data_warehousing
+359,Intensivo de Kubernetes 359,AWS Training,Intermediate,24,kubernetes
+360,Bootcamp de Docker 360,Coursera,Advanced,4,docker
+361,Práctico de Machine Learning 361,Pluralsight,Beginner,4,machine_learning
+362,Bootcamp de Power BI 362,Microsoft,Intermediate,30,power_bi
+363,Lab de Python 363,Udemy,Beginner,8,python
+364,Hands-on de Graph Algorithms 364,Udemy,Beginner,12,graph_algorithms
+365,Intensivo de Neo4j 365,LinkedIn Learning,Advanced,20,neo4j
+366,Especialización de Kubernetes 366,Neo4j University,Beginner,6,kubernetes
+367,Masterclass de SQL 367,Udemy,Advanced,16,sql
+368,Hands-on de Graph Data Modeling 368,Udemy,Advanced,8,graph_data_modeling
+369,Masterclass de Neo4j 369,Udemy,Intermediate,6,neo4j
+370,Bootcamp de Cloud 370,Neo4j University,Advanced,40,cloud
+371,Práctico de Docker 371,Microsoft,Advanced,6,docker
+372,Especialización de Kubernetes 372,Google,Beginner,4,kubernetes
+373,Masterclass de APIs 373,edX,Intermediate,10,apis
+374,Ruta de SQL 374,Udemy,Advanced,30,sql
+375,Especialización de Cloud 375,Neo4j University,Advanced,30,cloud
+376,Ruta de ETL 376,LinkedIn Learning,Advanced,4,etl
+377,Masterclass de Power BI 377,Udemy,Beginner,16,power_bi
+378,Bootcamp de APIs 378,Neo4j University,Beginner,8,apis
+379,Especialización de Cypher 379,Pluralsight,Intermediate,10,cypher
+380,Intensivo de Machine Learning 380,Neo4j University,Advanced,8,machine_learning
+381,Fundamentos de Graph Algorithms 381,Neo4j University,Advanced,20,graph_algorithms
+382,Intensivo de Neo4j 382,AWS Training,Advanced,30,neo4j
+383,Fundamentos de Power BI 383,edX,Intermediate,8,power_bi
+384,Workshop de Cypher 384,LinkedIn Learning,Beginner,4,cypher
+385,Especialización de Graph Algorithms 385,UNIPRO Academy,Advanced,10,graph_algorithms
+386,Ruta de Cypher 386,Google,Advanced,40,cypher
+387,Ruta de Python 387,UNIPRO Academy,Beginner,6,python
+388,Intensivo de Cloud 388,UNIPRO Academy,Beginner,10,cloud
+389,Lab de ETL 389,Neo4j University,Beginner,6,etl
+390,Lab de Cloud 390,Neo4j University,Advanced,24,cloud
+391,Workshop de Cloud 391,LinkedIn Learning,Beginner,6,cloud
+392,Masterclass de Data Warehousing 392,Coursera,Intermediate,40,data_warehousing
+393,Fundamentos de Cloud 393,Microsoft,Intermediate,6,cloud
+394,Intensivo de Python 394,Google,Advanced,16,python
+395,Hands-on de APIs 395,UNIPRO Academy,Advanced,6,apis
+396,Práctico de Cypher 396,Google,Intermediate,10,cypher
+397,Workshop de SQL 397,Coursera,Advanced,6,sql
+398,Lab de Neo4j 398,Coursera,Advanced,30,neo4j
+399,Lab de Machine Learning 399,Microsoft,Advanced,4,machine_learning
+400,Especialización de Docker 400,Google,Advanced,4,docker
+401,Práctico de Cybersecurity 401,Google,Beginner,20,cybersecurity
+402,Masterclass de Cypher 402,UNIPRO Academy,Advanced,30,cypher
+403,Ruta de Cypher 403,Google,Beginner,8,cypher
+404,Práctico de Data Warehousing 404,AWS Training,Advanced,20,data_warehousing
+405,Lab de ETL 405,Google,Beginner,30,etl
+406,Lab de Graph Algorithms 406,Pluralsight,Beginner,4,graph_algorithms
+407,Masterclass de Docker 407,Microsoft,Beginner,4,docker
+408,Intensivo de Graph Data Modeling 408,Microsoft,Beginner,30,graph_data_modeling
+409,Hands-on de SQL 409,Google,Advanced,4,sql
+410,Especialización de Neo4j 410,Udemy,Advanced,12,neo4j
+411,Especialización de Graph Algorithms 411,edX,Intermediate,8,graph_algorithms
+412,Bootcamp de Graph Data Modeling 412,LinkedIn Learning,Advanced,4,graph_data_modeling
+413,Masterclass de Cloud 413,AWS Training,Advanced,20,cloud
+414,Hands-on de Kubernetes 414,Google,Intermediate,20,kubernetes
+415,Lab de Machine Learning 415,UNIPRO Academy,Intermediate,24,machine_learning
+416,Hands-on de Machine Learning 416,Neo4j University,Intermediate,40,machine_learning
+417,Bootcamp de Cybersecurity 417,edX,Advanced,16,cybersecurity
+418,Especialización de Cybersecurity 418,Neo4j University,Intermediate,4,cybersecurity
+419,Bootcamp de Cybersecurity 419,LinkedIn Learning,Intermediate,8,cybersecurity
+420,Bootcamp de Power BI 420,UNIPRO Academy,Intermediate,4,power_bi
+421,Práctico de Graph Algorithms 421,Pluralsight,Beginner,30,graph_algorithms
+422,Intensivo de Cloud 422,Coursera,Intermediate,10,cloud
+423,Bootcamp de Cybersecurity 423,AWS Training,Advanced,10,cybersecurity
+424,Especialización de Python 424,Udemy,Advanced,12,python
+425,Bootcamp de Kubernetes 425,edX,Beginner,4,kubernetes
+426,Bootcamp de ETL 426,LinkedIn Learning,Advanced,6,etl
+427,Fundamentos de APIs 427,Pluralsight,Beginner,4,apis
+428,Bootcamp de Graph Data Modeling 428,Pluralsight,Beginner,20,graph_data_modeling
+429,Hands-on de Docker 429,Microsoft,Intermediate,12,docker
+430,Práctico de Power BI 430,edX,Advanced,40,power_bi
+431,Hands-on de APIs 431,edX,Intermediate,30,apis
+432,Bootcamp de Cypher 432,UNIPRO Academy,Intermediate,4,cypher
+433,Bootcamp de APIs 433,Udemy,Intermediate,20,apis
+434,Especialización de ETL 434,Google,Advanced,40,etl
+435,Masterclass de Cloud 435,Neo4j University,Intermediate,24,cloud
+436,Workshop de Graph Algorithms 436,Pluralsight,Intermediate,6,graph_algorithms
+437,Workshop de Graph Data Modeling 437,Neo4j University,Intermediate,24,graph_data_modeling
+438,Bootcamp de SQL 438,Coursera,Beginner,40,sql
+439,Ruta de SQL 439,Google,Advanced,6,sql
+440,Hands-on de SQL 440,Udemy,Beginner,20,sql
+441,Fundamentos de APIs 441,AWS Training,Intermediate,8,apis
+442,Masterclass de Graph Algorithms 442,UNIPRO Academy,Beginner,12,graph_algorithms
+443,Intensivo de Cloud 443,LinkedIn Learning,Advanced,16,cloud
+444,Intensivo de Cloud 444,LinkedIn Learning,Intermediate,24,cloud
+445,Fundamentos de Graph Data Modeling 445,Pluralsight,Beginner,24,graph_data_modeling
+446,Fundamentos de Cypher 446,Google,Beginner,4,cypher
+447,Workshop de APIs 447,Google,Beginner,16,apis
+448,Intensivo de Power BI 448,Google,Advanced,10,power_bi
+449,Fundamentos de Docker 449,edX,Beginner,24,docker
+450,Intensivo de SQL 450,edX,Advanced,4,sql
+451,Especialización de Cloud 451,Google,Intermediate,6,cloud
+452,Intensivo de APIs 452,Microsoft,Intermediate,24,apis
+453,Especialización de Machine Learning 453,LinkedIn Learning,Beginner,8,machine_learning
+454,Especialización de Python 454,Pluralsight,Intermediate,20,python
+455,Workshop de Machine Learning 455,LinkedIn Learning,Beginner,24,machine_learning
+456,Workshop de Graph Data Modeling 456,Microsoft,Intermediate,4,graph_data_modeling
+457,Masterclass de Docker 457,LinkedIn Learning,Intermediate,8,docker
+458,Lab de Neo4j 458,LinkedIn Learning,Advanced,10,neo4j
+459,Lab de Graph Data Modeling 459,Neo4j University,Advanced,10,graph_data_modeling
+460,Práctico de SQL 460,Microsoft,Intermediate,24,sql
+461,Especialización de Power BI 461,Pluralsight,Advanced,8,power_bi
+462,Workshop de Graph Algorithms 462,LinkedIn Learning,Advanced,30,graph_algorithms
+463,Lab de APIs 463,AWS Training,Beginner,20,apis
+464,Fundamentos de Data Warehousing 464,Udemy,Advanced,30,data_warehousing
+465,Ruta de Power BI 465,edX,Beginner,4,power_bi
+466,Hands-on de Cybersecurity 466,Pluralsight,Beginner,12,cybersecurity
+467,Hands-on de Neo4j 467,UNIPRO Academy,Advanced,30,neo4j
+468,Ruta de APIs 468,Coursera,Intermediate,10,apis
+469,Masterclass de Python 469,Neo4j University,Intermediate,40,python
+470,Lab de APIs 470,LinkedIn Learning,Intermediate,4,apis
+471,Práctico de SQL 471,Pluralsight,Intermediate,24,sql
+472,Lab de Neo4j 472,Microsoft,Advanced,24,neo4j
+473,Hands-on de Docker 473,Pluralsight,Intermediate,8,docker
+474,Bootcamp de Power BI 474,AWS Training,Advanced,4,power_bi
+475,Workshop de Graph Algorithms 475,Udemy,Beginner,8,graph_algorithms
+476,Práctico de Docker 476,LinkedIn Learning,Advanced,8,docker
+477,Práctico de Docker 477,Coursera,Beginner,8,docker
+478,Especialización de Graph Data Modeling 478,Google,Beginner,6,graph_data_modeling
+479,Bootcamp de Cloud 479,Google,Intermediate,24,cloud
+480,Ruta de Power BI 480,Neo4j University,Intermediate,6,power_bi
+481,Especialización de Power BI 481,UNIPRO Academy,Intermediate,8,power_bi
+482,Workshop de Python 482,Pluralsight,Beginner,12,python
+483,Workshop de ETL 483,LinkedIn Learning,Advanced,30,etl
+484,Fundamentos de Graph Algorithms 484,Pluralsight,Beginner,6,graph_algorithms
+485,Masterclass de APIs 485,AWS Training,Beginner,10,apis
+486,Especialización de Python 486,Coursera,Beginner,8,python
+487,Masterclass de Cybersecurity 487,AWS Training,Advanced,4,cybersecurity
+488,Intensivo de Cypher 488,Coursera,Advanced,20,cypher
+489,Lab de ETL 489,Neo4j University,Beginner,20,etl
+490,Fundamentos de Kubernetes 490,Neo4j University,Intermediate,24,kubernetes
+491,Fundamentos de Data Warehousing 491,edX,Beginner,20,data_warehousing
+492,Práctico de Data Warehousing 492,Google,Beginner,16,data_warehousing
+493,Fundamentos de Machine Learning 493,UNIPRO Academy,Intermediate,40,machine_learning
+494,Práctico de Graph Algorithms 494,Coursera,Intermediate,24,graph_algorithms
+495,Intensivo de Graph Data Modeling 495,Udemy,Intermediate,40,graph_data_modeling
+496,Bootcamp de Graph Algorithms 496,Google,Beginner,40,graph_algorithms
+497,Lab de ETL 497,LinkedIn Learning,Beginner,30,etl
+498,Workshop de Neo4j 498,edX,Advanced,4,neo4j
+499,Masterclass de Cybersecurity 499,Pluralsight,Intermediate,4,cybersecurity
+500,Hands-on de Graph Data Modeling 500,AWS Training,Advanced,40,graph_data_modeling
+501,Workshop de APIs 501,Pluralsight,Beginner,40,apis
+502,Ruta de Graph Algorithms 502,edX,Beginner,24,graph_algorithms
+503,Especialización de Cybersecurity 503,Google,Beginner,30,cybersecurity
+504,Bootcamp de APIs 504,Coursera,Advanced,6,apis
+505,Masterclass de APIs 505,edX,Intermediate,4,apis
+506,Ruta de ETL 506,LinkedIn Learning,Beginner,8,etl
+507,Masterclass de APIs 507,LinkedIn Learning,Intermediate,20,apis
+508,Hands-on de Machine Learning 508,Coursera,Intermediate,8,machine_learning
+509,Intensivo de Kubernetes 509,Pluralsight,Beginner,40,kubernetes
+510,Intensivo de Docker 510,AWS Training,Advanced,40,docker
+511,Fundamentos de SQL 511,Google,Advanced,4,sql
+512,Workshop de Kubernetes 512,LinkedIn Learning,Intermediate,4,kubernetes
+513,Lab de Power BI 513,Pluralsight,Intermediate,4,power_bi
+514,Fundamentos de Graph Data Modeling 514,Microsoft,Beginner,6,graph_data_modeling
+515,Especialización de Python 515,AWS Training,Beginner,8,python
+516,Bootcamp de Graph Data Modeling 516,Pluralsight,Intermediate,10,graph_data_modeling
+517,Fundamentos de Python 517,Udemy,Intermediate,30,python
+518,Fundamentos de Python 518,AWS Training,Beginner,8,python
+519,Especialización de Data Warehousing 519,Pluralsight,Beginner,10,data_warehousing
+520,Especialización de Graph Algorithms 520,UNIPRO Academy,Beginner,10,graph_algorithms
+521,Bootcamp de SQL 521,UNIPRO Academy,Beginner,16,sql
+522,Hands-on de Data Warehousing 522,Pluralsight,Beginner,6,data_warehousing
+523,Práctico de Python 523,Pluralsight,Intermediate,16,python
+524,Fundamentos de Cloud 524,edX,Intermediate,40,cloud
+525,Workshop de Kubernetes 525,Microsoft,Intermediate,10,kubernetes
+526,Práctico de Python 526,edX,Beginner,8,python
+527,Práctico de ETL 527,LinkedIn Learning,Beginner,40,etl
+528,Especialización de Power BI 528,UNIPRO Academy,Advanced,4,power_bi
+529,Ruta de SQL 529,Microsoft,Advanced,10,sql
+530,Especialización de Cypher 530,Udemy,Intermediate,6,cypher
+531,Ruta de Graph Data Modeling 531,UNIPRO Academy,Intermediate,16,graph_data_modeling
+532,Ruta de Cloud 532,LinkedIn Learning,Intermediate,40,cloud
+533,Ruta de Python 533,Coursera,Beginner,6,python
+534,Práctico de Graph Data Modeling 534,Google,Intermediate,10,graph_data_modeling
+535,Lab de Cypher 535,Google,Intermediate,40,cypher
+536,Intensivo de SQL 536,Coursera,Beginner,4,sql
+537,Especialización de Power BI 537,AWS Training,Intermediate,6,power_bi
+538,Práctico de Python 538,Google,Intermediate,40,python
+539,Bootcamp de Cloud 539,AWS Training,Beginner,8,cloud
+540,Lab de Power BI 540,Neo4j University,Advanced,10,power_bi
+541,Lab de Cypher 541,Pluralsight,Beginner,20,cypher
+542,Masterclass de Graph Data Modeling 542,Udemy,Intermediate,16,graph_data_modeling
+543,Workshop de Graph Data Modeling 543,LinkedIn Learning,Intermediate,20,graph_data_modeling
+544,Especialización de Cypher 544,UNIPRO Academy,Advanced,20,cypher
+545,Lab de Cypher 545,edX,Beginner,4,cypher
+546,Ruta de Python 546,Coursera,Advanced,30,python
+547,Intensivo de Data Warehousing 547,Pluralsight,Beginner,12,data_warehousing
+548,Práctico de Neo4j 548,Coursera,Advanced,6,neo4j
+549,Hands-on de Cypher 549,edX,Intermediate,16,cypher
+550,Hands-on de Neo4j 550,Neo4j University,Intermediate,10,neo4j
+551,Especialización de Cybersecurity 551,Neo4j University,Advanced,6,cybersecurity
+552,Práctico de ETL 552,UNIPRO Academy,Advanced,24,etl
+553,Ruta de Docker 553,Google,Advanced,8,docker
+554,Lab de ETL 554,AWS Training,Beginner,16,etl
+555,Intensivo de Cybersecurity 555,Coursera,Beginner,6,cybersecurity
+556,Workshop de Kubernetes 556,edX,Advanced,12,kubernetes
+557,Hands-on de Machine Learning 557,Microsoft,Beginner,40,machine_learning
+558,Fundamentos de Graph Data Modeling 558,Udemy,Advanced,24,graph_data_modeling
+559,Fundamentos de Docker 559,LinkedIn Learning,Intermediate,20,docker
+560,Ruta de APIs 560,edX,Beginner,10,apis
+561,Especialización de Cloud 561,AWS Training,Advanced,30,cloud
+562,Hands-on de Power BI 562,Neo4j University,Intermediate,40,power_bi
+563,Especialización de Neo4j 563,Pluralsight,Intermediate,30,neo4j
+564,Intensivo de Machine Learning 564,LinkedIn Learning,Intermediate,4,machine_learning
+565,Workshop de Data Warehousing 565,Pluralsight,Advanced,30,data_warehousing
+566,Hands-on de Cloud 566,Microsoft,Advanced,10,cloud
+567,Workshop de APIs 567,Coursera,Intermediate,20,apis
+568,Lab de Cybersecurity 568,Coursera,Intermediate,8,cybersecurity
+569,Workshop de Neo4j 569,Udemy,Intermediate,24,neo4j
+570,Ruta de Graph Data Modeling 570,Coursera,Intermediate,12,graph_data_modeling
+571,Práctico de Data Warehousing 571,Pluralsight,Advanced,16,data_warehousing
+572,Ruta de Cypher 572,LinkedIn Learning,Beginner,30,cypher
+573,Especialización de Graph Data Modeling 573,Coursera,Intermediate,4,graph_data_modeling
+574,Bootcamp de Cloud 574,Microsoft,Beginner,16,cloud
+575,Masterclass de Cybersecurity 575,Coursera,Intermediate,24,cybersecurity
+576,Workshop de Graph Data Modeling 576,LinkedIn Learning,Beginner,40,graph_data_modeling
+577,Intensivo de Cloud 577,Coursera,Advanced,4,cloud
+578,Especialización de Cypher 578,Coursera,Beginner,12,cypher
+579,Intensivo de Cypher 579,AWS Training,Advanced,8,cypher
+580,Fundamentos de Python 580,UNIPRO Academy,Advanced,20,python
+581,Especialización de Power BI 581,Google,Beginner,8,power_bi
+582,Masterclass de Power BI 582,UNIPRO Academy,Intermediate,16,power_bi
+583,Fundamentos de APIs 583,AWS Training,Intermediate,20,apis
+584,Especialización de Graph Algorithms 584,Neo4j University,Intermediate,12,graph_algorithms
+585,Fundamentos de Machine Learning 585,UNIPRO Academy,Advanced,10,machine_learning
+586,Bootcamp de Python 586,UNIPRO Academy,Advanced,6,python
+587,Práctico de Python 587,edX,Intermediate,10,python
+588,Ruta de Kubernetes 588,Coursera,Beginner,8,kubernetes
+589,Lab de ETL 589,Neo4j University,Beginner,40,etl
+590,Masterclass de Graph Algorithms 590,UNIPRO Academy,Advanced,4,graph_algorithms
+591,Fundamentos de Power BI 591,Microsoft,Beginner,24,power_bi
+592,Fundamentos de Docker 592,Pluralsight,Intermediate,12,docker
+593,Bootcamp de Power BI 593,LinkedIn Learning,Beginner,24,power_bi
+594,Especialización de Power BI 594,LinkedIn Learning,Intermediate,10,power_bi
+595,Workshop de Cybersecurity 595,Pluralsight,Beginner,4,cybersecurity
+596,Hands-on de Python 596,edX,Intermediate,8,python
+597,Intensivo de Graph Algorithms 597,LinkedIn Learning,Beginner,24,graph_algorithms
+598,Masterclass de APIs 598,Coursera,Beginner,6,apis
+599,Práctico de Graph Algorithms 599,LinkedIn Learning,Beginner,4,graph_algorithms
+600,Ruta de Machine Learning 600,Udemy,Intermediate,6,machine_learning
+601,Intensivo de Power BI 601,Coursera,Beginner,6,power_bi
+602,Hands-on de Power BI 602,Udemy,Intermediate,6,power_bi
+603,Práctico de Data Warehousing 603,Google,Beginner,24,data_warehousing
+604,Masterclass de Docker 604,Microsoft,Intermediate,24,docker
+605,Fundamentos de Power BI 605,LinkedIn Learning,Advanced,10,power_bi
+606,Intensivo de Cloud 606,AWS Training,Intermediate,8,cloud
+607,Fundamentos de Python 607,Udemy,Intermediate,6,python
+608,Hands-on de Docker 608,Pluralsight,Beginner,30,docker
+609,Lab de Kubernetes 609,UNIPRO Academy,Beginner,24,kubernetes
+610,Ruta de Python 610,AWS Training,Beginner,8,python
+611,Especialización de ETL 611,UNIPRO Academy,Beginner,12,etl
+612,Práctico de Kubernetes 612,Google,Intermediate,12,kubernetes
+613,Intensivo de Cloud 613,Neo4j University,Intermediate,8,cloud
+614,Intensivo de Graph Algorithms 614,Pluralsight,Intermediate,16,graph_algorithms
+615,Práctico de Cloud 615,Microsoft,Intermediate,40,cloud
+616,Lab de ETL 616,AWS Training,Beginner,8,etl
+617,Intensivo de SQL 617,Microsoft,Intermediate,10,sql
+618,Especialización de Power BI 618,LinkedIn Learning,Advanced,40,power_bi
+619,Intensivo de Neo4j 619,Google,Beginner,10,neo4j
+620,Masterclass de Kubernetes 620,Udemy,Beginner,4,kubernetes
+621,Ruta de Neo4j 621,Pluralsight,Beginner,30,neo4j
+622,Hands-on de APIs 622,Pluralsight,Intermediate,12,apis
+623,Bootcamp de Graph Data Modeling 623,LinkedIn Learning,Advanced,12,graph_data_modeling
+624,Hands-on de Graph Algorithms 624,AWS Training,Advanced,4,graph_algorithms
+625,Fundamentos de APIs 625,AWS Training,Beginner,24,apis
+626,Bootcamp de Kubernetes 626,Udemy,Advanced,20,kubernetes
+627,Intensivo de Neo4j 627,Google,Advanced,20,neo4j
+628,Bootcamp de Cybersecurity 628,Udemy,Beginner,24,cybersecurity
+629,Workshop de Kubernetes 629,Udemy,Intermediate,10,kubernetes
+630,Fundamentos de Docker 630,LinkedIn Learning,Advanced,20,docker
+631,Workshop de Cypher 631,Google,Advanced,16,cypher
+632,Masterclass de Data Warehousing 632,Udemy,Intermediate,24,data_warehousing
+633,Masterclass de Graph Data Modeling 633,edX,Intermediate,30,graph_data_modeling
+634,Bootcamp de Data Warehousing 634,Pluralsight,Advanced,12,data_warehousing
+635,Bootcamp de Data Warehousing 635,Microsoft,Intermediate,30,data_warehousing
+636,Ruta de Cybersecurity 636,AWS Training,Beginner,4,cybersecurity
+637,Lab de Graph Data Modeling 637,Google,Advanced,8,graph_data_modeling
+638,Bootcamp de Python 638,UNIPRO Academy,Advanced,12,python
+639,Fundamentos de SQL 639,Google,Advanced,30,sql
+640,Fundamentos de Power BI 640,Udemy,Beginner,16,power_bi
+641,Masterclass de Power BI 641,UNIPRO Academy,Intermediate,4,power_bi
+642,Práctico de Graph Algorithms 642,Google,Intermediate,20,graph_algorithms
+643,Workshop de Python 643,edX,Beginner,4,python
+644,Lab de Power BI 644,Google,Advanced,10,power_bi
+645,Masterclass de Neo4j 645,Google,Advanced,6,neo4j
+646,Especialización de Kubernetes 646,Coursera,Advanced,8,kubernetes
+647,Masterclass de Power BI 647,Google,Advanced,12,power_bi
+648,Bootcamp de Cloud 648,AWS Training,Beginner,30,cloud
+649,Workshop de Docker 649,Microsoft,Intermediate,16,docker
+650,Workshop de Graph Algorithms 650,Pluralsight,Advanced,40,graph_algorithms
+651,Fundamentos de Cloud 651,LinkedIn Learning,Intermediate,10,cloud
+652,Masterclass de Python 652,edX,Intermediate,8,python
+653,Workshop de Cybersecurity 653,AWS Training,Advanced,24,cybersecurity
+654,Fundamentos de Power BI 654,Pluralsight,Advanced,16,power_bi
+655,Fundamentos de APIs 655,Udemy,Advanced,8,apis
+656,Bootcamp de Graph Data Modeling 656,Google,Beginner,12,graph_data_modeling
+657,Workshop de Machine Learning 657,LinkedIn Learning,Advanced,6,machine_learning
+658,Masterclass de Kubernetes 658,Google,Beginner,20,kubernetes
+659,Práctico de Power BI 659,Coursera,Beginner,6,power_bi
+660,Especialización de Power BI 660,AWS Training,Advanced,4,power_bi
+661,Práctico de Docker 661,AWS Training,Advanced,8,docker
+662,Workshop de Cloud 662,AWS Training,Beginner,40,cloud
+663,Workshop de APIs 663,Coursera,Intermediate,6,apis
+664,Especialización de Kubernetes 664,LinkedIn Learning,Advanced,16,kubernetes
+665,Práctico de Data Warehousing 665,edX,Intermediate,6,data_warehousing
+666,Fundamentos de Docker 666,Microsoft,Intermediate,12,docker
+667,Intensivo de Python 667,Coursera,Intermediate,40,python
+668,Especialización de ETL 668,UNIPRO Academy,Beginner,40,etl
+669,Práctico de Kubernetes 669,Neo4j University,Advanced,10,kubernetes
+670,Intensivo de SQL 670,AWS Training,Advanced,4,sql
+671,Intensivo de Cypher 671,Pluralsight,Advanced,40,cypher
+672,Lab de Power BI 672,UNIPRO Academy,Intermediate,40,power_bi
+673,Bootcamp de Graph Data Modeling 673,AWS Training,Intermediate,30,graph_data_modeling
+674,Práctico de Docker 674,UNIPRO Academy,Intermediate,12,docker
+675,Workshop de Python 675,Coursera,Intermediate,10,python
+676,Workshop de Kubernetes 676,Udemy,Advanced,10,kubernetes
+677,Fundamentos de Cloud 677,Coursera,Advanced,6,cloud
+678,Workshop de Docker 678,Neo4j University,Intermediate,24,docker
+679,Fundamentos de Kubernetes 679,LinkedIn Learning,Advanced,20,kubernetes
+680,Intensivo de Machine Learning 680,edX,Advanced,6,machine_learning
+681,Workshop de SQL 681,AWS Training,Beginner,6,sql
+682,Intensivo de Power BI 682,AWS Training,Advanced,8,power_bi
+683,Workshop de Data Warehousing 683,Neo4j University,Intermediate,4,data_warehousing
+684,Lab de Graph Algorithms 684,UNIPRO Academy,Beginner,24,graph_algorithms
+685,Ruta de Neo4j 685,Coursera,Intermediate,12,neo4j
+686,Lab de Neo4j 686,UNIPRO Academy,Beginner,4,neo4j
+687,Workshop de Kubernetes 687,UNIPRO Academy,Advanced,6,kubernetes
+688,Especialización de Docker 688,LinkedIn Learning,Beginner,30,docker
+689,Ruta de Graph Data Modeling 689,LinkedIn Learning,Advanced,8,graph_data_modeling
+690,Intensivo de Machine Learning 690,Udemy,Advanced,16,machine_learning
+691,Fundamentos de Cloud 691,UNIPRO Academy,Intermediate,8,cloud
+692,Workshop de Kubernetes 692,AWS Training,Intermediate,40,kubernetes
+693,Lab de Graph Data Modeling 693,Udemy,Beginner,6,graph_data_modeling
+694,Workshop de Power BI 694,UNIPRO Academy,Intermediate,40,power_bi
+695,Bootcamp de Machine Learning 695,AWS Training,Intermediate,6,machine_learning
+696,Lab de Graph Data Modeling 696,LinkedIn Learning,Intermediate,8,graph_data_modeling
+697,Workshop de Neo4j 697,UNIPRO Academy,Advanced,8,neo4j
+698,Fundamentos de APIs 698,edX,Advanced,6,apis
+699,Fundamentos de Docker 699,Coursera,Intermediate,10,docker
+700,Intensivo de Machine Learning 700,Udemy,Intermediate,10,machine_learning
+701,Ruta de SQL 701,LinkedIn Learning,Advanced,8,sql
+702,Intensivo de Machine Learning 702,Pluralsight,Advanced,24,machine_learning
+703,Fundamentos de Data Warehousing 703,Neo4j University,Beginner,4,data_warehousing
+704,Intensivo de Cybersecurity 704,Coursera,Intermediate,8,cybersecurity
+705,Hands-on de Machine Learning 705,edX,Intermediate,40,machine_learning
+706,Ruta de Neo4j 706,Neo4j University,Beginner,10,neo4j
+707,Hands-on de Docker 707,edX,Beginner,8,docker
+708,Intensivo de Kubernetes 708,AWS Training,Intermediate,20,kubernetes
+709,Fundamentos de APIs 709,edX,Advanced,20,apis
+710,Lab de Machine Learning 710,UNIPRO Academy,Beginner,12,machine_learning
+711,Masterclass de Graph Algorithms 711,Pluralsight,Beginner,12,graph_algorithms
+712,Hands-on de Neo4j 712,Pluralsight,Beginner,20,neo4j
+713,Workshop de ETL 713,Neo4j University,Advanced,30,etl
+714,Lab de APIs 714,Pluralsight,Intermediate,4,apis
+715,Masterclass de Graph Algorithms 715,Udemy,Advanced,30,graph_algorithms
+716,Bootcamp de Graph Data Modeling 716,Pluralsight,Advanced,40,graph_data_modeling
+717,Lab de Docker 717,edX,Advanced,16,docker
+718,Masterclass de ETL 718,LinkedIn Learning,Beginner,10,etl
+719,Práctico de Graph Data Modeling 719,LinkedIn Learning,Beginner,20,graph_data_modeling
+720,Lab de Power BI 720,AWS Training,Advanced,30,power_bi
+721,Intensivo de Power BI 721,AWS Training,Beginner,8,power_bi
+722,Ruta de SQL 722,Udemy,Advanced,24,sql
+723,Especialización de Data Warehousing 723,Coursera,Advanced,4,data_warehousing
+724,Especialización de ETL 724,AWS Training,Advanced,20,etl
+725,Especialización de Graph Data Modeling 725,LinkedIn Learning,Advanced,40,graph_data_modeling
+726,Fundamentos de Graph Data Modeling 726,LinkedIn Learning,Intermediate,20,graph_data_modeling
+727,Lab de Cypher 727,AWS Training,Advanced,20,cypher
+728,Práctico de Graph Data Modeling 728,Pluralsight,Intermediate,40,graph_data_modeling
+729,Ruta de Python 729,Coursera,Advanced,40,python
+730,Workshop de Cloud 730,edX,Beginner,16,cloud
+731,Workshop de Cloud 731,Google,Intermediate,30,cloud
+732,Lab de Kubernetes 732,Google,Intermediate,40,kubernetes
+733,Hands-on de Graph Data Modeling 733,LinkedIn Learning,Beginner,12,graph_data_modeling
+734,Práctico de Cypher 734,Udemy,Advanced,8,cypher
+735,Workshop de Neo4j 735,Udemy,Advanced,10,neo4j
+736,Hands-on de Cypher 736,edX,Advanced,30,cypher
+737,Práctico de Cybersecurity 737,AWS Training,Beginner,8,cybersecurity
+738,Masterclass de Graph Data Modeling 738,UNIPRO Academy,Beginner,4,graph_data_modeling
+739,Bootcamp de Data Warehousing 739,Udemy,Intermediate,4,data_warehousing
+740,Lab de Machine Learning 740,LinkedIn Learning,Beginner,40,machine_learning
+741,Bootcamp de Cybersecurity 741,Udemy,Advanced,10,cybersecurity
+742,Fundamentos de APIs 742,Udemy,Advanced,40,apis
+743,Práctico de Cypher 743,Udemy,Beginner,4,cypher
+744,Workshop de Graph Algorithms 744,AWS Training,Intermediate,16,graph_algorithms
+745,Workshop de Graph Data Modeling 745,Google,Beginner,4,graph_data_modeling
+746,Ruta de Python 746,Microsoft,Intermediate,16,python
+747,Masterclass de APIs 747,Udemy,Beginner,8,apis
+748,Fundamentos de ETL 748,Pluralsight,Advanced,8,etl
+749,Workshop de Neo4j 749,Coursera,Beginner,16,neo4j
+750,Práctico de APIs 750,UNIPRO Academy,Advanced,24,apis
+751,Masterclass de Power BI 751,AWS Training,Beginner,40,power_bi
+752,Workshop de ETL 752,AWS Training,Intermediate,8,etl
+753,Ruta de Data Warehousing 753,Microsoft,Beginner,16,data_warehousing
+754,Workshop de Power BI 754,Coursera,Beginner,6,power_bi
+755,Hands-on de Docker 755,edX,Advanced,4,docker
+756,Ruta de Docker 756,LinkedIn Learning,Intermediate,6,docker
+757,Workshop de Data Warehousing 757,LinkedIn Learning,Advanced,16,data_warehousing
+758,Especialización de Docker 758,Udemy,Beginner,12,docker
+759,Intensivo de Graph Algorithms 759,Google,Intermediate,6,graph_algorithms
+760,Especialización de Cybersecurity 760,Pluralsight,Beginner,6,cybersecurity
+761,Práctico de Machine Learning 761,Google,Advanced,40,machine_learning
+762,Masterclass de SQL 762,Neo4j University,Beginner,4,sql
+763,Lab de Docker 763,Google,Beginner,8,docker
+764,Lab de Cypher 764,Pluralsight,Beginner,10,cypher
+765,Bootcamp de Power BI 765,AWS Training,Advanced,8,power_bi
+766,Especialización de Neo4j 766,Pluralsight,Advanced,40,neo4j
+767,Bootcamp de Python 767,AWS Training,Beginner,30,python
+768,Práctico de Docker 768,edX,Intermediate,4,docker
+769,Intensivo de Graph Algorithms 769,Coursera,Intermediate,12,graph_algorithms
+770,Lab de ETL 770,Udemy,Advanced,40,etl
+771,Intensivo de Neo4j 771,Google,Intermediate,4,neo4j
+772,Workshop de Docker 772,LinkedIn Learning,Beginner,10,docker
+773,Bootcamp de SQL 773,UNIPRO Academy,Advanced,24,sql
+774,Hands-on de Power BI 774,Neo4j University,Advanced,6,power_bi
+775,Lab de Cloud 775,UNIPRO Academy,Advanced,30,cloud
+776,Hands-on de APIs 776,Neo4j University,Intermediate,10,apis
+777,Especialización de Machine Learning 777,Microsoft,Advanced,16,machine_learning
+778,Intensivo de Cypher 778,Pluralsight,Intermediate,10,cypher
+779,Fundamentos de ETL 779,AWS Training,Beginner,30,etl
+780,Hands-on de Cloud 780,Microsoft,Beginner,16,cloud
+781,Workshop de SQL 781,Neo4j University,Advanced,6,sql
+782,Lab de SQL 782,Udemy,Intermediate,40,sql
+783,Hands-on de Power BI 783,edX,Advanced,6,power_bi
+784,Masterclass de Data Warehousing 784,UNIPRO Academy,Advanced,24,data_warehousing
+785,Lab de APIs 785,UNIPRO Academy,Beginner,12,apis
+786,Ruta de Neo4j 786,edX,Beginner,12,neo4j
+787,Intensivo de SQL 787,Neo4j University,Advanced,12,sql
+788,Práctico de Neo4j 788,AWS Training,Advanced,30,neo4j
+789,Especialización de Graph Data Modeling 789,Neo4j University,Advanced,4,graph_data_modeling
+790,Práctico de Machine Learning 790,AWS Training,Intermediate,20,machine_learning
+791,Especialización de Cloud 791,UNIPRO Academy,Beginner,30,cloud
+792,Workshop de SQL 792,Microsoft,Intermediate,12,sql
+793,Fundamentos de Machine Learning 793,Google,Advanced,30,machine_learning
+794,Especialización de Neo4j 794,LinkedIn Learning,Intermediate,8,neo4j
+795,Hands-on de Python 795,Neo4j University,Intermediate,12,python
+796,Masterclass de Cybersecurity 796,AWS Training,Beginner,10,cybersecurity
+797,Práctico de Cybersecurity 797,Pluralsight,Advanced,20,cybersecurity
+798,Práctico de Graph Data Modeling 798,UNIPRO Academy,Beginner,40,graph_data_modeling
+799,Intensivo de Docker 799,Udemy,Beginner,30,docker
+800,Workshop de Data Warehousing 800,UNIPRO Academy,Intermediate,24,data_warehousing
+801,Workshop de Neo4j 801,AWS Training,Advanced,24,neo4j
+802,Ruta de Neo4j 802,Coursera,Beginner,6,neo4j
+803,Ruta de Python 803,Neo4j University,Advanced,12,python
+804,Práctico de APIs 804,Neo4j University,Beginner,10,apis
+805,Especialización de Machine Learning 805,LinkedIn Learning,Intermediate,6,machine_learning
+806,Hands-on de Cypher 806,Microsoft,Intermediate,30,cypher
+807,Workshop de SQL 807,UNIPRO Academy,Intermediate,8,sql
+808,Masterclass de Cloud 808,edX,Beginner,6,cloud
+809,Ruta de Cypher 809,LinkedIn Learning,Beginner,12,cypher
+810,Especialización de Docker 810,Coursera,Beginner,16,docker
+811,Ruta de Graph Algorithms 811,Google,Advanced,4,graph_algorithms
+812,Lab de Docker 812,Udemy,Intermediate,12,docker
+813,Lab de ETL 813,UNIPRO Academy,Advanced,8,etl
+814,Práctico de Data Warehousing 814,Neo4j University,Intermediate,6,data_warehousing
+815,Masterclass de ETL 815,Neo4j University,Advanced,40,etl
+816,Práctico de SQL 816,AWS Training,Intermediate,20,sql
+817,Lab de Data Warehousing 817,LinkedIn Learning,Intermediate,8,data_warehousing
+818,Masterclass de APIs 818,Coursera,Beginner,16,apis
+819,Ruta de Cybersecurity 819,LinkedIn Learning,Beginner,16,cybersecurity
+820,Fundamentos de Graph Algorithms 820,Coursera,Advanced,20,graph_algorithms
+821,Workshop de Cypher 821,Udemy,Beginner,8,cypher
+822,Lab de SQL 822,Microsoft,Intermediate,4,sql
+823,Masterclass de Graph Algorithms 823,Microsoft,Intermediate,4,graph_algorithms
+824,Fundamentos de SQL 824,LinkedIn Learning,Beginner,4,sql
+825,Masterclass de Power BI 825,edX,Intermediate,4,power_bi
+826,Fundamentos de SQL 826,Coursera,Advanced,30,sql
+827,Bootcamp de Data Warehousing 827,LinkedIn Learning,Intermediate,4,data_warehousing
+828,Workshop de Python 828,AWS Training,Beginner,4,python
+829,Práctico de APIs 829,AWS Training,Beginner,40,apis
+830,Especialización de Cypher 830,UNIPRO Academy,Advanced,10,cypher
+831,Fundamentos de Machine Learning 831,Coursera,Intermediate,8,machine_learning
+832,Ruta de Neo4j 832,Udemy,Intermediate,8,neo4j
+833,Práctico de Cybersecurity 833,Google,Intermediate,40,cybersecurity
+834,Ruta de Docker 834,Pluralsight,Beginner,6,docker
+835,Especialización de Python 835,LinkedIn Learning,Beginner,4,python
+836,Workshop de Python 836,LinkedIn Learning,Beginner,8,python
+837,Lab de APIs 837,Pluralsight,Intermediate,12,apis
+838,Hands-on de Machine Learning 838,Udemy,Intermediate,40,machine_learning
+839,Fundamentos de Graph Data Modeling 839,Pluralsight,Intermediate,30,graph_data_modeling
+840,Intensivo de Python 840,Udemy,Intermediate,10,python
+841,Bootcamp de Kubernetes 841,Neo4j University,Advanced,4,kubernetes
+842,Workshop de Machine Learning 842,Neo4j University,Advanced,30,machine_learning
+843,Masterclass de Python 843,Pluralsight,Advanced,16,python
+844,Práctico de Kubernetes 844,Udemy,Intermediate,16,kubernetes
+845,Masterclass de Power BI 845,Coursera,Beginner,40,power_bi
+846,Hands-on de Cloud 846,Coursera,Beginner,24,cloud
+847,Lab de Python 847,UNIPRO Academy,Intermediate,20,python
+848,Fundamentos de Power BI 848,edX,Intermediate,6,power_bi
+849,Masterclass de Cloud 849,Coursera,Intermediate,30,cloud
+850,Fundamentos de Power BI 850,Google,Beginner,12,power_bi
+851,Especialización de Docker 851,LinkedIn Learning,Intermediate,4,docker
+852,Práctico de Graph Data Modeling 852,Pluralsight,Beginner,16,graph_data_modeling
+853,Hands-on de Kubernetes 853,UNIPRO Academy,Beginner,16,kubernetes
+854,Fundamentos de Graph Algorithms 854,Neo4j University,Intermediate,10,graph_algorithms
+855,Bootcamp de Machine Learning 855,LinkedIn Learning,Intermediate,6,machine_learning
+856,Masterclass de SQL 856,UNIPRO Academy,Intermediate,30,sql
+857,Ruta de Docker 857,UNIPRO Academy,Intermediate,8,docker
+858,Intensivo de Graph Data Modeling 858,Udemy,Beginner,10,graph_data_modeling
+859,Ruta de Graph Algorithms 859,Pluralsight,Intermediate,24,graph_algorithms
+860,Intensivo de Python 860,UNIPRO Academy,Advanced,20,python
+861,Hands-on de ETL 861,edX,Beginner,16,etl
+862,Lab de Cybersecurity 862,AWS Training,Beginner,16,cybersecurity
+863,Lab de Cybersecurity 863,Neo4j University,Advanced,6,cybersecurity
+864,Workshop de Cloud 864,AWS Training,Advanced,20,cloud
+865,Intensivo de Power BI 865,LinkedIn Learning,Advanced,10,power_bi
+866,Hands-on de Power BI 866,LinkedIn Learning,Beginner,30,power_bi
+867,Práctico de Graph Algorithms 867,Pluralsight,Advanced,40,graph_algorithms
+868,Intensivo de Docker 868,Microsoft,Intermediate,20,docker
+869,Fundamentos de Kubernetes 869,Pluralsight,Advanced,24,kubernetes
+870,Especialización de Neo4j 870,edX,Advanced,24,neo4j
+871,Lab de APIs 871,Neo4j University,Advanced,12,apis
+872,Fundamentos de Graph Algorithms 872,Neo4j University,Advanced,8,graph_algorithms
+873,Fundamentos de Graph Data Modeling 873,AWS Training,Intermediate,20,graph_data_modeling
+874,Práctico de Docker 874,edX,Beginner,8,docker
+875,Ruta de Cybersecurity 875,Google,Beginner,8,cybersecurity
+876,Ruta de Graph Algorithms 876,LinkedIn Learning,Intermediate,12,graph_algorithms
+877,Especialización de Neo4j 877,Microsoft,Beginner,16,neo4j
+878,Especialización de Graph Algorithms 878,LinkedIn Learning,Intermediate,20,graph_algorithms
+879,Ruta de Python 879,Coursera,Intermediate,8,python
+880,Lab de Docker 880,edX,Advanced,8,docker
+881,Workshop de Graph Algorithms 881,Pluralsight,Advanced,8,graph_algorithms
+882,Especialización de Neo4j 882,edX,Advanced,8,neo4j
+883,Ruta de Neo4j 883,Neo4j University,Intermediate,4,neo4j
+884,Masterclass de Cypher 884,AWS Training,Beginner,10,cypher
+885,Especialización de Cloud 885,Microsoft,Intermediate,12,cloud
+886,Práctico de Graph Data Modeling 886,Udemy,Intermediate,6,graph_data_modeling
+887,Ruta de Python 887,Microsoft,Beginner,40,python
+888,Lab de Neo4j 888,Pluralsight,Intermediate,6,neo4j
+889,Intensivo de SQL 889,Pluralsight,Beginner,20,sql
+890,Lab de Neo4j 890,Pluralsight,Intermediate,40,neo4j
+891,Ruta de Cybersecurity 891,AWS Training,Beginner,10,cybersecurity
+892,Práctico de Kubernetes 892,Neo4j University,Beginner,4,kubernetes
+893,Masterclass de Cybersecurity 893,Udemy,Beginner,10,cybersecurity
+894,Especialización de Machine Learning 894,Coursera,Intermediate,8,machine_learning
+895,Especialización de Data Warehousing 895,Google,Intermediate,24,data_warehousing
+896,Práctico de Docker 896,edX,Beginner,20,docker
+897,Workshop de Data Warehousing 897,UNIPRO Academy,Intermediate,20,data_warehousing
+898,Intensivo de Data Warehousing 898,Google,Beginner,24,data_warehousing
+899,Práctico de Neo4j 899,Microsoft,Intermediate,4,neo4j
+900,Masterclass de Graph Algorithms 900,UNIPRO Academy,Intermediate,40,graph_algorithms
+901,Especialización de SQL 901,AWS Training,Advanced,12,sql
+902,Intensivo de Graph Data Modeling 902,Neo4j University,Advanced,4,graph_data_modeling
+903,Lab de Machine Learning 903,Udemy,Advanced,4,machine_learning
+904,Lab de Graph Data Modeling 904,Udemy,Beginner,20,graph_data_modeling
+905,Hands-on de Docker 905,Microsoft,Beginner,20,docker
+906,Masterclass de Docker 906,Coursera,Intermediate,40,docker
+907,Fundamentos de Data Warehousing 907,LinkedIn Learning,Beginner,4,data_warehousing
+908,Fundamentos de APIs 908,edX,Advanced,20,apis
+909,Workshop de Graph Algorithms 909,Pluralsight,Advanced,20,graph_algorithms
+910,Intensivo de Data Warehousing 910,LinkedIn Learning,Advanced,6,data_warehousing
+911,Ruta de ETL 911,Google,Intermediate,16,etl
+912,Lab de Python 912,AWS Training,Beginner,6,python
+913,Práctico de Kubernetes 913,AWS Training,Advanced,40,kubernetes
+914,Lab de Machine Learning 914,AWS Training,Advanced,12,machine_learning
+915,Ruta de APIs 915,Neo4j University,Intermediate,40,apis
+916,Workshop de Data Warehousing 916,LinkedIn Learning,Beginner,40,data_warehousing
+917,Ruta de Cybersecurity 917,Pluralsight,Intermediate,4,cybersecurity
+918,Intensivo de APIs 918,AWS Training,Advanced,10,apis
+919,Masterclass de Graph Data Modeling 919,LinkedIn Learning,Intermediate,10,graph_data_modeling
+920,Especialización de Graph Data Modeling 920,edX,Advanced,12,graph_data_modeling
+921,Masterclass de Data Warehousing 921,Neo4j University,Beginner,6,data_warehousing
+922,Workshop de Graph Data Modeling 922,AWS Training,Advanced,30,graph_data_modeling
+923,Bootcamp de Cloud 923,Neo4j University,Intermediate,40,cloud
+924,Workshop de ETL 924,Pluralsight,Beginner,12,etl
+925,Fundamentos de Neo4j 925,Neo4j University,Beginner,24,neo4j
+926,Especialización de Power BI 926,Coursera,Beginner,40,power_bi
+927,Intensivo de Kubernetes 927,Google,Intermediate,8,kubernetes
+928,Especialización de APIs 928,Pluralsight,Intermediate,24,apis
+929,Workshop de Cybersecurity 929,Google,Beginner,30,cybersecurity
+930,Workshop de Cloud 930,Microsoft,Beginner,8,cloud
+931,Lab de Graph Algorithms 931,Microsoft,Advanced,30,graph_algorithms
+932,Lab de Machine Learning 932,UNIPRO Academy,Intermediate,30,machine_learning
+933,Intensivo de APIs 933,Neo4j University,Intermediate,30,apis
+934,Masterclass de Neo4j 934,Neo4j University,Advanced,10,neo4j
+935,Intensivo de Cybersecurity 935,AWS Training,Advanced,16,cybersecurity
+936,Intensivo de Power BI 936,Google,Advanced,40,power_bi
+937,Workshop de Python 937,Udemy,Intermediate,4,python
+938,Hands-on de Cloud 938,Microsoft,Intermediate,24,cloud
+939,Intensivo de Python 939,AWS Training,Intermediate,10,python
+940,Workshop de Data Warehousing 940,edX,Beginner,40,data_warehousing
+941,Lab de APIs 941,Coursera,Beginner,20,apis
+942,Bootcamp de Cloud 942,UNIPRO Academy,Advanced,4,cloud
+943,Especialización de Python 943,LinkedIn Learning,Beginner,20,python
+944,Especialización de Power BI 944,UNIPRO Academy,Beginner,20,power_bi
+945,Hands-on de SQL 945,Pluralsight,Advanced,24,sql
+946,Workshop de Machine Learning 946,LinkedIn Learning,Intermediate,16,machine_learning
+947,Workshop de Docker 947,LinkedIn Learning,Intermediate,16,docker
+948,Hands-on de Cloud 948,Google,Intermediate,6,cloud
+949,Intensivo de Graph Data Modeling 949,Google,Intermediate,12,graph_data_modeling
+950,Fundamentos de Neo4j 950,UNIPRO Academy,Intermediate,30,neo4j
+951,Hands-on de Docker 951,Microsoft,Intermediate,30,docker
+952,Especialización de APIs 952,Udemy,Advanced,4,apis
+953,Bootcamp de SQL 953,LinkedIn Learning,Intermediate,16,sql
+954,Hands-on de ETL 954,Neo4j University,Beginner,8,etl
+955,Intensivo de Data Warehousing 955,Udemy,Intermediate,6,data_warehousing
+956,Workshop de Cloud 956,AWS Training,Advanced,24,cloud
+957,Intensivo de Data Warehousing 957,UNIPRO Academy,Beginner,10,data_warehousing
+958,Workshop de Graph Algorithms 958,LinkedIn Learning,Advanced,20,graph_algorithms
+959,Workshop de Neo4j 959,edX,Intermediate,24,neo4j
+960,Fundamentos de APIs 960,Neo4j University,Intermediate,4,apis
+961,Masterclass de Graph Algorithms 961,edX,Beginner,40,graph_algorithms
+962,Intensivo de ETL 962,Coursera,Beginner,30,etl
+963,Masterclass de Machine Learning 963,UNIPRO Academy,Beginner,4,machine_learning
+964,Hands-on de Cloud 964,UNIPRO Academy,Advanced,40,cloud
+965,Workshop de Cybersecurity 965,edX,Beginner,40,cybersecurity
+966,Intensivo de Cloud 966,Neo4j University,Beginner,12,cloud
+967,Ruta de Machine Learning 967,UNIPRO Academy,Advanced,20,machine_learning
+968,Bootcamp de Machine Learning 968,AWS Training,Intermediate,40,machine_learning
+969,Ruta de Docker 969,Google,Beginner,12,docker
+970,Especialización de SQL 970,Microsoft,Intermediate,6,sql
+971,Hands-on de Graph Algorithms 971,LinkedIn Learning,Advanced,12,graph_algorithms
+972,Fundamentos de Kubernetes 972,Udemy,Intermediate,4,kubernetes
+973,Práctico de Docker 973,Pluralsight,Intermediate,24,docker
+974,Workshop de ETL 974,UNIPRO Academy,Advanced,16,etl
+975,Práctico de Docker 975,AWS Training,Intermediate,4,docker
+976,Hands-on de Data Warehousing 976,AWS Training,Advanced,30,data_warehousing
+977,Especialización de Neo4j 977,LinkedIn Learning,Beginner,8,neo4j
+978,Ruta de Cybersecurity 978,Udemy,Intermediate,8,cybersecurity
+979,Fundamentos de Machine Learning 979,edX,Beginner,16,machine_learning
+980,Workshop de Data Warehousing 980,AWS Training,Beginner,16,data_warehousing
+981,Intensivo de Kubernetes 981,AWS Training,Beginner,24,kubernetes
+982,Intensivo de Graph Algorithms 982,Coursera,Beginner,10,graph_algorithms
+983,Ruta de Cypher 983,Google,Advanced,24,cypher
+984,Intensivo de Docker 984,Microsoft,Intermediate,24,docker
+985,Ruta de SQL 985,Pluralsight,Beginner,12,sql
+986,Workshop de Cypher 986,LinkedIn Learning,Advanced,12,cypher
+987,Workshop de Data Warehousing 987,Coursera,Beginner,4,data_warehousing
+988,Workshop de Kubernetes 988,Coursera,Advanced,16,kubernetes
+989,Workshop de Cloud 989,LinkedIn Learning,Advanced,30,cloud
+990,Intensivo de Cloud 990,Neo4j University,Advanced,20,cloud
+991,Práctico de Graph Data Modeling 991,edX,Beginner,20,graph_data_modeling
+992,Hands-on de Neo4j 992,Microsoft,Intermediate,40,neo4j
+993,Intensivo de Cloud 993,Coursera,Intermediate,20,cloud
+994,Lab de APIs 994,Udemy,Advanced,10,apis
+995,Lab de Cypher 995,edX,Advanced,4,cypher
+996,Masterclass de Power BI 996,Coursera,Advanced,10,power_bi
+997,Bootcamp de Machine Learning 997,Pluralsight,Beginner,30,machine_learning
+998,Bootcamp de Data Warehousing 998,Google,Advanced,30,data_warehousing
+999,Intensivo de Graph Data Modeling 999,Coursera,Intermediate,16,graph_data_modeling
+1000,Hands-on de APIs 1000,AWS Training,Intermediate,20,apis
