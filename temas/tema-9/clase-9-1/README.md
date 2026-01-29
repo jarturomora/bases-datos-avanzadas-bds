@@ -27,7 +27,7 @@ WHERE w.isCurrent = true
 WITH p, co LIMIT 1
 OPTIONAL MATCH (p)-[:MEMBER_OF]->(g:Group)
 OPTIONAL MATCH (p)-[:ENROLLED_IN]->(c:Course)
-RETURN p, w, co, g, c;
+RETURN p, co, g, c;
 ```
 
 **Qué deberías ver:**
@@ -107,7 +107,13 @@ RETURN count(p) AS etiquetados_como_recruiter;
 
 ```cypher
 MATCH (p:Person) RETURN count(p) AS total_personas;
+```
+
+```cypher
 MATCH (e:Employee) RETURN count(e) AS total_empleados;
+```
+
+```cypher
 MATCH (r:Recruiter) RETURN count(r) AS total_recruiters;
 ```
 
@@ -190,3 +196,5 @@ LIMIT 25;
 ```
 
 **Qué estás haciendo:** un caso real de búsqueda de candidatos.
+
+**Si Madrid te devuelve 0**, prueba otra ciudad que te suene: `"Barcelona"`, `"Valencia"`, `"Sevilla"`
