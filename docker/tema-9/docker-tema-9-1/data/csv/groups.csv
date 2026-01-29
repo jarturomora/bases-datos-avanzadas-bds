@@ -1,0 +1,1001 @@
+groupId,name,topic,language,createdYear,isPublic
+1,Soft Skills — Círculo 1,Soft Skills,es,2016,True
+2,Product & Agile — Círculo 2,Product & Agile,en,2026,True
+3,Cybersecurity — Círculo 3,Cybersecurity,en,2026,True
+4,Neo4j & Graphs — Avanzados 4,Neo4j & Graphs,es,2018,True
+5,Cybersecurity — Comunidad 5,Cybersecurity,es,2025,True
+6,Soft Skills — Profesionales 6,Soft Skills,es,2015,True
+7,Soft Skills — Club 7,Soft Skills,en,2015,True
+8,Cloud & DevOps — Práctica 8,Cloud & DevOps,es,2026,True
+9,AI & ML — Meetup 9,AI & ML,en,2024,True
+10,AI & ML — Grupo 10,AI & ML,en,2016,True
+11,Backend & APIs — Grupo 11,Backend & APIs,es,2018,True
+12,Neo4j & Graphs — Foro 12,Neo4j & Graphs,en,2022,True
+13,Soft Skills — Foro 13,Soft Skills,en,2018,True
+14,Soft Skills — Profesionales 14,Soft Skills,es,2016,False
+15,BI & Analytics — Comunidad 15,BI & Analytics,en,2015,True
+16,Backend & APIs — Club 16,Backend & APIs,es,2016,False
+17,Soft Skills — Network 17,Soft Skills,es,2018,False
+18,Cloud & DevOps — Comunidad 18,Cloud & DevOps,en,2016,True
+19,Cybersecurity — Profesionales 19,Cybersecurity,en,2016,True
+20,Career Growth — Network 20,Career Growth,es,2016,True
+21,Cloud & DevOps — Grupo 21,Cloud & DevOps,es,2016,True
+22,Career Growth — Círculo 22,Career Growth,es,2015,True
+23,Cybersecurity — Círculo 23,Cybersecurity,es,2025,False
+24,Neo4j & Graphs — Network 24,Neo4j & Graphs,es,2021,True
+25,Data Engineering — Avanzados 25,Data Engineering,es,2024,True
+26,Neo4j & Graphs — Club 26,Neo4j & Graphs,en,2020,True
+27,Soft Skills — Práctica 27,Soft Skills,es,2026,True
+28,Career Growth — Profesionales 28,Career Growth,en,2018,True
+29,BI & Analytics — Comunidad 29,BI & Analytics,es,2026,True
+30,Cloud & DevOps — Comunidad 30,Cloud & DevOps,es,2017,True
+31,Backend & APIs — Profesionales 31,Backend & APIs,en,2018,False
+32,BI & Analytics — Profesionales 32,BI & Analytics,es,2026,False
+33,Cloud & DevOps — Foro 33,Cloud & DevOps,en,2025,True
+34,BI & Analytics — Avanzados 34,BI & Analytics,es,2022,True
+35,Neo4j & Graphs — Práctica 35,Neo4j & Graphs,en,2015,False
+36,BI & Analytics — Club 36,BI & Analytics,es,2016,True
+37,Cloud & DevOps — Avanzados 37,Cloud & DevOps,es,2021,True
+38,AI & ML — Comunidad 38,AI & ML,es,2019,False
+39,Soft Skills — Círculo 39,Soft Skills,en,2022,True
+40,Career Growth — Círculo 40,Career Growth,es,2022,True
+41,BI & Analytics — Grupo 41,BI & Analytics,en,2019,True
+42,Cybersecurity — Grupo 42,Cybersecurity,es,2026,True
+43,Cloud & DevOps — Club 43,Cloud & DevOps,en,2021,False
+44,Backend & APIs — Avanzados 44,Backend & APIs,es,2026,True
+45,Neo4j & Graphs — Comunidad 45,Neo4j & Graphs,es,2023,True
+46,AI & ML — Grupo 46,AI & ML,es,2015,False
+47,BI & Analytics — Círculo 47,BI & Analytics,es,2017,True
+48,Neo4j & Graphs — Círculo 48,Neo4j & Graphs,es,2018,False
+49,Soft Skills — Avanzados 49,Soft Skills,en,2023,False
+50,Data Engineering — Meetup 50,Data Engineering,en,2020,False
+51,BI & Analytics — Práctica 51,BI & Analytics,es,2021,True
+52,Cloud & DevOps — Práctica 52,Cloud & DevOps,es,2026,False
+53,Data Engineering — Círculo 53,Data Engineering,es,2024,True
+54,Data Engineering — Club 54,Data Engineering,es,2026,True
+55,Backend & APIs — Práctica 55,Backend & APIs,en,2020,True
+56,Neo4j & Graphs — Profesionales 56,Neo4j & Graphs,es,2025,False
+57,Neo4j & Graphs — Profesionales 57,Neo4j & Graphs,es,2020,True
+58,Career Growth — Avanzados 58,Career Growth,es,2026,True
+59,Backend & APIs — Avanzados 59,Backend & APIs,en,2023,False
+60,Product & Agile — Profesionales 60,Product & Agile,es,2026,True
+61,Product & Agile — Foro 61,Product & Agile,en,2025,True
+62,Soft Skills — Meetup 62,Soft Skills,en,2019,True
+63,Data Engineering — Círculo 63,Data Engineering,es,2024,False
+64,Career Growth — Círculo 64,Career Growth,en,2019,True
+65,Soft Skills — Avanzados 65,Soft Skills,es,2017,True
+66,Soft Skills — Grupo 66,Soft Skills,es,2020,True
+67,Backend & APIs — Profesionales 67,Backend & APIs,en,2022,True
+68,Neo4j & Graphs — Grupo 68,Neo4j & Graphs,es,2015,False
+69,Cybersecurity — Comunidad 69,Cybersecurity,en,2020,False
+70,Product & Agile — Avanzados 70,Product & Agile,en,2026,False
+71,Cybersecurity — Círculo 71,Cybersecurity,es,2021,True
+72,Career Growth — Avanzados 72,Career Growth,es,2021,True
+73,Cybersecurity — Círculo 73,Cybersecurity,es,2020,True
+74,Neo4j & Graphs — Foro 74,Neo4j & Graphs,en,2017,False
+75,AI & ML — Profesionales 75,AI & ML,es,2025,True
+76,Neo4j & Graphs — Club 76,Neo4j & Graphs,es,2018,True
+77,Career Growth — Grupo 77,Career Growth,en,2024,True
+78,Neo4j & Graphs — Grupo 78,Neo4j & Graphs,es,2017,True
+79,Neo4j & Graphs — Meetup 79,Neo4j & Graphs,es,2016,True
+80,Cybersecurity — Círculo 80,Cybersecurity,es,2023,False
+81,Neo4j & Graphs — Meetup 81,Neo4j & Graphs,en,2025,True
+82,Soft Skills — Network 82,Soft Skills,en,2018,False
+83,Cloud & DevOps — Club 83,Cloud & DevOps,es,2023,False
+84,Data Engineering — Club 84,Data Engineering,en,2018,True
+85,Data Engineering — Práctica 85,Data Engineering,en,2024,False
+86,Cybersecurity — Práctica 86,Cybersecurity,en,2021,True
+87,BI & Analytics — Profesionales 87,BI & Analytics,es,2021,False
+88,BI & Analytics — Foro 88,BI & Analytics,en,2018,True
+89,Cybersecurity — Meetup 89,Cybersecurity,es,2022,True
+90,AI & ML — Meetup 90,AI & ML,en,2017,True
+91,Product & Agile — Meetup 91,Product & Agile,es,2017,True
+92,Cloud & DevOps — Foro 92,Cloud & DevOps,en,2023,False
+93,BI & Analytics — Meetup 93,BI & Analytics,es,2026,True
+94,Data Engineering — Network 94,Data Engineering,en,2019,True
+95,Cybersecurity — Meetup 95,Cybersecurity,es,2018,False
+96,Data Engineering — Foro 96,Data Engineering,es,2023,False
+97,Soft Skills — Círculo 97,Soft Skills,es,2019,True
+98,BI & Analytics — Network 98,BI & Analytics,es,2025,False
+99,Product & Agile — Profesionales 99,Product & Agile,en,2025,False
+100,Neo4j & Graphs — Meetup 100,Neo4j & Graphs,es,2018,True
+101,Cloud & DevOps — Foro 101,Cloud & DevOps,es,2023,True
+102,Career Growth — Foro 102,Career Growth,es,2021,False
+103,Cloud & DevOps — Práctica 103,Cloud & DevOps,es,2016,True
+104,Career Growth — Network 104,Career Growth,en,2026,True
+105,Soft Skills — Profesionales 105,Soft Skills,es,2018,False
+106,Data Engineering — Comunidad 106,Data Engineering,en,2018,True
+107,AI & ML — Foro 107,AI & ML,es,2015,True
+108,Neo4j & Graphs — Avanzados 108,Neo4j & Graphs,es,2024,False
+109,Backend & APIs — Foro 109,Backend & APIs,en,2016,True
+110,Soft Skills — Club 110,Soft Skills,es,2015,True
+111,Cloud & DevOps — Profesionales 111,Cloud & DevOps,es,2024,True
+112,Product & Agile — Club 112,Product & Agile,es,2023,True
+113,Career Growth — Círculo 113,Career Growth,es,2018,False
+114,AI & ML — Foro 114,AI & ML,en,2025,False
+115,Backend & APIs — Meetup 115,Backend & APIs,en,2024,True
+116,AI & ML — Profesionales 116,AI & ML,es,2021,True
+117,Career Growth — Foro 117,Career Growth,es,2015,True
+118,Cybersecurity — Grupo 118,Cybersecurity,es,2016,False
+119,Career Growth — Meetup 119,Career Growth,es,2023,True
+120,Cloud & DevOps — Comunidad 120,Cloud & DevOps,en,2023,True
+121,Product & Agile — Profesionales 121,Product & Agile,es,2021,True
+122,BI & Analytics — Práctica 122,BI & Analytics,es,2024,False
+123,Soft Skills — Práctica 123,Soft Skills,es,2018,True
+124,Cybersecurity — Foro 124,Cybersecurity,en,2021,True
+125,Data Engineering — Meetup 125,Data Engineering,es,2026,False
+126,Cybersecurity — Práctica 126,Cybersecurity,en,2026,True
+127,Product & Agile — Profesionales 127,Product & Agile,en,2018,True
+128,AI & ML — Club 128,AI & ML,en,2026,True
+129,Soft Skills — Avanzados 129,Soft Skills,es,2026,True
+130,AI & ML — Profesionales 130,AI & ML,es,2018,True
+131,Soft Skills — Comunidad 131,Soft Skills,en,2021,True
+132,Career Growth — Avanzados 132,Career Growth,es,2021,True
+133,Backend & APIs — Avanzados 133,Backend & APIs,en,2026,True
+134,Data Engineering — Práctica 134,Data Engineering,es,2019,True
+135,Product & Agile — Profesionales 135,Product & Agile,en,2023,False
+136,BI & Analytics — Club 136,BI & Analytics,es,2022,False
+137,Backend & APIs — Club 137,Backend & APIs,es,2024,True
+138,Soft Skills — Meetup 138,Soft Skills,en,2026,True
+139,Data Engineering — Comunidad 139,Data Engineering,en,2023,True
+140,Soft Skills — Network 140,Soft Skills,es,2020,True
+141,Cloud & DevOps — Network 141,Cloud & DevOps,es,2021,True
+142,Cloud & DevOps — Comunidad 142,Cloud & DevOps,en,2024,False
+143,Data Engineering — Profesionales 143,Data Engineering,es,2025,True
+144,Backend & APIs — Profesionales 144,Backend & APIs,es,2023,True
+145,Career Growth — Grupo 145,Career Growth,es,2019,True
+146,Career Growth — Práctica 146,Career Growth,es,2026,True
+147,Cybersecurity — Grupo 147,Cybersecurity,es,2021,False
+148,Career Growth — Grupo 148,Career Growth,en,2024,False
+149,AI & ML — Meetup 149,AI & ML,en,2016,False
+150,Cybersecurity — Práctica 150,Cybersecurity,en,2024,True
+151,Career Growth — Comunidad 151,Career Growth,es,2020,False
+152,Data Engineering — Meetup 152,Data Engineering,es,2023,True
+153,Career Growth — Grupo 153,Career Growth,es,2017,True
+154,Data Engineering — Práctica 154,Data Engineering,es,2019,True
+155,AI & ML — Club 155,AI & ML,es,2021,False
+156,Neo4j & Graphs — Círculo 156,Neo4j & Graphs,en,2017,True
+157,Data Engineering — Network 157,Data Engineering,en,2015,False
+158,Backend & APIs — Práctica 158,Backend & APIs,es,2019,False
+159,Cloud & DevOps — Círculo 159,Cloud & DevOps,es,2020,False
+160,Career Growth — Foro 160,Career Growth,es,2023,True
+161,Soft Skills — Profesionales 161,Soft Skills,en,2015,True
+162,AI & ML — Avanzados 162,AI & ML,es,2026,False
+163,Career Growth — Club 163,Career Growth,en,2015,False
+164,BI & Analytics — Club 164,BI & Analytics,en,2023,False
+165,BI & Analytics — Club 165,BI & Analytics,en,2016,False
+166,AI & ML — Grupo 166,AI & ML,en,2020,True
+167,Data Engineering — Comunidad 167,Data Engineering,es,2023,True
+168,AI & ML — Avanzados 168,AI & ML,es,2018,False
+169,Product & Agile — Grupo 169,Product & Agile,en,2016,True
+170,Cloud & DevOps — Meetup 170,Cloud & DevOps,en,2023,True
+171,Cloud & DevOps — Grupo 171,Cloud & DevOps,en,2023,True
+172,Neo4j & Graphs — Profesionales 172,Neo4j & Graphs,es,2022,True
+173,Neo4j & Graphs — Profesionales 173,Neo4j & Graphs,en,2024,True
+174,AI & ML — Avanzados 174,AI & ML,es,2016,True
+175,Soft Skills — Comunidad 175,Soft Skills,es,2016,False
+176,Cloud & DevOps — Grupo 176,Cloud & DevOps,en,2015,True
+177,Data Engineering — Club 177,Data Engineering,es,2024,False
+178,Cybersecurity — Avanzados 178,Cybersecurity,en,2025,False
+179,Data Engineering — Foro 179,Data Engineering,es,2022,True
+180,BI & Analytics — Círculo 180,BI & Analytics,es,2024,True
+181,AI & ML — Práctica 181,AI & ML,es,2026,True
+182,Cloud & DevOps — Meetup 182,Cloud & DevOps,en,2015,True
+183,Backend & APIs — Network 183,Backend & APIs,en,2021,True
+184,Neo4j & Graphs — Network 184,Neo4j & Graphs,es,2026,True
+185,AI & ML — Práctica 185,AI & ML,es,2020,True
+186,Soft Skills — Avanzados 186,Soft Skills,en,2026,False
+187,Backend & APIs — Club 187,Backend & APIs,es,2017,False
+188,Career Growth — Avanzados 188,Career Growth,en,2015,True
+189,Soft Skills — Círculo 189,Soft Skills,en,2016,True
+190,Cloud & DevOps — Comunidad 190,Cloud & DevOps,en,2018,True
+191,BI & Analytics — Foro 191,BI & Analytics,en,2026,True
+192,Cloud & DevOps — Foro 192,Cloud & DevOps,en,2016,True
+193,Soft Skills — Avanzados 193,Soft Skills,en,2015,True
+194,BI & Analytics — Avanzados 194,BI & Analytics,es,2024,True
+195,Neo4j & Graphs — Club 195,Neo4j & Graphs,es,2018,True
+196,Cloud & DevOps — Círculo 196,Cloud & DevOps,en,2017,True
+197,Backend & APIs — Círculo 197,Backend & APIs,en,2021,True
+198,Cloud & DevOps — Comunidad 198,Cloud & DevOps,en,2016,False
+199,Soft Skills — Meetup 199,Soft Skills,en,2019,False
+200,Neo4j & Graphs — Práctica 200,Neo4j & Graphs,en,2015,True
+201,AI & ML — Meetup 201,AI & ML,es,2016,True
+202,Cybersecurity — Meetup 202,Cybersecurity,es,2018,True
+203,Cloud & DevOps — Meetup 203,Cloud & DevOps,es,2021,True
+204,Soft Skills — Avanzados 204,Soft Skills,es,2022,False
+205,Backend & APIs — Círculo 205,Backend & APIs,es,2017,True
+206,Neo4j & Graphs — Práctica 206,Neo4j & Graphs,es,2022,False
+207,Soft Skills — Práctica 207,Soft Skills,es,2025,True
+208,Cybersecurity — Círculo 208,Cybersecurity,en,2017,False
+209,Soft Skills — Foro 209,Soft Skills,en,2026,False
+210,Career Growth — Network 210,Career Growth,es,2021,True
+211,Soft Skills — Comunidad 211,Soft Skills,es,2023,True
+212,Soft Skills — Foro 212,Soft Skills,en,2015,True
+213,Cloud & DevOps — Grupo 213,Cloud & DevOps,en,2026,True
+214,Backend & APIs — Grupo 214,Backend & APIs,en,2021,False
+215,Data Engineering — Network 215,Data Engineering,en,2026,True
+216,AI & ML — Network 216,AI & ML,es,2021,False
+217,BI & Analytics — Profesionales 217,BI & Analytics,en,2015,True
+218,Soft Skills — Práctica 218,Soft Skills,es,2025,True
+219,BI & Analytics — Comunidad 219,BI & Analytics,en,2020,False
+220,BI & Analytics — Avanzados 220,BI & Analytics,en,2025,False
+221,Product & Agile — Profesionales 221,Product & Agile,en,2023,True
+222,Data Engineering — Meetup 222,Data Engineering,en,2024,True
+223,Data Engineering — Círculo 223,Data Engineering,es,2016,False
+224,BI & Analytics — Foro 224,BI & Analytics,en,2022,False
+225,Neo4j & Graphs — Círculo 225,Neo4j & Graphs,en,2018,True
+226,Career Growth — Grupo 226,Career Growth,en,2023,True
+227,BI & Analytics — Práctica 227,BI & Analytics,es,2020,True
+228,Career Growth — Comunidad 228,Career Growth,en,2026,False
+229,Cybersecurity — Círculo 229,Cybersecurity,en,2025,True
+230,Cybersecurity — Grupo 230,Cybersecurity,en,2026,False
+231,Soft Skills — Círculo 231,Soft Skills,es,2025,True
+232,Cybersecurity — Foro 232,Cybersecurity,en,2025,False
+233,Soft Skills — Network 233,Soft Skills,es,2026,False
+234,Backend & APIs — Avanzados 234,Backend & APIs,en,2017,True
+235,Soft Skills — Club 235,Soft Skills,en,2021,True
+236,Cloud & DevOps — Círculo 236,Cloud & DevOps,es,2015,False
+237,Backend & APIs — Meetup 237,Backend & APIs,en,2016,False
+238,Data Engineering — Network 238,Data Engineering,en,2024,False
+239,Backend & APIs — Club 239,Backend & APIs,es,2024,False
+240,AI & ML — Círculo 240,AI & ML,en,2026,True
+241,BI & Analytics — Foro 241,BI & Analytics,es,2022,False
+242,Neo4j & Graphs — Círculo 242,Neo4j & Graphs,en,2025,False
+243,Neo4j & Graphs — Club 243,Neo4j & Graphs,es,2025,False
+244,Cloud & DevOps — Foro 244,Cloud & DevOps,es,2026,True
+245,Neo4j & Graphs — Foro 245,Neo4j & Graphs,en,2021,False
+246,Career Growth — Foro 246,Career Growth,en,2024,True
+247,Neo4j & Graphs — Avanzados 247,Neo4j & Graphs,es,2019,False
+248,BI & Analytics — Foro 248,BI & Analytics,en,2019,True
+249,BI & Analytics — Círculo 249,BI & Analytics,en,2022,False
+250,AI & ML — Comunidad 250,AI & ML,es,2020,False
+251,Cybersecurity — Práctica 251,Cybersecurity,es,2025,True
+252,Soft Skills — Grupo 252,Soft Skills,en,2021,True
+253,Cloud & DevOps — Círculo 253,Cloud & DevOps,es,2020,True
+254,BI & Analytics — Meetup 254,BI & Analytics,es,2025,False
+255,Product & Agile — Práctica 255,Product & Agile,en,2026,True
+256,BI & Analytics — Foro 256,BI & Analytics,en,2017,False
+257,BI & Analytics — Club 257,BI & Analytics,es,2026,True
+258,Product & Agile — Círculo 258,Product & Agile,en,2016,True
+259,Soft Skills — Avanzados 259,Soft Skills,en,2020,True
+260,Neo4j & Graphs — Network 260,Neo4j & Graphs,en,2021,False
+261,Product & Agile — Profesionales 261,Product & Agile,en,2022,False
+262,Cybersecurity — Meetup 262,Cybersecurity,es,2015,True
+263,Cybersecurity — Grupo 263,Cybersecurity,es,2025,False
+264,Career Growth — Avanzados 264,Career Growth,es,2022,False
+265,Backend & APIs — Práctica 265,Backend & APIs,es,2018,False
+266,Product & Agile — Grupo 266,Product & Agile,es,2019,True
+267,Data Engineering — Foro 267,Data Engineering,es,2021,True
+268,Data Engineering — Foro 268,Data Engineering,en,2022,True
+269,Product & Agile — Foro 269,Product & Agile,es,2016,True
+270,BI & Analytics — Foro 270,BI & Analytics,es,2021,True
+271,Soft Skills — Avanzados 271,Soft Skills,es,2021,True
+272,Product & Agile — Profesionales 272,Product & Agile,es,2024,True
+273,BI & Analytics — Avanzados 273,BI & Analytics,en,2016,True
+274,Product & Agile — Práctica 274,Product & Agile,en,2021,False
+275,Soft Skills — Avanzados 275,Soft Skills,en,2023,True
+276,Career Growth — Práctica 276,Career Growth,en,2015,True
+277,Product & Agile — Práctica 277,Product & Agile,es,2023,False
+278,Soft Skills — Foro 278,Soft Skills,en,2017,True
+279,Product & Agile — Círculo 279,Product & Agile,en,2021,True
+280,Product & Agile — Grupo 280,Product & Agile,en,2022,False
+281,Backend & APIs — Meetup 281,Backend & APIs,en,2017,True
+282,Backend & APIs — Foro 282,Backend & APIs,en,2026,False
+283,Cybersecurity — Círculo 283,Cybersecurity,en,2026,False
+284,AI & ML — Foro 284,AI & ML,en,2026,False
+285,Cybersecurity — Práctica 285,Cybersecurity,es,2019,False
+286,Data Engineering — Avanzados 286,Data Engineering,en,2020,True
+287,BI & Analytics — Profesionales 287,BI & Analytics,es,2015,True
+288,Cybersecurity — Foro 288,Cybersecurity,es,2024,False
+289,Cloud & DevOps — Avanzados 289,Cloud & DevOps,es,2017,False
+290,Data Engineering — Foro 290,Data Engineering,en,2016,True
+291,Neo4j & Graphs — Foro 291,Neo4j & Graphs,en,2022,True
+292,Soft Skills — Comunidad 292,Soft Skills,en,2023,False
+293,BI & Analytics — Avanzados 293,BI & Analytics,en,2019,True
+294,Soft Skills — Círculo 294,Soft Skills,en,2021,False
+295,Career Growth — Network 295,Career Growth,es,2022,False
+296,Cloud & DevOps — Club 296,Cloud & DevOps,en,2025,True
+297,Cybersecurity — Club 297,Cybersecurity,es,2026,True
+298,BI & Analytics — Foro 298,BI & Analytics,es,2020,True
+299,Cloud & DevOps — Avanzados 299,Cloud & DevOps,es,2017,False
+300,Soft Skills — Avanzados 300,Soft Skills,es,2018,True
+301,BI & Analytics — Comunidad 301,BI & Analytics,es,2025,True
+302,Cybersecurity — Grupo 302,Cybersecurity,es,2015,True
+303,Neo4j & Graphs — Avanzados 303,Neo4j & Graphs,es,2021,True
+304,Backend & APIs — Práctica 304,Backend & APIs,es,2026,False
+305,Backend & APIs — Foro 305,Backend & APIs,es,2023,True
+306,Backend & APIs — Club 306,Backend & APIs,es,2025,True
+307,BI & Analytics — Práctica 307,BI & Analytics,en,2022,True
+308,Product & Agile — Meetup 308,Product & Agile,en,2023,False
+309,Cybersecurity — Network 309,Cybersecurity,es,2021,True
+310,Career Growth — Profesionales 310,Career Growth,en,2017,False
+311,Data Engineering — Círculo 311,Data Engineering,en,2021,False
+312,Soft Skills — Comunidad 312,Soft Skills,es,2021,True
+313,Soft Skills — Práctica 313,Soft Skills,en,2016,False
+314,Backend & APIs — Práctica 314,Backend & APIs,es,2022,False
+315,Cloud & DevOps — Comunidad 315,Cloud & DevOps,en,2026,False
+316,Cloud & DevOps — Grupo 316,Cloud & DevOps,es,2015,True
+317,BI & Analytics — Práctica 317,BI & Analytics,es,2024,False
+318,Career Growth — Comunidad 318,Career Growth,en,2017,True
+319,AI & ML — Foro 319,AI & ML,es,2025,True
+320,Cloud & DevOps — Círculo 320,Cloud & DevOps,es,2018,True
+321,Product & Agile — Foro 321,Product & Agile,es,2024,False
+322,Cloud & DevOps — Foro 322,Cloud & DevOps,en,2019,True
+323,Data Engineering — Network 323,Data Engineering,en,2026,False
+324,Backend & APIs — Comunidad 324,Backend & APIs,es,2021,True
+325,Cloud & DevOps — Profesionales 325,Cloud & DevOps,en,2019,True
+326,Career Growth — Network 326,Career Growth,es,2017,True
+327,Career Growth — Grupo 327,Career Growth,en,2015,True
+328,Career Growth — Práctica 328,Career Growth,en,2016,True
+329,Neo4j & Graphs — Foro 329,Neo4j & Graphs,es,2025,False
+330,Backend & APIs — Círculo 330,Backend & APIs,en,2026,True
+331,Cloud & DevOps — Network 331,Cloud & DevOps,en,2017,False
+332,Soft Skills — Círculo 332,Soft Skills,es,2017,True
+333,Neo4j & Graphs — Avanzados 333,Neo4j & Graphs,es,2020,True
+334,Neo4j & Graphs — Círculo 334,Neo4j & Graphs,es,2017,True
+335,Neo4j & Graphs — Meetup 335,Neo4j & Graphs,en,2024,False
+336,Backend & APIs — Círculo 336,Backend & APIs,en,2020,False
+337,Cloud & DevOps — Foro 337,Cloud & DevOps,en,2017,True
+338,Soft Skills — Club 338,Soft Skills,es,2015,True
+339,Neo4j & Graphs — Meetup 339,Neo4j & Graphs,en,2018,True
+340,Data Engineering — Grupo 340,Data Engineering,en,2016,True
+341,Data Engineering — Foro 341,Data Engineering,es,2018,False
+342,Career Growth — Avanzados 342,Career Growth,es,2017,False
+343,Career Growth — Práctica 343,Career Growth,en,2025,True
+344,Data Engineering — Meetup 344,Data Engineering,es,2022,True
+345,Soft Skills — Comunidad 345,Soft Skills,es,2024,True
+346,Neo4j & Graphs — Grupo 346,Neo4j & Graphs,en,2022,True
+347,Cloud & DevOps — Grupo 347,Cloud & DevOps,en,2016,False
+348,Data Engineering — Práctica 348,Data Engineering,en,2015,False
+349,BI & Analytics — Práctica 349,BI & Analytics,es,2018,True
+350,Data Engineering — Network 350,Data Engineering,en,2022,False
+351,BI & Analytics — Profesionales 351,BI & Analytics,es,2024,False
+352,Data Engineering — Avanzados 352,Data Engineering,es,2021,True
+353,Data Engineering — Práctica 353,Data Engineering,es,2015,True
+354,Career Growth — Profesionales 354,Career Growth,en,2017,False
+355,Product & Agile — Círculo 355,Product & Agile,en,2018,True
+356,Career Growth — Comunidad 356,Career Growth,es,2019,False
+357,Cloud & DevOps — Club 357,Cloud & DevOps,en,2020,True
+358,Soft Skills — Profesionales 358,Soft Skills,es,2022,False
+359,Cybersecurity — Círculo 359,Cybersecurity,es,2017,True
+360,BI & Analytics — Avanzados 360,BI & Analytics,es,2019,True
+361,Soft Skills — Club 361,Soft Skills,es,2020,True
+362,Career Growth — Foro 362,Career Growth,es,2017,False
+363,Cybersecurity — Club 363,Cybersecurity,es,2015,False
+364,Cloud & DevOps — Foro 364,Cloud & DevOps,en,2026,True
+365,Data Engineering — Profesionales 365,Data Engineering,es,2026,False
+366,Career Growth — Grupo 366,Career Growth,en,2017,False
+367,Career Growth — Network 367,Career Growth,es,2016,True
+368,Backend & APIs — Avanzados 368,Backend & APIs,es,2019,True
+369,AI & ML — Foro 369,AI & ML,en,2023,True
+370,AI & ML — Meetup 370,AI & ML,es,2018,True
+371,Cybersecurity — Avanzados 371,Cybersecurity,es,2015,True
+372,Backend & APIs — Profesionales 372,Backend & APIs,en,2016,True
+373,Career Growth — Práctica 373,Career Growth,en,2018,False
+374,Backend & APIs — Meetup 374,Backend & APIs,es,2017,False
+375,Career Growth — Profesionales 375,Career Growth,en,2026,False
+376,Data Engineering — Club 376,Data Engineering,en,2024,True
+377,AI & ML — Comunidad 377,AI & ML,es,2017,True
+378,Soft Skills — Avanzados 378,Soft Skills,en,2020,True
+379,BI & Analytics — Profesionales 379,BI & Analytics,es,2026,False
+380,Cybersecurity — Profesionales 380,Cybersecurity,es,2015,True
+381,Neo4j & Graphs — Grupo 381,Neo4j & Graphs,en,2021,True
+382,Career Growth — Network 382,Career Growth,en,2021,True
+383,Career Growth — Avanzados 383,Career Growth,en,2022,False
+384,Product & Agile — Foro 384,Product & Agile,en,2021,True
+385,Cloud & DevOps — Meetup 385,Cloud & DevOps,en,2016,True
+386,Cybersecurity — Network 386,Cybersecurity,en,2015,True
+387,Neo4j & Graphs — Círculo 387,Neo4j & Graphs,es,2016,False
+388,Data Engineering — Profesionales 388,Data Engineering,es,2015,False
+389,AI & ML — Círculo 389,AI & ML,es,2016,True
+390,AI & ML — Meetup 390,AI & ML,es,2022,True
+391,AI & ML — Círculo 391,AI & ML,es,2023,True
+392,Soft Skills — Avanzados 392,Soft Skills,en,2022,True
+393,BI & Analytics — Grupo 393,BI & Analytics,es,2026,True
+394,Product & Agile — Profesionales 394,Product & Agile,en,2016,True
+395,Soft Skills — Profesionales 395,Soft Skills,en,2022,True
+396,Cloud & DevOps — Profesionales 396,Cloud & DevOps,en,2026,True
+397,Product & Agile — Avanzados 397,Product & Agile,es,2019,True
+398,Soft Skills — Meetup 398,Soft Skills,en,2019,True
+399,AI & ML — Práctica 399,AI & ML,es,2026,True
+400,Neo4j & Graphs — Profesionales 400,Neo4j & Graphs,en,2017,True
+401,Soft Skills — Círculo 401,Soft Skills,en,2022,True
+402,AI & ML — Grupo 402,AI & ML,en,2022,True
+403,Cloud & DevOps — Avanzados 403,Cloud & DevOps,es,2020,True
+404,Cloud & DevOps — Grupo 404,Cloud & DevOps,en,2017,True
+405,Cybersecurity — Club 405,Cybersecurity,en,2021,True
+406,Data Engineering — Foro 406,Data Engineering,es,2023,True
+407,BI & Analytics — Network 407,BI & Analytics,es,2015,True
+408,Cybersecurity — Club 408,Cybersecurity,en,2021,True
+409,Cybersecurity — Foro 409,Cybersecurity,es,2016,True
+410,Neo4j & Graphs — Network 410,Neo4j & Graphs,en,2025,True
+411,Data Engineering — Meetup 411,Data Engineering,es,2015,False
+412,Cybersecurity — Grupo 412,Cybersecurity,es,2023,False
+413,Data Engineering — Grupo 413,Data Engineering,en,2024,True
+414,Product & Agile — Comunidad 414,Product & Agile,es,2020,True
+415,Neo4j & Graphs — Meetup 415,Neo4j & Graphs,es,2024,True
+416,Career Growth — Network 416,Career Growth,en,2024,False
+417,Backend & APIs — Comunidad 417,Backend & APIs,es,2018,True
+418,Career Growth — Network 418,Career Growth,es,2021,True
+419,Career Growth — Círculo 419,Career Growth,en,2016,True
+420,AI & ML — Avanzados 420,AI & ML,es,2018,True
+421,Cybersecurity — Profesionales 421,Cybersecurity,en,2022,False
+422,Cybersecurity — Comunidad 422,Cybersecurity,es,2017,True
+423,AI & ML — Práctica 423,AI & ML,es,2026,False
+424,Soft Skills — Grupo 424,Soft Skills,en,2024,False
+425,Data Engineering — Grupo 425,Data Engineering,en,2015,True
+426,Cybersecurity — Práctica 426,Cybersecurity,en,2025,True
+427,Neo4j & Graphs — Comunidad 427,Neo4j & Graphs,en,2015,False
+428,Backend & APIs — Círculo 428,Backend & APIs,es,2016,True
+429,AI & ML — Profesionales 429,AI & ML,es,2025,False
+430,Neo4j & Graphs — Meetup 430,Neo4j & Graphs,es,2023,True
+431,Cloud & DevOps — Foro 431,Cloud & DevOps,en,2017,True
+432,Data Engineering — Network 432,Data Engineering,es,2026,False
+433,Soft Skills — Grupo 433,Soft Skills,en,2025,False
+434,Neo4j & Graphs — Avanzados 434,Neo4j & Graphs,en,2019,True
+435,Soft Skills — Práctica 435,Soft Skills,es,2016,True
+436,Product & Agile — Círculo 436,Product & Agile,es,2024,True
+437,Soft Skills — Foro 437,Soft Skills,en,2015,False
+438,BI & Analytics — Profesionales 438,BI & Analytics,es,2019,False
+439,Neo4j & Graphs — Club 439,Neo4j & Graphs,en,2020,True
+440,Data Engineering — Práctica 440,Data Engineering,es,2021,False
+441,Data Engineering — Meetup 441,Data Engineering,en,2016,False
+442,Data Engineering — Práctica 442,Data Engineering,en,2025,False
+443,Cybersecurity — Práctica 443,Cybersecurity,en,2023,False
+444,BI & Analytics — Network 444,BI & Analytics,en,2024,False
+445,Backend & APIs — Profesionales 445,Backend & APIs,en,2015,False
+446,Product & Agile — Comunidad 446,Product & Agile,es,2019,True
+447,Career Growth — Club 447,Career Growth,es,2020,True
+448,Neo4j & Graphs — Network 448,Neo4j & Graphs,es,2017,True
+449,Cybersecurity — Círculo 449,Cybersecurity,es,2020,False
+450,AI & ML — Foro 450,AI & ML,es,2022,False
+451,AI & ML — Práctica 451,AI & ML,en,2025,True
+452,Career Growth — Club 452,Career Growth,en,2024,True
+453,AI & ML — Círculo 453,AI & ML,es,2026,True
+454,Career Growth — Club 454,Career Growth,es,2019,True
+455,Soft Skills — Meetup 455,Soft Skills,es,2016,True
+456,Neo4j & Graphs — Práctica 456,Neo4j & Graphs,en,2016,True
+457,BI & Analytics — Práctica 457,BI & Analytics,en,2024,True
+458,AI & ML — Meetup 458,AI & ML,es,2015,False
+459,Career Growth — Comunidad 459,Career Growth,en,2023,True
+460,Soft Skills — Círculo 460,Soft Skills,es,2024,True
+461,AI & ML — Práctica 461,AI & ML,en,2021,True
+462,BI & Analytics — Círculo 462,BI & Analytics,en,2024,False
+463,Data Engineering — Club 463,Data Engineering,es,2024,True
+464,Data Engineering — Meetup 464,Data Engineering,es,2018,True
+465,Career Growth — Comunidad 465,Career Growth,en,2025,False
+466,BI & Analytics — Comunidad 466,BI & Analytics,en,2016,True
+467,Cloud & DevOps — Network 467,Cloud & DevOps,en,2015,True
+468,BI & Analytics — Comunidad 468,BI & Analytics,es,2019,True
+469,Soft Skills — Círculo 469,Soft Skills,es,2021,True
+470,Neo4j & Graphs — Práctica 470,Neo4j & Graphs,en,2019,True
+471,Backend & APIs — Práctica 471,Backend & APIs,en,2016,False
+472,Data Engineering — Club 472,Data Engineering,en,2025,True
+473,Cloud & DevOps — Meetup 473,Cloud & DevOps,en,2015,False
+474,AI & ML — Club 474,AI & ML,es,2022,False
+475,Backend & APIs — Avanzados 475,Backend & APIs,es,2026,True
+476,Career Growth — Círculo 476,Career Growth,es,2023,False
+477,Neo4j & Graphs — Club 477,Neo4j & Graphs,en,2023,True
+478,Data Engineering — Meetup 478,Data Engineering,es,2022,True
+479,AI & ML — Círculo 479,AI & ML,es,2018,True
+480,Career Growth — Práctica 480,Career Growth,en,2025,True
+481,Cybersecurity — Círculo 481,Cybersecurity,en,2024,False
+482,Soft Skills — Grupo 482,Soft Skills,es,2026,False
+483,AI & ML — Grupo 483,AI & ML,en,2019,False
+484,AI & ML — Grupo 484,AI & ML,en,2026,True
+485,Product & Agile — Foro 485,Product & Agile,en,2020,False
+486,Neo4j & Graphs — Avanzados 486,Neo4j & Graphs,es,2024,True
+487,Career Growth — Práctica 487,Career Growth,es,2025,True
+488,Product & Agile — Comunidad 488,Product & Agile,en,2026,True
+489,Product & Agile — Avanzados 489,Product & Agile,es,2022,True
+490,AI & ML — Profesionales 490,AI & ML,es,2024,False
+491,Soft Skills — Club 491,Soft Skills,es,2021,True
+492,Cloud & DevOps — Club 492,Cloud & DevOps,es,2016,False
+493,Career Growth — Meetup 493,Career Growth,en,2020,False
+494,Neo4j & Graphs — Club 494,Neo4j & Graphs,en,2015,True
+495,Neo4j & Graphs — Grupo 495,Neo4j & Graphs,en,2017,True
+496,Soft Skills — Grupo 496,Soft Skills,en,2017,True
+497,Cybersecurity — Club 497,Cybersecurity,en,2025,True
+498,Soft Skills — Grupo 498,Soft Skills,en,2021,True
+499,AI & ML — Profesionales 499,AI & ML,en,2021,True
+500,BI & Analytics — Profesionales 500,BI & Analytics,en,2020,True
+501,Product & Agile — Network 501,Product & Agile,en,2020,False
+502,Neo4j & Graphs — Grupo 502,Neo4j & Graphs,en,2019,True
+503,Cloud & DevOps — Comunidad 503,Cloud & DevOps,es,2021,True
+504,Cloud & DevOps — Foro 504,Cloud & DevOps,en,2021,True
+505,BI & Analytics — Práctica 505,BI & Analytics,en,2020,False
+506,Cybersecurity — Profesionales 506,Cybersecurity,es,2021,False
+507,Product & Agile — Grupo 507,Product & Agile,en,2018,True
+508,Neo4j & Graphs — Club 508,Neo4j & Graphs,es,2017,True
+509,BI & Analytics — Práctica 509,BI & Analytics,en,2017,True
+510,AI & ML — Network 510,AI & ML,en,2019,True
+511,BI & Analytics — Foro 511,BI & Analytics,es,2021,True
+512,Data Engineering — Avanzados 512,Data Engineering,es,2019,False
+513,Data Engineering — Avanzados 513,Data Engineering,en,2023,True
+514,Soft Skills — Círculo 514,Soft Skills,en,2015,True
+515,Soft Skills — Profesionales 515,Soft Skills,es,2022,False
+516,Soft Skills — Club 516,Soft Skills,en,2026,True
+517,Soft Skills — Práctica 517,Soft Skills,es,2016,True
+518,Career Growth — Grupo 518,Career Growth,en,2022,True
+519,Cybersecurity — Network 519,Cybersecurity,es,2026,True
+520,Cybersecurity — Práctica 520,Cybersecurity,en,2016,True
+521,Data Engineering — Práctica 521,Data Engineering,es,2018,False
+522,Cybersecurity — Comunidad 522,Cybersecurity,en,2020,True
+523,AI & ML — Foro 523,AI & ML,en,2023,True
+524,Backend & APIs — Círculo 524,Backend & APIs,en,2025,True
+525,Product & Agile — Meetup 525,Product & Agile,es,2019,True
+526,Data Engineering — Círculo 526,Data Engineering,es,2023,True
+527,Cybersecurity — Foro 527,Cybersecurity,en,2015,True
+528,AI & ML — Meetup 528,AI & ML,en,2025,True
+529,Cybersecurity — Network 529,Cybersecurity,en,2026,True
+530,Cloud & DevOps — Avanzados 530,Cloud & DevOps,es,2017,True
+531,BI & Analytics — Network 531,BI & Analytics,en,2023,False
+532,Backend & APIs — Grupo 532,Backend & APIs,es,2022,True
+533,AI & ML — Comunidad 533,AI & ML,es,2025,True
+534,BI & Analytics — Network 534,BI & Analytics,es,2015,True
+535,Soft Skills — Círculo 535,Soft Skills,en,2025,True
+536,Data Engineering — Network 536,Data Engineering,en,2026,True
+537,Soft Skills — Profesionales 537,Soft Skills,es,2024,True
+538,Cloud & DevOps — Profesionales 538,Cloud & DevOps,en,2020,False
+539,Cloud & DevOps — Profesionales 539,Cloud & DevOps,en,2024,True
+540,Product & Agile — Círculo 540,Product & Agile,es,2019,False
+541,Cloud & DevOps — Foro 541,Cloud & DevOps,es,2019,True
+542,Neo4j & Graphs — Avanzados 542,Neo4j & Graphs,es,2026,True
+543,Backend & APIs — Network 543,Backend & APIs,en,2023,True
+544,AI & ML — Foro 544,AI & ML,es,2019,True
+545,Cybersecurity — Foro 545,Cybersecurity,en,2019,True
+546,Neo4j & Graphs — Círculo 546,Neo4j & Graphs,es,2023,True
+547,Data Engineering — Network 547,Data Engineering,es,2022,False
+548,Soft Skills — Avanzados 548,Soft Skills,es,2025,False
+549,Product & Agile — Comunidad 549,Product & Agile,es,2017,False
+550,Backend & APIs — Círculo 550,Backend & APIs,en,2023,False
+551,AI & ML — Grupo 551,AI & ML,en,2024,False
+552,Soft Skills — Práctica 552,Soft Skills,es,2019,True
+553,Backend & APIs — Grupo 553,Backend & APIs,es,2022,True
+554,Cybersecurity — Network 554,Cybersecurity,es,2019,True
+555,Cloud & DevOps — Profesionales 555,Cloud & DevOps,es,2026,False
+556,Soft Skills — Club 556,Soft Skills,en,2017,True
+557,BI & Analytics — Comunidad 557,BI & Analytics,es,2024,True
+558,BI & Analytics — Círculo 558,BI & Analytics,es,2018,False
+559,Data Engineering — Práctica 559,Data Engineering,es,2025,False
+560,Soft Skills — Network 560,Soft Skills,es,2021,True
+561,Career Growth — Comunidad 561,Career Growth,es,2023,False
+562,Neo4j & Graphs — Grupo 562,Neo4j & Graphs,es,2017,True
+563,Data Engineering — Profesionales 563,Data Engineering,es,2015,True
+564,Cloud & DevOps — Práctica 564,Cloud & DevOps,es,2015,True
+565,Soft Skills — Club 565,Soft Skills,en,2021,True
+566,Data Engineering — Profesionales 566,Data Engineering,es,2023,False
+567,Career Growth — Círculo 567,Career Growth,en,2026,True
+568,Data Engineering — Profesionales 568,Data Engineering,es,2019,True
+569,Product & Agile — Club 569,Product & Agile,es,2019,True
+570,Cloud & DevOps — Círculo 570,Cloud & DevOps,en,2020,False
+571,Cloud & DevOps — Avanzados 571,Cloud & DevOps,es,2022,True
+572,AI & ML — Círculo 572,AI & ML,es,2018,True
+573,Cybersecurity — Club 573,Cybersecurity,en,2025,True
+574,Neo4j & Graphs — Profesionales 574,Neo4j & Graphs,es,2026,True
+575,Backend & APIs — Club 575,Backend & APIs,es,2015,True
+576,Cybersecurity — Foro 576,Cybersecurity,en,2022,True
+577,Product & Agile — Profesionales 577,Product & Agile,es,2021,True
+578,AI & ML — Club 578,AI & ML,en,2016,True
+579,Neo4j & Graphs — Club 579,Neo4j & Graphs,en,2019,True
+580,Data Engineering — Comunidad 580,Data Engineering,en,2015,True
+581,Soft Skills — Foro 581,Soft Skills,es,2021,False
+582,Career Growth — Meetup 582,Career Growth,en,2015,False
+583,Career Growth — Profesionales 583,Career Growth,en,2023,True
+584,AI & ML — Club 584,AI & ML,es,2019,False
+585,BI & Analytics — Club 585,BI & Analytics,en,2017,True
+586,Career Growth — Network 586,Career Growth,es,2023,True
+587,Soft Skills — Club 587,Soft Skills,es,2022,False
+588,Backend & APIs — Grupo 588,Backend & APIs,es,2020,True
+589,Product & Agile — Grupo 589,Product & Agile,en,2017,True
+590,Backend & APIs — Avanzados 590,Backend & APIs,en,2021,True
+591,Career Growth — Comunidad 591,Career Growth,es,2015,True
+592,BI & Analytics — Club 592,BI & Analytics,en,2022,False
+593,Soft Skills — Grupo 593,Soft Skills,es,2021,True
+594,Cybersecurity — Avanzados 594,Cybersecurity,es,2024,True
+595,BI & Analytics — Avanzados 595,BI & Analytics,en,2020,True
+596,Soft Skills — Foro 596,Soft Skills,es,2022,True
+597,Backend & APIs — Meetup 597,Backend & APIs,es,2025,False
+598,BI & Analytics — Network 598,BI & Analytics,en,2021,False
+599,BI & Analytics — Avanzados 599,BI & Analytics,es,2023,False
+600,Soft Skills — Práctica 600,Soft Skills,en,2016,False
+601,Career Growth — Club 601,Career Growth,es,2021,True
+602,BI & Analytics — Práctica 602,BI & Analytics,es,2024,True
+603,Product & Agile — Círculo 603,Product & Agile,es,2022,True
+604,Cybersecurity — Foro 604,Cybersecurity,en,2017,True
+605,Soft Skills — Foro 605,Soft Skills,en,2020,True
+606,Neo4j & Graphs — Foro 606,Neo4j & Graphs,en,2023,True
+607,Neo4j & Graphs — Grupo 607,Neo4j & Graphs,es,2017,True
+608,Backend & APIs — Profesionales 608,Backend & APIs,es,2026,True
+609,Data Engineering — Club 609,Data Engineering,es,2026,True
+610,AI & ML — Meetup 610,AI & ML,es,2022,True
+611,Cloud & DevOps — Práctica 611,Cloud & DevOps,en,2022,True
+612,Soft Skills — Práctica 612,Soft Skills,en,2026,True
+613,Neo4j & Graphs — Profesionales 613,Neo4j & Graphs,es,2022,False
+614,Soft Skills — Práctica 614,Soft Skills,es,2026,True
+615,Backend & APIs — Comunidad 615,Backend & APIs,es,2017,True
+616,Data Engineering — Club 616,Data Engineering,en,2015,True
+617,Data Engineering — Profesionales 617,Data Engineering,en,2023,False
+618,Neo4j & Graphs — Avanzados 618,Neo4j & Graphs,es,2024,True
+619,Neo4j & Graphs — Grupo 619,Neo4j & Graphs,es,2022,True
+620,Data Engineering — Foro 620,Data Engineering,es,2021,True
+621,Neo4j & Graphs — Foro 621,Neo4j & Graphs,es,2022,True
+622,Career Growth — Práctica 622,Career Growth,es,2015,True
+623,Backend & APIs — Avanzados 623,Backend & APIs,en,2024,True
+624,Neo4j & Graphs — Profesionales 624,Neo4j & Graphs,en,2019,False
+625,Data Engineering — Círculo 625,Data Engineering,en,2023,False
+626,Product & Agile — Meetup 626,Product & Agile,es,2025,True
+627,Career Growth — Círculo 627,Career Growth,en,2021,False
+628,Soft Skills — Grupo 628,Soft Skills,es,2021,True
+629,BI & Analytics — Grupo 629,BI & Analytics,en,2019,True
+630,Data Engineering — Club 630,Data Engineering,es,2024,False
+631,Soft Skills — Práctica 631,Soft Skills,en,2018,True
+632,Soft Skills — Avanzados 632,Soft Skills,es,2026,True
+633,Neo4j & Graphs — Meetup 633,Neo4j & Graphs,en,2015,True
+634,Product & Agile — Círculo 634,Product & Agile,en,2018,False
+635,BI & Analytics — Avanzados 635,BI & Analytics,en,2019,True
+636,Product & Agile — Network 636,Product & Agile,en,2023,True
+637,Product & Agile — Práctica 637,Product & Agile,en,2023,True
+638,AI & ML — Meetup 638,AI & ML,en,2015,False
+639,AI & ML — Network 639,AI & ML,es,2024,False
+640,Cloud & DevOps — Meetup 640,Cloud & DevOps,en,2023,False
+641,Cloud & DevOps — Círculo 641,Cloud & DevOps,en,2017,True
+642,Cloud & DevOps — Club 642,Cloud & DevOps,en,2021,True
+643,Soft Skills — Profesionales 643,Soft Skills,en,2020,True
+644,Backend & APIs — Network 644,Backend & APIs,en,2026,True
+645,AI & ML — Foro 645,AI & ML,en,2024,True
+646,Product & Agile — Avanzados 646,Product & Agile,en,2021,True
+647,Cloud & DevOps — Grupo 647,Cloud & DevOps,es,2026,True
+648,Career Growth — Profesionales 648,Career Growth,en,2020,True
+649,Neo4j & Graphs — Network 649,Neo4j & Graphs,en,2026,True
+650,Career Growth — Avanzados 650,Career Growth,es,2016,True
+651,Data Engineering — Network 651,Data Engineering,en,2016,False
+652,Neo4j & Graphs — Práctica 652,Neo4j & Graphs,en,2019,False
+653,Backend & APIs — Club 653,Backend & APIs,es,2025,False
+654,BI & Analytics — Práctica 654,BI & Analytics,es,2021,False
+655,Career Growth — Foro 655,Career Growth,es,2020,True
+656,Data Engineering — Práctica 656,Data Engineering,es,2016,False
+657,BI & Analytics — Práctica 657,BI & Analytics,en,2020,False
+658,Product & Agile — Profesionales 658,Product & Agile,es,2017,True
+659,Neo4j & Graphs — Avanzados 659,Neo4j & Graphs,en,2016,True
+660,Cloud & DevOps — Práctica 660,Cloud & DevOps,en,2025,False
+661,Career Growth — Meetup 661,Career Growth,en,2025,False
+662,Product & Agile — Profesionales 662,Product & Agile,en,2019,True
+663,Backend & APIs — Avanzados 663,Backend & APIs,en,2026,True
+664,BI & Analytics — Network 664,BI & Analytics,es,2020,False
+665,Career Growth — Foro 665,Career Growth,es,2018,False
+666,Data Engineering — Profesionales 666,Data Engineering,es,2021,True
+667,Career Growth — Comunidad 667,Career Growth,en,2026,True
+668,Cloud & DevOps — Grupo 668,Cloud & DevOps,es,2015,True
+669,Product & Agile — Práctica 669,Product & Agile,es,2018,True
+670,Neo4j & Graphs — Círculo 670,Neo4j & Graphs,en,2016,True
+671,Soft Skills — Meetup 671,Soft Skills,es,2018,False
+672,Product & Agile — Grupo 672,Product & Agile,es,2023,True
+673,Product & Agile — Comunidad 673,Product & Agile,en,2025,False
+674,Product & Agile — Práctica 674,Product & Agile,es,2020,True
+675,Data Engineering — Profesionales 675,Data Engineering,es,2021,True
+676,Career Growth — Grupo 676,Career Growth,es,2025,True
+677,AI & ML — Grupo 677,AI & ML,en,2023,True
+678,Data Engineering — Círculo 678,Data Engineering,en,2026,True
+679,Backend & APIs — Meetup 679,Backend & APIs,es,2026,True
+680,Backend & APIs — Círculo 680,Backend & APIs,en,2026,False
+681,BI & Analytics — Comunidad 681,BI & Analytics,es,2024,True
+682,Cybersecurity — Grupo 682,Cybersecurity,en,2018,True
+683,Neo4j & Graphs — Club 683,Neo4j & Graphs,en,2022,True
+684,BI & Analytics — Foro 684,BI & Analytics,en,2015,True
+685,BI & Analytics — Foro 685,BI & Analytics,es,2016,True
+686,Cloud & DevOps — Club 686,Cloud & DevOps,en,2019,True
+687,AI & ML — Práctica 687,AI & ML,en,2016,True
+688,Soft Skills — Meetup 688,Soft Skills,es,2024,True
+689,BI & Analytics — Grupo 689,BI & Analytics,es,2018,True
+690,Cybersecurity — Foro 690,Cybersecurity,es,2016,True
+691,Neo4j & Graphs — Grupo 691,Neo4j & Graphs,es,2025,True
+692,Neo4j & Graphs — Foro 692,Neo4j & Graphs,es,2015,False
+693,Soft Skills — Círculo 693,Soft Skills,en,2023,True
+694,Cloud & DevOps — Profesionales 694,Cloud & DevOps,es,2016,True
+695,AI & ML — Club 695,AI & ML,en,2018,True
+696,Career Growth — Profesionales 696,Career Growth,en,2025,True
+697,Backend & APIs — Foro 697,Backend & APIs,en,2020,False
+698,BI & Analytics — Avanzados 698,BI & Analytics,es,2024,False
+699,Career Growth — Club 699,Career Growth,en,2017,True
+700,Neo4j & Graphs — Comunidad 700,Neo4j & Graphs,es,2021,False
+701,BI & Analytics — Profesionales 701,BI & Analytics,es,2022,True
+702,Product & Agile — Círculo 702,Product & Agile,es,2016,True
+703,Backend & APIs — Network 703,Backend & APIs,es,2026,False
+704,BI & Analytics — Profesionales 704,BI & Analytics,en,2016,True
+705,Product & Agile — Práctica 705,Product & Agile,es,2026,False
+706,Neo4j & Graphs — Práctica 706,Neo4j & Graphs,es,2021,False
+707,BI & Analytics — Avanzados 707,BI & Analytics,es,2016,True
+708,Soft Skills — Avanzados 708,Soft Skills,en,2026,True
+709,Product & Agile — Grupo 709,Product & Agile,es,2021,True
+710,Data Engineering — Círculo 710,Data Engineering,en,2018,False
+711,Product & Agile — Foro 711,Product & Agile,es,2026,False
+712,Product & Agile — Grupo 712,Product & Agile,en,2026,True
+713,BI & Analytics — Avanzados 713,BI & Analytics,en,2023,False
+714,Neo4j & Graphs — Profesionales 714,Neo4j & Graphs,en,2018,True
+715,Soft Skills — Grupo 715,Soft Skills,es,2016,False
+716,AI & ML — Grupo 716,AI & ML,es,2023,False
+717,Backend & APIs — Práctica 717,Backend & APIs,en,2020,True
+718,Neo4j & Graphs — Avanzados 718,Neo4j & Graphs,es,2017,False
+719,Backend & APIs — Práctica 719,Backend & APIs,es,2015,True
+720,Soft Skills — Comunidad 720,Soft Skills,en,2023,True
+721,Cloud & DevOps — Práctica 721,Cloud & DevOps,es,2015,True
+722,Data Engineering — Meetup 722,Data Engineering,en,2022,True
+723,Cloud & DevOps — Práctica 723,Cloud & DevOps,es,2016,True
+724,Product & Agile — Grupo 724,Product & Agile,es,2026,True
+725,BI & Analytics — Profesionales 725,BI & Analytics,es,2015,False
+726,Cloud & DevOps — Profesionales 726,Cloud & DevOps,en,2026,False
+727,BI & Analytics — Comunidad 727,BI & Analytics,es,2017,False
+728,Backend & APIs — Network 728,Backend & APIs,en,2017,False
+729,Data Engineering — Comunidad 729,Data Engineering,en,2026,True
+730,Neo4j & Graphs — Práctica 730,Neo4j & Graphs,es,2021,True
+731,Neo4j & Graphs — Club 731,Neo4j & Graphs,en,2021,True
+732,Neo4j & Graphs — Profesionales 732,Neo4j & Graphs,en,2026,False
+733,Cloud & DevOps — Network 733,Cloud & DevOps,en,2022,True
+734,AI & ML — Grupo 734,AI & ML,es,2024,False
+735,Cloud & DevOps — Práctica 735,Cloud & DevOps,es,2025,True
+736,BI & Analytics — Grupo 736,BI & Analytics,es,2021,False
+737,Data Engineering — Network 737,Data Engineering,en,2021,False
+738,Neo4j & Graphs — Práctica 738,Neo4j & Graphs,es,2016,True
+739,Cybersecurity — Comunidad 739,Cybersecurity,en,2016,False
+740,AI & ML — Club 740,AI & ML,es,2017,False
+741,Data Engineering — Comunidad 741,Data Engineering,es,2021,True
+742,Neo4j & Graphs — Círculo 742,Neo4j & Graphs,es,2020,True
+743,Soft Skills — Foro 743,Soft Skills,en,2021,True
+744,Neo4j & Graphs — Club 744,Neo4j & Graphs,es,2026,True
+745,BI & Analytics — Avanzados 745,BI & Analytics,en,2020,True
+746,Neo4j & Graphs — Meetup 746,Neo4j & Graphs,en,2019,True
+747,Neo4j & Graphs — Network 747,Neo4j & Graphs,en,2021,True
+748,Cybersecurity — Grupo 748,Cybersecurity,es,2026,True
+749,Career Growth — Club 749,Career Growth,en,2015,True
+750,Career Growth — Club 750,Career Growth,es,2022,True
+751,BI & Analytics — Práctica 751,BI & Analytics,en,2017,True
+752,Data Engineering — Avanzados 752,Data Engineering,en,2017,True
+753,Cloud & DevOps — Club 753,Cloud & DevOps,es,2026,True
+754,Soft Skills — Foro 754,Soft Skills,en,2025,True
+755,Data Engineering — Círculo 755,Data Engineering,es,2023,False
+756,Backend & APIs — Grupo 756,Backend & APIs,es,2026,False
+757,AI & ML — Práctica 757,AI & ML,es,2026,True
+758,Data Engineering — Grupo 758,Data Engineering,en,2019,True
+759,Cloud & DevOps — Círculo 759,Cloud & DevOps,en,2018,True
+760,Cybersecurity — Network 760,Cybersecurity,es,2020,False
+761,Neo4j & Graphs — Foro 761,Neo4j & Graphs,es,2018,True
+762,Cybersecurity — Comunidad 762,Cybersecurity,es,2026,True
+763,Data Engineering — Avanzados 763,Data Engineering,en,2025,False
+764,Backend & APIs — Club 764,Backend & APIs,es,2020,False
+765,Cybersecurity — Foro 765,Cybersecurity,en,2026,True
+766,Career Growth — Meetup 766,Career Growth,en,2020,True
+767,AI & ML — Grupo 767,AI & ML,en,2026,False
+768,Product & Agile — Comunidad 768,Product & Agile,en,2018,True
+769,Product & Agile — Grupo 769,Product & Agile,en,2019,True
+770,AI & ML — Grupo 770,AI & ML,en,2016,True
+771,Cloud & DevOps — Meetup 771,Cloud & DevOps,es,2016,True
+772,Product & Agile — Meetup 772,Product & Agile,en,2015,False
+773,Neo4j & Graphs — Grupo 773,Neo4j & Graphs,en,2024,True
+774,Soft Skills — Avanzados 774,Soft Skills,en,2017,True
+775,Career Growth — Práctica 775,Career Growth,en,2020,False
+776,AI & ML — Club 776,AI & ML,en,2022,True
+777,Data Engineering — Comunidad 777,Data Engineering,es,2022,True
+778,BI & Analytics — Comunidad 778,BI & Analytics,en,2026,False
+779,Data Engineering — Meetup 779,Data Engineering,es,2021,True
+780,Cybersecurity — Profesionales 780,Cybersecurity,en,2025,False
+781,Career Growth — Comunidad 781,Career Growth,es,2017,True
+782,Data Engineering — Meetup 782,Data Engineering,en,2019,True
+783,Neo4j & Graphs — Network 783,Neo4j & Graphs,en,2018,False
+784,Backend & APIs — Comunidad 784,Backend & APIs,es,2025,True
+785,Neo4j & Graphs — Círculo 785,Neo4j & Graphs,es,2022,False
+786,Product & Agile — Práctica 786,Product & Agile,es,2016,True
+787,Product & Agile — Círculo 787,Product & Agile,en,2016,False
+788,Cybersecurity — Foro 788,Cybersecurity,es,2018,True
+789,Cybersecurity — Práctica 789,Cybersecurity,en,2023,True
+790,Cybersecurity — Meetup 790,Cybersecurity,en,2015,True
+791,Backend & APIs — Comunidad 791,Backend & APIs,es,2025,False
+792,Neo4j & Graphs — Círculo 792,Neo4j & Graphs,en,2020,False
+793,BI & Analytics — Comunidad 793,BI & Analytics,en,2022,True
+794,BI & Analytics — Grupo 794,BI & Analytics,en,2021,False
+795,Product & Agile — Club 795,Product & Agile,es,2018,True
+796,Neo4j & Graphs — Avanzados 796,Neo4j & Graphs,en,2015,False
+797,Neo4j & Graphs — Foro 797,Neo4j & Graphs,es,2022,False
+798,Data Engineering — Profesionales 798,Data Engineering,en,2020,False
+799,Soft Skills — Profesionales 799,Soft Skills,es,2015,True
+800,Backend & APIs — Práctica 800,Backend & APIs,es,2016,True
+801,BI & Analytics — Foro 801,BI & Analytics,en,2025,True
+802,Data Engineering — Club 802,Data Engineering,es,2024,True
+803,Cloud & DevOps — Grupo 803,Cloud & DevOps,es,2018,True
+804,Soft Skills — Avanzados 804,Soft Skills,en,2017,True
+805,Cloud & DevOps — Avanzados 805,Cloud & DevOps,es,2021,False
+806,Product & Agile — Foro 806,Product & Agile,es,2023,True
+807,BI & Analytics — Profesionales 807,BI & Analytics,es,2024,False
+808,Backend & APIs — Comunidad 808,Backend & APIs,en,2017,False
+809,Product & Agile — Grupo 809,Product & Agile,en,2025,False
+810,Cloud & DevOps — Comunidad 810,Cloud & DevOps,es,2017,True
+811,Backend & APIs — Comunidad 811,Backend & APIs,es,2023,False
+812,Career Growth — Práctica 812,Career Growth,es,2019,True
+813,Backend & APIs — Comunidad 813,Backend & APIs,en,2018,True
+814,Cloud & DevOps — Club 814,Cloud & DevOps,en,2016,False
+815,Product & Agile — Profesionales 815,Product & Agile,en,2021,True
+816,Neo4j & Graphs — Círculo 816,Neo4j & Graphs,en,2015,False
+817,BI & Analytics — Club 817,BI & Analytics,en,2016,False
+818,BI & Analytics — Comunidad 818,BI & Analytics,en,2015,True
+819,Neo4j & Graphs — Network 819,Neo4j & Graphs,es,2017,True
+820,Data Engineering — Foro 820,Data Engineering,es,2023,False
+821,Soft Skills — Práctica 821,Soft Skills,es,2022,False
+822,AI & ML — Meetup 822,AI & ML,en,2021,True
+823,Cloud & DevOps — Foro 823,Cloud & DevOps,en,2019,True
+824,BI & Analytics — Comunidad 824,BI & Analytics,es,2026,True
+825,BI & Analytics — Práctica 825,BI & Analytics,es,2025,True
+826,Career Growth — Meetup 826,Career Growth,en,2017,True
+827,Soft Skills — Grupo 827,Soft Skills,es,2026,False
+828,BI & Analytics — Práctica 828,BI & Analytics,en,2021,True
+829,AI & ML — Práctica 829,AI & ML,en,2018,True
+830,Neo4j & Graphs — Club 830,Neo4j & Graphs,es,2025,False
+831,Backend & APIs — Comunidad 831,Backend & APIs,es,2025,True
+832,Soft Skills — Profesionales 832,Soft Skills,en,2021,False
+833,Backend & APIs — Meetup 833,Backend & APIs,es,2018,True
+834,Backend & APIs — Foro 834,Backend & APIs,es,2023,True
+835,Data Engineering — Círculo 835,Data Engineering,en,2017,True
+836,Data Engineering — Comunidad 836,Data Engineering,en,2017,True
+837,Neo4j & Graphs — Círculo 837,Neo4j & Graphs,en,2025,True
+838,Cloud & DevOps — Grupo 838,Cloud & DevOps,en,2025,True
+839,AI & ML — Avanzados 839,AI & ML,en,2026,True
+840,Backend & APIs — Profesionales 840,Backend & APIs,en,2020,True
+841,Career Growth — Avanzados 841,Career Growth,es,2025,False
+842,Data Engineering — Foro 842,Data Engineering,es,2021,False
+843,Cybersecurity — Avanzados 843,Cybersecurity,es,2024,False
+844,Product & Agile — Foro 844,Product & Agile,en,2019,True
+845,Career Growth — Avanzados 845,Career Growth,en,2024,True
+846,Career Growth — Foro 846,Career Growth,en,2023,True
+847,Product & Agile — Práctica 847,Product & Agile,es,2022,True
+848,BI & Analytics — Profesionales 848,BI & Analytics,en,2017,True
+849,BI & Analytics — Profesionales 849,BI & Analytics,es,2024,False
+850,Backend & APIs — Avanzados 850,Backend & APIs,es,2026,False
+851,Data Engineering — Práctica 851,Data Engineering,en,2016,True
+852,Career Growth — Comunidad 852,Career Growth,en,2024,True
+853,Backend & APIs — Círculo 853,Backend & APIs,en,2021,True
+854,Career Growth — Círculo 854,Career Growth,en,2018,True
+855,BI & Analytics — Club 855,BI & Analytics,en,2022,True
+856,Data Engineering — Grupo 856,Data Engineering,es,2017,True
+857,AI & ML — Profesionales 857,AI & ML,en,2020,False
+858,Career Growth — Círculo 858,Career Growth,en,2025,False
+859,AI & ML — Foro 859,AI & ML,es,2025,True
+860,Career Growth — Meetup 860,Career Growth,es,2016,False
+861,Data Engineering — Club 861,Data Engineering,en,2019,True
+862,Neo4j & Graphs — Círculo 862,Neo4j & Graphs,en,2017,True
+863,Data Engineering — Práctica 863,Data Engineering,es,2017,True
+864,Career Growth — Avanzados 864,Career Growth,en,2015,True
+865,Backend & APIs — Club 865,Backend & APIs,en,2019,False
+866,Backend & APIs — Meetup 866,Backend & APIs,en,2015,False
+867,Neo4j & Graphs — Profesionales 867,Neo4j & Graphs,es,2021,False
+868,Backend & APIs — Club 868,Backend & APIs,en,2019,False
+869,AI & ML — Network 869,AI & ML,en,2019,False
+870,Backend & APIs — Grupo 870,Backend & APIs,en,2019,True
+871,AI & ML — Comunidad 871,AI & ML,en,2020,True
+872,Neo4j & Graphs — Meetup 872,Neo4j & Graphs,en,2015,True
+873,AI & ML — Comunidad 873,AI & ML,en,2020,False
+874,Cloud & DevOps — Network 874,Cloud & DevOps,es,2015,False
+875,AI & ML — Meetup 875,AI & ML,en,2024,True
+876,Backend & APIs — Network 876,Backend & APIs,es,2016,False
+877,Career Growth — Foro 877,Career Growth,es,2024,False
+878,AI & ML — Comunidad 878,AI & ML,en,2018,True
+879,Product & Agile — Grupo 879,Product & Agile,en,2026,True
+880,BI & Analytics — Foro 880,BI & Analytics,en,2016,True
+881,Soft Skills — Práctica 881,Soft Skills,en,2021,False
+882,Cloud & DevOps — Club 882,Cloud & DevOps,en,2018,True
+883,Product & Agile — Grupo 883,Product & Agile,en,2023,False
+884,Soft Skills — Grupo 884,Soft Skills,en,2024,True
+885,Product & Agile — Meetup 885,Product & Agile,en,2025,True
+886,Cloud & DevOps — Meetup 886,Cloud & DevOps,en,2019,True
+887,Cloud & DevOps — Meetup 887,Cloud & DevOps,en,2016,True
+888,Career Growth — Avanzados 888,Career Growth,en,2024,False
+889,Career Growth — Comunidad 889,Career Growth,es,2026,True
+890,Cybersecurity — Grupo 890,Cybersecurity,en,2019,True
+891,Career Growth — Meetup 891,Career Growth,en,2019,True
+892,Soft Skills — Círculo 892,Soft Skills,es,2017,True
+893,Neo4j & Graphs — Grupo 893,Neo4j & Graphs,en,2023,True
+894,BI & Analytics — Grupo 894,BI & Analytics,en,2026,True
+895,Career Growth — Círculo 895,Career Growth,en,2016,True
+896,BI & Analytics — Avanzados 896,BI & Analytics,es,2024,True
+897,BI & Analytics — Profesionales 897,BI & Analytics,es,2016,True
+898,Neo4j & Graphs — Network 898,Neo4j & Graphs,en,2019,False
+899,Product & Agile — Comunidad 899,Product & Agile,en,2025,False
+900,AI & ML — Foro 900,AI & ML,en,2022,False
+901,BI & Analytics — Práctica 901,BI & Analytics,es,2018,True
+902,Neo4j & Graphs — Meetup 902,Neo4j & Graphs,en,2024,True
+903,Cybersecurity — Club 903,Cybersecurity,es,2017,False
+904,Career Growth — Comunidad 904,Career Growth,es,2015,True
+905,Product & Agile — Avanzados 905,Product & Agile,es,2016,True
+906,Backend & APIs — Foro 906,Backend & APIs,en,2020,False
+907,Career Growth — Club 907,Career Growth,es,2020,False
+908,Product & Agile — Network 908,Product & Agile,es,2023,True
+909,Data Engineering — Grupo 909,Data Engineering,es,2016,True
+910,Product & Agile — Círculo 910,Product & Agile,en,2018,True
+911,Product & Agile — Club 911,Product & Agile,en,2018,True
+912,Data Engineering — Comunidad 912,Data Engineering,en,2015,True
+913,Cybersecurity — Práctica 913,Cybersecurity,es,2021,True
+914,BI & Analytics — Profesionales 914,BI & Analytics,es,2018,True
+915,Backend & APIs — Meetup 915,Backend & APIs,es,2019,True
+916,Cloud & DevOps — Avanzados 916,Cloud & DevOps,es,2019,True
+917,Backend & APIs — Grupo 917,Backend & APIs,en,2023,False
+918,AI & ML — Círculo 918,AI & ML,es,2015,False
+919,Product & Agile — Práctica 919,Product & Agile,en,2021,False
+920,Neo4j & Graphs — Práctica 920,Neo4j & Graphs,es,2025,False
+921,Backend & APIs — Network 921,Backend & APIs,en,2016,True
+922,Cybersecurity — Comunidad 922,Cybersecurity,es,2019,True
+923,Product & Agile — Profesionales 923,Product & Agile,es,2018,False
+924,Product & Agile — Profesionales 924,Product & Agile,es,2017,False
+925,Career Growth — Meetup 925,Career Growth,en,2021,True
+926,BI & Analytics — Network 926,BI & Analytics,en,2026,True
+927,Cloud & DevOps — Comunidad 927,Cloud & DevOps,es,2023,True
+928,Career Growth — Comunidad 928,Career Growth,es,2017,True
+929,BI & Analytics — Foro 929,BI & Analytics,en,2024,True
+930,Cloud & DevOps — Comunidad 930,Cloud & DevOps,es,2018,True
+931,Cloud & DevOps — Comunidad 931,Cloud & DevOps,en,2021,True
+932,Backend & APIs — Avanzados 932,Backend & APIs,es,2025,True
+933,Backend & APIs — Foro 933,Backend & APIs,es,2022,True
+934,BI & Analytics — Network 934,BI & Analytics,en,2020,True
+935,Neo4j & Graphs — Práctica 935,Neo4j & Graphs,en,2025,True
+936,Cloud & DevOps — Profesionales 936,Cloud & DevOps,es,2017,True
+937,Career Growth — Círculo 937,Career Growth,en,2022,True
+938,Cloud & DevOps — Profesionales 938,Cloud & DevOps,es,2019,False
+939,BI & Analytics — Profesionales 939,BI & Analytics,es,2023,True
+940,Backend & APIs — Avanzados 940,Backend & APIs,es,2016,True
+941,BI & Analytics — Práctica 941,BI & Analytics,es,2019,True
+942,Product & Agile — Profesionales 942,Product & Agile,en,2026,True
+943,Cybersecurity — Círculo 943,Cybersecurity,en,2026,True
+944,Backend & APIs — Network 944,Backend & APIs,en,2019,True
+945,Data Engineering — Grupo 945,Data Engineering,es,2019,True
+946,AI & ML — Foro 946,AI & ML,es,2023,True
+947,BI & Analytics — Network 947,BI & Analytics,es,2020,False
+948,Data Engineering — Práctica 948,Data Engineering,es,2020,False
+949,Neo4j & Graphs — Grupo 949,Neo4j & Graphs,en,2021,True
+950,Soft Skills — Meetup 950,Soft Skills,en,2023,False
+951,BI & Analytics — Comunidad 951,BI & Analytics,en,2018,False
+952,Cloud & DevOps — Network 952,Cloud & DevOps,es,2017,True
+953,BI & Analytics — Avanzados 953,BI & Analytics,es,2015,True
+954,Soft Skills — Network 954,Soft Skills,es,2018,False
+955,Product & Agile — Círculo 955,Product & Agile,en,2026,False
+956,Neo4j & Graphs — Avanzados 956,Neo4j & Graphs,en,2015,True
+957,Cybersecurity — Profesionales 957,Cybersecurity,es,2024,True
+958,Product & Agile — Avanzados 958,Product & Agile,en,2026,True
+959,BI & Analytics — Grupo 959,BI & Analytics,en,2026,True
+960,Backend & APIs — Avanzados 960,Backend & APIs,es,2017,True
+961,Backend & APIs — Club 961,Backend & APIs,en,2018,True
+962,Soft Skills — Network 962,Soft Skills,es,2017,True
+963,Product & Agile — Meetup 963,Product & Agile,es,2017,True
+964,AI & ML — Práctica 964,AI & ML,en,2025,True
+965,Cybersecurity — Grupo 965,Cybersecurity,en,2018,True
+966,Neo4j & Graphs — Círculo 966,Neo4j & Graphs,es,2018,True
+967,Cybersecurity — Meetup 967,Cybersecurity,en,2015,True
+968,Soft Skills — Círculo 968,Soft Skills,en,2023,False
+969,Career Growth — Foro 969,Career Growth,es,2019,True
+970,Neo4j & Graphs — Práctica 970,Neo4j & Graphs,es,2020,False
+971,AI & ML — Círculo 971,AI & ML,en,2016,False
+972,Product & Agile — Comunidad 972,Product & Agile,en,2022,True
+973,Career Growth — Práctica 973,Career Growth,en,2021,False
+974,Cloud & DevOps — Práctica 974,Cloud & DevOps,en,2021,True
+975,Cybersecurity — Práctica 975,Cybersecurity,en,2022,True
+976,Product & Agile — Práctica 976,Product & Agile,es,2020,False
+977,BI & Analytics — Profesionales 977,BI & Analytics,en,2016,True
+978,Product & Agile — Círculo 978,Product & Agile,es,2017,False
+979,BI & Analytics — Profesionales 979,BI & Analytics,en,2024,False
+980,BI & Analytics — Práctica 980,BI & Analytics,en,2016,True
+981,Product & Agile — Club 981,Product & Agile,es,2015,True
+982,Career Growth — Foro 982,Career Growth,en,2025,False
+983,Career Growth — Club 983,Career Growth,es,2021,True
+984,Backend & APIs — Práctica 984,Backend & APIs,en,2017,False
+985,Cybersecurity — Práctica 985,Cybersecurity,es,2021,True
+986,Data Engineering — Foro 986,Data Engineering,en,2024,False
+987,Neo4j & Graphs — Círculo 987,Neo4j & Graphs,en,2016,True
+988,Cloud & DevOps — Avanzados 988,Cloud & DevOps,es,2025,False
+989,Neo4j & Graphs — Profesionales 989,Neo4j & Graphs,en,2024,False
+990,Cloud & DevOps — Práctica 990,Cloud & DevOps,es,2025,True
+991,BI & Analytics — Práctica 991,BI & Analytics,es,2017,True
+992,Product & Agile — Meetup 992,Product & Agile,es,2026,True
+993,Soft Skills — Práctica 993,Soft Skills,en,2023,True
+994,Soft Skills — Network 994,Soft Skills,en,2019,True
+995,Data Engineering — Grupo 995,Data Engineering,es,2023,True
+996,Cybersecurity — Círculo 996,Cybersecurity,es,2021,True
+997,Cybersecurity — Práctica 997,Cybersecurity,es,2015,True
+998,BI & Analytics — Grupo 998,BI & Analytics,en,2022,False
+999,Soft Skills — Network 999,Soft Skills,es,2020,False
+1000,Product & Agile — Club 1000,Product & Agile,en,2019,True
