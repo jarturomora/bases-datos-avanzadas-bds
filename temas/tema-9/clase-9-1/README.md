@@ -173,17 +173,6 @@ LIMIT 25;
 
 **Si Madrid te devuelve 0**, prueba otra ciudad que te suene: `"Barcelona"`, `"Valencia"`, `"Sevilla"`.
 
-### 5.3 (Opcional) Ver el plan con PROFILE
-
-```cypher
-PROFILE
-MATCH (p:Person {location:"Madrid"})
-RETURN p
-LIMIT 25;
-```
-
-**Para qué sirve:** ver si Neo4j usa el índice o hace un escaneo.
-
 ## 6) Mini-caso final (tipo LinkedIn)
 
 Encuentra empleados “openToWork” en una ciudad y su empresa actual.
