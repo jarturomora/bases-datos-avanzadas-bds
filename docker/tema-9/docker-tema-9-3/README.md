@@ -1,4 +1,4 @@
-# Entorno Docker para el Tema 9 - Clase 2: Gestión de nodos y relaciones complejas
+# Entorno Docker para el Tema 9 - Clase 3: Optimización y seguridad en Cypher
 
 ## Estructura del proyecto (Docker + CSV + Config)
 
@@ -7,7 +7,7 @@ Este proyecto levanta **Neo4j (motor) + Neo4j Browser (UI web)** usando Docker C
 ### Árbol de directorios
 
 ```txt
-docker-tema-9-2/
+docker-tema-9-3/
 ├─ docker-compose.yml
 ├─ DATA/                         # CSV accesibles desde Neo4j como file:///...
 │  ├─ persons.csv

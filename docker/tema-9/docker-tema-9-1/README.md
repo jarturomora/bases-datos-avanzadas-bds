@@ -7,14 +7,19 @@ Este proyecto levanta **Neo4j (motor) + Neo4j Browser (UI web)** usando Docker C
 ### Árbol de directorios
 
 ```txt
-docker-tema-8-3/
+docker-tema-9-1/
 ├─ docker-compose.yml
-├─ data/
-│  ├─ movies.csv
-│  ├─ actors.csv
-│  └─ roles.csv
+├─ DATA/                         # CSV accesibles desde Neo4j como file:///...
+│  ├─ persons.csv
+│  ├─ companies.csv
+│  ├─ groups.csv
+│  ├─ courses.csv
+│  ├─ works_at.csv
+│  ├─ member_of.csv
+│  ├─ enrolled_in.csv
+│  └─ connected_to.csv
 └─ neo4j/
-   └─ conf/
+   └─ conf/                      # Configuración del servidor Neo4j (montada en /conf)
       └─ neo4j.conf
 ```
 

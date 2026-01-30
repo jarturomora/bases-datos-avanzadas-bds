@@ -1,5 +1,13 @@
 # Guía Didáctica Tema 9 - Clase 2: Gestión de nodos y relaciones complejas
 
+## Objetivos
+
+* Usar **`MERGE`** para crear/reutilizar nodos y relaciones **sin duplicados** en la red profesional.
+* Aplicar **`UNWIND`** para **inserciones masivas** (personas y conexiones) de forma controlada.
+* Trabajar con **relaciones con propiedades** (empleo, conexión, formación) y entender su utilidad.
+* Explorar la red con **rutas de longitud variable** (`*1..n`) y **visualizar caminos** (`RETURN path`).
+* Medir y optimizar consultas con **`EXPLAIN`/`PROFILE`** y construir una **recomendación** basada en contactos.
+
 ## Requisitos
 
 Ya debes haber importado los CSV (`persons`, `companies`, `groups`, `courses` + relaciones) en Neo4j. Si aún no lo has echo, sigue las instrucciones de [este documento.](../../../docker/tema-9/docker-tema-9-2/data/carga_datos.md)
