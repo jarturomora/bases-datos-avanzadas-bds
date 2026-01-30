@@ -5,8 +5,7 @@
 * Crear índices para acelerar búsquedas.
 * Analizar planes con `EXPLAIN` y `PROFILE` y reconocer “uso de índice” vs “escaneo”.
 * Reducir el coste de recorridos: limitar profundidad y filtrar antes de expandir.
-* Hacer una transacción controlada (commit/rollback).
-* Crear usuarios y asignar roles (reader/editor/architect/admin).
+* Hacer una transacción controlada.
 
 ## Requisitos
 
@@ -121,87 +120,48 @@ LIMIT 10;
 
 ## 5) Control de transacciones (commit/rollback)
 
-El objetivo del tema: agrupar cambios y poder deshacer si algo va mal.
+Esta parte del ejercicio, hay que hacerlo desde `cypher-shell`. Para ello, hay que conectarse a la terminal de comandos del contenedor.
 
-### Importante (cómo hacerlo en Neo4j Browser)
+Una vez dentro de la terminar de comandos del contenedor, utiliza el siguiente comando para acceder a `cypher-shell`:
 
-En Neo4j Browser, lo habitual es usar **comandos del Browser** para transacciones:
-
-* `:begin`
-* `:commit`
-* `:rollback`
-
-> En Cypher “puro” (sin Browser) las transacciones se controlan desde el driver/aplicación. Para la demo, Browser es lo más didáctico.
+```bash
+cypher-shell -u neo4j -p neo4j12345
+```
 
 ### 5.1 Demo: crear algo y deshacerlo
 
 1. Inicia transacción:
 
-```cypher
-:begin
-```
+    ```cypher
+    :begin;
+    ```
 
-1. Ejecuta (cambios dentro de la transacción):
+2. Ejecuta (cambios dentro de la transacción):
 
-```cypher
-CREATE (u:Person {personId: 777777, name:"Carlos Tx", location:"Madrid"})
-RETURN u;
-```
+    ```cypher
+    CREATE (u:Person {personId: 777777, name:"Carlos Tx", location:"Madrid"})
+    RETURN u;
+    ```
 
-1. Comprueba que existe (aún dentro):
+3. Comprueba que el nodos existe dentro del contexto de la transacción:
 
-```cypher
-MATCH (u:Person {personId: 777777})
-RETURN u;
-```
+    ```cypher
+    MATCH (u:Person {personId: 777777})
+    RETURN u;
+    ```
 
-1. Ahora deshaz:
+4. Ahora deshaz:
 
-```cypher
-:rollback
-```
+    ```cypher
+    :rollback;
+    ```
 
-1. Comprueba que ya no existe:
+5. Comprueba que el nodo ya no existe:
 
-```cypher
-MATCH (u:Person {personId: 777777})
-RETURN u;
-```
+    ```cypher
+    MATCH (u:Person {personId: 777777})
+    RETURN u;
+    ```
 
 **Qué deberías ver:** después del rollback, no devuelve nada.
 **Qué demuestra:** consistencia y capacidad de revertir cambios.
-
-## 6) Seguridad: usuarios y roles
-
-Neo4j aplica seguridad con roles (mínimo privilegio):
-
-* `reader` (solo lectura)
-* `editor` (lee y modifica)
-* `architect` (esquema/índices)
-* `admin` (gestión total)
-
-### 6.1 Crear un usuario “analista” con rol reader
-
-En Browser, cambia a la base de sistema:
-
-```cypher
-:use system
-```
-
-Luego crea usuario y asigna rol:
-
-```cypher
-CREATE USER analista SET PASSWORD '12345' CHANGE NOT REQUIRED;
-GRANT ROLE reader TO analista;
-```
-
-Vuelve a tu base de datos (si usas la default):
-
-```cypher
-:use neo4j
-```
-
-**Cómo comprobarlo (idea):**
-
-* Si inicias sesión como `analista`, podrá hacer `MATCH ... RETURN ...`
-* Pero debería fallar al intentar `CREATE`/`DELETE` (porque es `reader`).
