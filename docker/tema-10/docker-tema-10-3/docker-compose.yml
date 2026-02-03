@@ -1,0 +1,72 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:${STACK_VERSION}
+    container_name: es01
+    environment:
+      - node.name=es01
+      - cluster.name=elastic-imdb-demo
+      - discovery.type=single-node
+
+      # Docencia: sin seguridad
+      - xpack.security.enabled=false
+      - xpack.security.http.ssl.enabled=false
+
+      - bootstrap.memory_lock=true
+    mem_limit: ${ES_MEM_LIMIT}
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "${ES_PORT}:9200"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200 >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:${STACK_VERSION}
+    container_name: kib01
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+      - "${KIBANA_PORT}:5601"
+
+  # One-shot: crea el índice + mapping al levantar el stack
+  es-setup:
+    image: curlimages/curl:8.10.1
+    container_name: es-setup
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    volumes:
+      - ./setup:/setup:ro
+    entrypoint: ["/bin/sh", "/setup/01_create_index.sh"]
+    restart: "no"
+
+  # Carga de datos
+  es-loader:
+    build:
+      context: ./loader
+    container_name: es-loader
+    depends_on:
+      es-setup:
+        condition: service_completed_successfully
+    environment:
+      - ES_URL=http://elasticsearch:9200
+      - INDEX_NAME=imdb_reviews
+      - MAX_DOCS=${MAX_DOCS}
+    volumes:
+      - imdbcache:/cache
+    profiles: ["load"]
+    restart: "no"
+
+volumes:
+  esdata:
+  imdbcache:

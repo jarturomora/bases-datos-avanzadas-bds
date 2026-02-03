@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "analysis": {
+      "analyzer": {
+        "en_review": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["lowercase", "asciifolding", "stop", "porter_stem"]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "dynamic": false,
+    "properties": {
+      "review_id": { "type": "keyword" },
+      "movie_id": { "type": "keyword" },
+
+      "title": {
+        "type": "text",
+        "fields": { "raw": { "type": "keyword", "ignore_above": 256 } }
+      },
+
+      "year": { "type": "integer" },
+      "genres": { "type": "keyword" },
+      "runtime_minutes": { "type": "integer" },
+
+      "imdb_average_rating": { "type": "scaled_float", "scaling_factor": 10 },
+      "imdb_num_votes": { "type": "integer" },
+
+      "user_rating": { "type": "byte" },
+      "split": { "type": "keyword" },
+      "sentiment_label": { "type": "keyword" },
+
+      "review_text": { "type": "text", "analyzer": "en_review" }
+    }
+  }
+}
