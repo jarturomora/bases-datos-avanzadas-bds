@@ -1,0 +1,121 @@
+services:
+  # -------------------------
+  # PostgreSQL (core transaccional)
+  # -------------------------
+  postgres:
+    image: postgres:16
+    container_name: rbnb_postgres
+    environment:
+      POSTGRES_DB: rbnb
+      POSTGRES_USER: rbnb
+      POSTGRES_PASSWORD: rbnb
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./postgres/initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rbnb -d rbnb"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: rbnb_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_CONFIG_CHECK_EMAIL_DELIVERABILITY: "False"
+    ports:
+      - "8080:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # -------------------------
+  # MongoDB sharded (lab)
+  # -------------------------
+  mongo_config:
+    image: mongo:7
+    container_name: rbnb_mongo_config
+    command: ["mongod","--configsvr","--replSet","cfgRS","--port","27019","--bind_ip_all"]
+    ports:
+      - "27019:27019"
+    volumes:
+      - cfgdata:/data/db
+
+  mongo_shard1:
+    image: mongo:7
+    container_name: rbnb_mongo_shard1
+    command: ["mongod","--shardsvr","--replSet","shard1RS","--port","27018","--bind_ip_all"]
+    ports:
+      - "27018:27018"
+    volumes:
+      - shard1data:/data/db
+
+  mongo_shard2:
+    image: mongo:7
+    container_name: rbnb_mongo_shard2
+    command: ["mongod","--shardsvr","--replSet","shard2RS","--port","27017","--bind_ip_all"]
+    ports:
+      - "27017:27017"
+    volumes:
+      - shard2data:/data/db
+
+  mongos:
+    image: mongo:7
+    container_name: rbnb_mongos
+    depends_on:
+      - mongo_config
+      - mongo_shard1
+      - mongo_shard2
+    ports:
+      - "27117:27117"
+    command: ["mongos","--configdb","cfgRS/rbnb_mongo_config:27019","--port","27117","--bind_ip_all"]
+
+  # -------------------------
+  # Init sharding (one-shot)
+  # -------------------------
+  mongo_init:
+    image: mongo:7
+    container_name: rbnb_mongo_init
+    depends_on:
+      - mongos
+    volumes:
+      - ./mongo/init/init-sharding.sh:/scripts/init-sharding.sh:ro
+    entrypoint: ["bash","/scripts/init-sharding.sh"]
+    restart: "no"
+
+  # -------------------------
+  # Generador de datos (one-shot)
+  # -------------------------
+  generator:
+    build:
+      context: ./generator
+    container_name: rbnb_generator
+    environment:
+      PGHOST: postgres
+      PGPORT: "5432"
+      PGDATABASE: rbnb
+      PGUSER: rbnb
+      PGPASSWORD: rbnb
+      MONGO_URI: mongodb://mongos:27117
+      MONGO_DB: rbnb
+      GEN_HOSTS: "500"
+      GEN_GUESTS: "5000"
+      GEN_APTS: "2500"
+      GEN_BOOKINGS: "30000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mongo_init:
+        condition: service_completed_successfully
+    restart: "no"
+    command: ["python", "generate.py"]
+
+volumes:
+  pgdata:
+  cfgdata:
+  shard1data:
+  shard2data:
