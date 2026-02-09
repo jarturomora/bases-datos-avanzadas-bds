@@ -1,6 +1,23 @@
 # Caso 2: API CRUD y analítica de ventas con MongoDB
 
-En este caso práctico, se simula un escenario de negocio de una tienda de alimentación ecológica empleando MongoDB.
+En este caso práctico, se simula un escenario de negocio de una tienda de alimentación ecológica empleando MongoDB. El siguiente diagrama muestra la estructura de la base de datos.
+
+```mermaid
+flowchart TB
+  %% Base de datos
+  subgraph DB["eco_store (MongoDB)"]
+    P[("products")]
+    C[("customers")]
+    O[("orders")]
+    IM[("inventory_movements")]
+  end
+
+  %% Enlaces lógicos entre colecciones
+  C -->|customerId ref _id| O
+  O -->|items sku| P
+  IM -->|sku| P
+  IM -->|ref orderNo| O
+```
 
 ## 1. Estructura del proyecto
 
