@@ -1,0 +1,44 @@
+services:
+  mongo:
+    image: mongo:8
+    container_name: eco_mongo
+    hostname: eco_mongo
+    command: ["mongod", "--config", "/etc/mongod.conf"]
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./mongo/mongod.conf:/etc/mongod.conf:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+  mongo-init:
+    image: mongo:8
+    container_name: eco_mongo_init
+    depends_on:
+      mongo:
+        condition: service_healthy
+    volumes:
+      - ./mongo/init:/mongo-init:ro
+    entrypoint: ["/bin/bash", "/mongo-init/mongo-init.sh"]
+    restart: "no"
+
+  api:
+    build:
+      context: ./api
+    container_name: eco_api
+    env_file:
+      - ./.env
+    ports:
+      - "3000:3000"
+    depends_on:
+      mongo:
+        condition: service_healthy
+      mongo-init:
+        condition: service_completed_successfully
+
+volumes:
+  mongo_data:
