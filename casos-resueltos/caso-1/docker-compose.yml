@@ -34,57 +34,39 @@ services:
         condition: service_healthy
 
   # -------------------------
-  # MongoDB sharded (lab)
+  # MongoDB (standalone, sin sharding)
   # -------------------------
-  mongo_config:
-    image: mongo:7
-    container_name: rbnb_mongo_config
-    command: ["mongod","--configsvr","--replSet","cfgRS","--port","27019","--bind_ip_all"]
-    ports:
-      - "27019:27019"
-    volumes:
-      - cfgdata:/data/db
-
-  mongo_shard1:
-    image: mongo:7
-    container_name: rbnb_mongo_shard1
-    command: ["mongod","--shardsvr","--replSet","shard1RS","--port","27018","--bind_ip_all"]
-    ports:
-      - "27018:27018"
-    volumes:
-      - shard1data:/data/db
-
-  mongo_shard2:
-    image: mongo:7
-    container_name: rbnb_mongo_shard2
-    command: ["mongod","--shardsvr","--replSet","shard2RS","--port","27017","--bind_ip_all"]
+  mongo:
+    image: mongo:8
+    container_name: rbnb_mongo
+    command: ["mongod","--port","27017","--bind_ip_all"]
     ports:
       - "27017:27017"
     volumes:
-      - shard2data:/data/db
-
-  mongos:
-    image: mongo:7
-    container_name: rbnb_mongos
-    depends_on:
-      - mongo_config
-      - mongo_shard1
-      - mongo_shard2
-    ports:
-      - "27117:27117"
-    command: ["mongos","--configdb","cfgRS/rbnb_mongo_config:27019","--port","27117","--bind_ip_all"]
+      - mongodata:/data/db
+    healthcheck:
+      test: ["CMD-SHELL", "mongosh --port 27017 --eval 'db.runCommand({ ping: 1 }).ok' --quiet | grep 1 >/dev/null"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 10s
 
   # -------------------------
-  # Init sharding (one-shot)
+  # Init Mongo (one-shot): índices y preparación
   # -------------------------
   mongo_init:
-    image: mongo:7
+    image: mongo:8
     container_name: rbnb_mongo_init
     depends_on:
-      - mongos
+      mongo:
+        condition: service_healthy
     volumes:
-      - ./mongo/init/init-sharding.sh:/scripts/init-sharding.sh:ro
-    entrypoint: ["bash","/scripts/init-sharding.sh"]
+      - ./mongo/init/init-mongo.sh:/scripts/init-mongo.sh:ro
+    environment:
+      MONGO_HOST: mongo
+      MONGO_PORT: "27017"
+      MONGO_DB: rbnb
+    entrypoint: ["bash", "/scripts/init-mongo.sh"]
     restart: "no"
 
   # -------------------------
@@ -100,8 +82,11 @@ services:
       PGDATABASE: rbnb
       PGUSER: rbnb
       PGPASSWORD: rbnb
-      MONGO_URI: mongodb://mongos:27117
+
+      # Mongo standalone
+      MONGO_URI: mongodb://mongo:27017
       MONGO_DB: rbnb
+
       GEN_HOSTS: "500"
       GEN_GUESTS: "5000"
       GEN_APTS: "2500"
@@ -116,6 +101,4 @@ services:
 
 volumes:
   pgdata:
-  cfgdata:
-  shard1data:
-  shard2data:
+  mongodata:
