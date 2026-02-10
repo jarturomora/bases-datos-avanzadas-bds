@@ -1,0 +1,42 @@
+services:
+  neo4j:
+    image: neo4j:5.23.0
+    container_name: neo4j_fraude_pagos
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+    - NEO4J_AUTH=neo4j/neo4j1234
+    - NEO4J_PLUGINS=["apoc","graph-data-science"]
+
+    volumes:
+      - ./neo4j/conf:/var/lib/neo4j/conf
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 >/dev/null || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 40
+
+  seeder:
+    image: docker:cli
+    container_name: neo4j_fraude_seeder
+    depends_on:
+      neo4j:
+        condition: service_healthy
+    environment:
+      - NEO4J_CONTAINER=neo4j_fraude_pagos
+      - NEO4J_USER=neo4j
+      - NEO4J_PASS=neo4j1234
+      - CYPHER_FILE=/seed/seed.cypher
+    volumes:
+      - ./seed:/seed:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    entrypoint: ["/bin/sh","-lc"]
+    command: ["/seed/run-seed.sh"]
+    restart: "no"
+
+volumes:
+  neo4j_data:
+  neo4j_logs:

@@ -24,7 +24,7 @@ flowchart TB
 Antes de empezar, es importante entender **qué contiene el proyecto y para qué sirve cada parte**.
 
 ```text
-eco-store-api/
+caso-2/
 ├─ docker-compose.yml        # Orquestación de MongoDB, mongo-init y API
 ├─ .env                      # Variables de entorno (URI Mongo, DB_NAME)
 │
